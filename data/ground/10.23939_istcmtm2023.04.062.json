@@ -1,0 +1,29 @@
+{
+    "doi": "10.23939/istcmtm2023.04.062",
+    "title": "OPTIMIZED ADAPTIVE LOAD BALANCING METHOD IN SDN NETWORKS USING THE ADAPTIVE ANT COLONY APPROACH",
+    "authors": [
+        "Vadym Shchur",
+        "Ahmad Ali AlZubi"
+    ],
+    "abstract": "In modern software-defined networks, providing efficient load balancing is a crucial task for optimal resource utilization and ensuring stable quality of service. To achieve these goals, in this paper, we propose a new innovative load- balancing method for SDN networks based on an anticolonial approach with dynamic parameter settings. This proposed method demonstrates high efficiency in the face of variable network dynamics and diverse node loads. Its main advantage is the ability to adapt to changing load and traffic conditions in real-time. The algorithm continuously analyses the load on the nodes and dynamically adjusts the weighting factors to ensure optimal traffic distribution. The proposed method stands out due to its ability to effectively maintain load balance under a variety of calls and loads, making it a powerful tool for ensuring reliability and performance in networks.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Load balancing (electrical power)",
+        "Distributed computing",
+        "Weighting",
+        "Node (physics)",
+        "Quality of service",
+        "Reliability (semiconductor)",
+        "Resource (disambiguation)",
+        "Task (project management)",
+        "Variable (mathematics)",
+        "Computer network",
+        "Engineering"
+    ],
+    "language": "en",
+    "uri": "https://science.lpnu.ua/sites/default/files/journal-paper/2023/dec/32471/st9844_0.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.23939_istcmtm2023.04.062.pdf"
+}

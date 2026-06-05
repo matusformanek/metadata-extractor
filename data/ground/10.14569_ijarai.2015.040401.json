@@ -1,0 +1,35 @@
+{
+    "doi": "",
+    "title": "Semantic Image Retrieval: An Ontology Based Approach",
+    "authors": [
+        "Umar Manzoor",
+        "A. Mohammed Balubaid",
+        "Bassam Zafar",
+        "Hafsa Umar",
+        "M. Shoaib Khan"
+    ],
+    "abstract": "Images / Videos are major source of content on the internet and the content is increasing rapidly due to the advancement in this area. Image analysis and retrieval is one of the active research field and researchers from the last decade have proposed many efficient approaches for the same. Semantic technologies like ontology offers promising approach to image retrieval as it tries to map the low level image features to high level ontology concepts. In this paper, we have proposed Semantic Image Retrieval: An Ontology based Approach which uses domain specific ontology for image retrieval relevant to the user query. The user can give concept / keyword as text input or can input the image itself. Semantic Image Retrieval is based on hybrid approach and uses shape, color and texture based approaches for classification purpose. Mammals domain is used as a test case and its ontology is developed. The proposed system is trained on Mammals dataset and tested on large number of test cases related to this domain. Experimental results show the efficiency / accuracy of the proposed system and support the implementation of the same.",
+    "issued": "2015",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Information retrieval",
+        "Ontology",
+        "Image retrieval",
+        "Domain (mathematical analysis)",
+        "Image (mathematics)",
+        "Visual Word",
+        "Automatic image annotation",
+        "Content-based image retrieval",
+        "Field (mathematics)",
+        "Ontology-based data integration",
+        "Artificial intelligence",
+        "Data mining",
+        "Semantic Web",
+        "Mathematics"
+    ],
+    "language": "en",
+    "uri": "http://thesai.org/Downloads/IJARAI/Volume4No4/Paper_1-Semantic_Image_Retrieval_An_Ontology_Based_Approach.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.14569_ijarai.2015.040401.pdf"
+}

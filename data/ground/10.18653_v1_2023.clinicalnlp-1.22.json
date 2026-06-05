@@ -1,0 +1,32 @@
+{
+    "doi": "",
+    "title": "Harnessing the Power of BERT in the Turkish Clinical Domain: Pretraining Approaches for Limited Data Scenarios",
+    "authors": [
+        "Hazal Türkmen",
+        "Oğuz Dikenelli",
+        "Cenk Eraslan",
+        "Mehmet Cem Çallı",
+        "Süha Süreyya Özbek"
+    ],
+    "abstract": "Recent advancements in natural language processing (NLP) have been driven by large language models (LLMs), thereby revolutionizing the field. Our study investigates the impact of diverse pre-training strategies on the performance of Turkish clinical language models in a multi-label classification task involving radiology reports, with a focus on overcoming language resource limitations. Additionally, for the first time, we evaluated the simultaneous pre-training approach by utilizing limited clinical task data. We developed four models: TurkRadBERT-task v1, TurkRadBERT-task v2, TurkRadBERT-sim v1, and TurkRadBERT-sim v2. Our results revealed superior performance from BERTurk and TurkRadBERT-task v1, both of which leverage a broad general-domain corpus. Although task-adaptive pre-training is capable of identifying domain-specific patterns, it may be prone to overfitting because of the constraints of the task-specific corpus. Our findings highlight the importance of domain-specific vocabulary during pre-training to improve performance. They also affirmed that a combination of general domain knowledge and task-specific fine-tuning is crucial for optimal performance across various categories. This study offers key insights for future research on pre-training techniques in the clinical domain, particularly for low-resource languages.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Overfitting",
+        "Artificial intelligence",
+        "Task (project management)",
+        "Vocabulary",
+        "Language model",
+        "Leverage (statistics)",
+        "Natural language processing",
+        "Machine learning",
+        "Domain (mathematical analysis)",
+        "Task analysis",
+        "Artificial neural network"
+    ],
+    "language": "en",
+    "uri": "https://aclanthology.org/2023.clinicalnlp-1.22.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.18653_v1_2023.clinicalnlp-1.22.pdf"
+}

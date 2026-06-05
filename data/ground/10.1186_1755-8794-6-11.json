@@ -1,0 +1,22 @@
+{
+    "doi": "10.1186/1755-8794-6-11",
+    "title": "Genome-wide associations of signaling pathways in glioblastoma multiforme",
+    "authors": [
+        "Stefan Wuchty",
+        "Alexei Vázquez",
+        "Serdar Bozdag",
+        "Peter Bauer"
+    ],
+    "abstract": "Driver genes and their associated pathways may represent a functional core that drive the tumor emergence and govern the signaling apparatus in GBMs. In addition, such associations may be indicative of drug combinations for the treatment of brain tumors that follow similar patterns of common and diverging alterations.",
+    "issued": "2013",
+    "type": "article",
+    "subject": [
+        "Biology",
+        "Genetics",
+        "Computational biology"
+    ],
+    "language": "en",
+    "uri": "https://bmcmedgenomics.biomedcentral.com/counter/pdf/10.1186/1755-8794-6-11",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1186_1755-8794-6-11.pdf"
+}

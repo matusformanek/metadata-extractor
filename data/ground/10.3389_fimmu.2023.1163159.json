@@ -1,0 +1,38 @@
+{
+    "doi": "10.3389/fimmu.2023.1163159",
+    "title": "Optimized vaccine candidate MVA-S(3P) fully protects against SARS-CoV-2 infection in hamsters",
+    "authors": [
+        "Rana Abdelnabi",
+        "Patricia Pérez",
+        "David Astorgano",
+        "Guillermo Albericio",
+        "Winnie Kerstens",
+        "Hendrik Jan Thibaut",
+        "Lotte Coelmont",
+        "Birgit Weynand",
+        "Nuria Labiod",
+        "Rafaël Delgado",
+        "Dolores Montenegro",
+        "Eugenia Puentes",
+        "Esteban Rodríguez",
+        "Johan Neyts",
+        "Kai Dallmeier",
+        "Mariano Estéban",
+        "Juan García‐Arriaza"
+    ],
+    "abstract": "The development of novel optimized vaccines against coronavirus disease 2019 (COVID-19) that are capable of controlling the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic and the appearance of different variants of concern (VoC) is needed to fully prevent the transmission of the virus. In the present study, we describe the enhanced immunogenicity and efficacy elicited in hamsters by a modified vaccinia virus Ankara (MVA) vector expressing a full-length prefusion-stabilized SARS-CoV-2 spike (S) protein [termed MVA-S(3P)]. Hamsters vaccinated with one or two doses of MVA-S(3P) developed high titers of S-binding IgG antibodies and neutralizing antibodies against the ancestral Wuhan SARS-CoV-2 virus and VoC beta, gamma, and delta, as well as against omicron, although with a somewhat lower neutralization activity. After SARS-CoV-2 challenge, vaccinated hamsters did not lose body weight as compared to matched placebo (MVA-WT) controls. Consistently, vaccinated hamsters exhibited significantly reduced viral RNA in the lungs and nasal washes, and no infectious virus was detected in the lungs in comparison to controls. Furthermore, almost no lung histopathology was detected in MVA-S(3P)-vaccinated hamsters, which also showed significantly reduced levels of proinflammatory cytokines in the lungs compared to unvaccinated hamsters. These results reinforce the use of MVA-S(3P) as a vaccine candidate against COVID-19 in clinical trials.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Virology",
+        "Medicine",
+        "Immunology",
+        "Biology",
+        "Internal medicine",
+        "Biochemistry"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fimmu.2023.1163159/pdf?isPublishedV2=False",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.3389_fimmu.2023.1163159.pdf"
+}

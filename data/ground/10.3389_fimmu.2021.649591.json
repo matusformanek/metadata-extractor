@@ -1,0 +1,35 @@
+{
+    "doi": "10.3389/fimmu.2021.649591",
+    "title": "Anti-Angiogenic Efficacy of PSORI-CM02 and the Associated Mechanism in Psoriasis In Vitro and In Vivo",
+    "authors": [
+        "Yue Lu",
+        "Yuqi Yang",
+        "Junhong Zhang",
+        "Hongyu Zhang",
+        "Changju Ma",
+        "Xiaojuan Tang",
+        "Jingjing Wu",
+        "Li Li",
+        "Jianan Wei",
+        "Haiming Chen",
+        "Chuanjian Lu",
+        "Ling Han"
+    ],
+    "abstract": "Psoriasis is a chronic proliferative autoimmune dermatologic disease characterised by abnormal angiogenesis. Thus, regulating angiogenesis in the skin is an important treatment strategy for psoriasis. PSORI-CM02, an empirical Chinese medicine formula optimised from Yin Xie Ling, was created by the Chinese medicine specialist, Guo-Wei Xuan. Clinical studies have shown that PSORI-CM02 is safe and effective for the treatment of psoriasis. However, its anti-psoriatic mechanisms remain to be further explored. In this study, we investigated the effects of PSORI-CM02 on angiogenesis in the skin and the underlying mechanisms in IL-17A-stimulated human umbilical vein endothelial cells (HUVECs) and a murine model of imiquimod (IMQ)-induced psoriasis. <i>In vitro</i>, PSORI-CM02 significantly inhibited the proliferation and migration of IL-17A-stimulated HUVECs in a dose-dependent manner. Further, it markedly regulated the antioxidative/oxidative status and inflammation; suppressed the expression of VEGF, VEGFR1, VEGFR2, ANG1, and HIF-1α; and reduced the phosphorylation of MAPK signalling pathway components in IL-17A-stimulated HUVECs. <i>In vivo</i> studies showed that PSORI-CM02 markedly reduced angiogenesis in the skin of mice with IMQ-induced psoriasis, while significantly rebalancing antioxidant/oxidant levels; inhibiting the production of IL-6, TNF-α, IL-17A, and IL-17F; and repressing the synthesis of angiogenic mediators. In addition, PSORI-CM02 markedly reduced the activation of the MAPK signalling pathway in psoriatic skin tissue. Taken together, our results demonstrated that PSORI-CM02 inhibited psoriatic angiogenesis by reducing the oxidative status and inflammation, suppressing the expression of angiogenesis-related molecules, and inhibiting the activation of the MAPK signalling pathway <i>in vitro</i> and <i>in vivo</i>.",
+    "issued": "2021",
+    "type": "article",
+    "subject": [
+        "Medicine",
+        "Cancer research",
+        "Immunology",
+        "Pharmacology",
+        "Chemistry",
+        "Biology",
+        "Biochemistry",
+        "Biotechnology"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fimmu.2021.649591/pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.3389_fimmu.2021.649591.pdf"
+}

@@ -1,0 +1,28 @@
+{
+    "doi": "10.3389/fcvm.2019.00111",
+    "title": "Devices in Heart Failure Patients—Who Benefits From ICD and CRT?",
+    "authors": [
+        "Alexander Breitenstein",
+        "Jan Steffel"
+    ],
+    "abstract": "According to current ESC guidelines, heart failure can be separated into heart failure with preserved ejection fraction (LVEF > 50%; HFpEF), mid-range EF (LVEF 40 - 49%; HFmrEF) and reduced ejection fraction (LVEF < 40%; HFrHF). The cause of death in patients suffering from heart failure is not only a result of hemodynamic failure but also suddenly and unexpectedly occurring ventricular electrical disturbances such as ventricular tachycardia and -fibrillation. Implantable cardioverter defibrillators (ICDs) represent the only available tool in our treatment armamentarium proven to prevent arrhythmic sudden cardiac death. In addition, cardiac resynchronisation therapy (CRT) is an established treatment option significantly improving both quality of life as well as mortality. In spite of these proven benefits, both ICD as well as CRT therapy remain underutilized in many countries. The reasons are manifold. This brief review focusses on some of the most important aspects in this regard, including continuing medical education regarding the pathophysiology, epidemiology, clinical trial results as well as novel technologies, which are paramount to allow for optimal dissemination of these important therapies and to reduce morbidity and mortality in this fragile patient population.",
+    "issued": "2019",
+    "type": "review",
+    "subject": [
+        "Medicine",
+        "Heart failure",
+        "Ejection fraction",
+        "Cardiology",
+        "Ventricular tachycardia",
+        "Sudden cardiac death",
+        "Internal medicine",
+        "Ventricular fibrillation",
+        "Implantable cardioverter-defibrillator",
+        "Intensive care medicine",
+        "Population"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fcvm.2019.00111/pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.3389_fcvm.2019.00111.pdf"
+}

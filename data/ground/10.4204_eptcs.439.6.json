@@ -1,0 +1,27 @@
+{
+    "doi": "10.4204/eptcs.439.6",
+    "title": "An LLM + ASP Workflow for Joint Entity-Relation Extraction",
+    "authors": [
+        "Trang Tran",
+        "Trung Hoang Le",
+        "Huiping Cao",
+        "Tran Cao Son"
+    ],
+    "abstract": "Joint entity-relation extraction (JERE) identifies both entities and their relationships simultaneously. Traditional machine-learning based approaches to performing this task require a large corpus of annotated data and lack the ability to easily incorporate domain specific information in the construction of the model. Therefore, creating a model for JERE is often labor intensive, time consuming, and elaboration intolerant. In this paper, we propose harnessing the capabilities of generative pre-trained large language models (LLMs) and the knowledge representation and reasoning capabilities of Answer Set Programming (ASP) to perform JERE. We present a generic workflow for JERE using LLMs and ASP. The workflow is generic in the sense that it can be applied for JERE in any domain. It takes advantage of LLM's capability in natural language understanding in that it works directly with unannotated text. It exploits the elaboration tolerant feature of ASP in that no modification of its core program is required when additional domain specific knowledge, in the form of type specifications, is found and needs to be used. We demonstrate the usefulness of the proposed workflow through experiments with limited training data on three well-known benchmarks for JERE. The results of our experiments show that the LLM + ASP workflow is better than state-of-the-art JERE systems in several categories with only 10% of training data. It is able to achieve a 2.5 times (35% over 15%) improvement in the Relation Extraction task for the SciERC corpus, one of the most difficult benchmarks.",
+    "issued": "2026",
+    "type": "article",
+    "subject": [
+        "Workflow",
+        "Task (project management)",
+        "Domain (mathematical analysis)",
+        "Joint (building)",
+        "Representation (politics)",
+        "Elaboration",
+        "Exploit",
+        "Relation (database)"
+    ],
+    "language": "en",
+    "uri": "https://arxiv.org/pdf/2508.12611",
+    "rights.uri": "cc-by-nc-nd",
+    "_local.pdf_path": "pdf_openalex/10.4204_eptcs.439.6.pdf"
+}

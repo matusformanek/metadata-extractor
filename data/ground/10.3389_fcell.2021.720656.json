@@ -1,0 +1,21 @@
+{
+    "doi": "10.3389/fcell.2021.720656",
+    "title": "Redox-Mediated Regulation of Mitochondrial Biogenesis, Dynamics, and Respiratory Chain Assembly in Yeast and Human Cells",
+    "authors": [
+        "Stefan Geldon",
+        "Erika Fernández‐Vizarra",
+        "Kostas Tokatlidis"
+    ],
+    "abstract": "Mitochondria are double-membrane organelles that contain their own genome, the mitochondrial DNA (mtDNA), and reminiscent of its endosymbiotic origin. Mitochondria are responsible for cellular respiration via the function of the electron oxidative phosphorylation system (OXPHOS), located in the mitochondrial inner membrane and composed of the four electron transport chain (ETC) enzymes (complexes I-IV), and the ATP synthase (complex V). Even though the mtDNA encodes essential OXPHOS components, the large majority of the structural subunits and additional biogenetical factors (more than seventy proteins) are encoded in the nucleus and translated in the cytoplasm. To incorporate these proteins and the rest of the mitochondrial proteome, mitochondria have evolved varied, and sophisticated import machineries that specifically target proteins to the different compartments defined by the two membranes. The intermembrane space (IMS) contains a high number of cysteine-rich proteins, which are mostly imported via the MIA40 oxidative folding system, dependent on the reduction, and oxidation of key Cys residues. Several of these proteins are structural components or assembly factors necessary for the correct maturation and function of the ETC complexes. Interestingly, many of these proteins are involved in the metalation of the active redox centers of complex IV, the terminal oxidase of the mitochondrial ETC. Due to their function in oxygen reduction, mitochondria are the main generators of reactive oxygen species (ROS), on both sides of the inner membrane, i.e., in the matrix and the IMS. ROS generation is important due to their role as signaling molecules, but an excessive production is detrimental due to unwanted oxidation reactions that impact on the function of different types of biomolecules contained in mitochondria. Therefore, the maintenance of the redox balance in the IMS is essential for mitochondrial function. In this review, we will discuss the role that redox regulation plays in the maintenance of IMS homeostasis as well as how mitochondrial ROS generation may be a key regulatory factor for ETC biogenesis, especially for complex IV.",
+    "issued": "2021",
+    "type": "review",
+    "subject": [
+        "Cell biology",
+        "Biology",
+        "Biochemistry"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fcell.2021.720656/pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.3389_fcell.2021.720656.pdf"
+}

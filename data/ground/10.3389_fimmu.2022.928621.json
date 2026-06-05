@@ -1,0 +1,32 @@
+{
+    "doi": "10.3389/fimmu.2022.928621",
+    "title": "Rituximab, Omalizumab, and Dupilumab Treatment Outcomes in Bullous Pemphigoid: A Systematic Review",
+    "authors": [
+        "Peng Cao",
+        "Wenjing Xu",
+        "Litao Zhang"
+    ],
+    "abstract": "Background: Bullous pemphigoid (BP) is the most common autoimmune subepidermal bullous disease of the skin. First-line treatment of systemic corticosteroids may cause serious adverse events. Rituximab, omalizumab, and dupilumab should be explored as alternative treatment options to improve outcomes. Objective: To systematically review the rituximab, omalizumab, and dupilumab treatment outcomes in bullous pemphigoid. Methods: A PubMed, Embase, Web of Science, and Cochrane library search were conducted on March 10, 2022. A total of 75 studies were included using Preferred Reporting Items for Systematic Reviews and Meta-analyses guidelines. Results: Use of rituximab (n=122), omalizumab (n=53) and dupilumab (n=36) were reported in 211 patients with BP. Rituximab led to complete remission in 70.5% (n=86/122) and partial remission in 23.8% (n=29/122) of patients within 5.7 months, with a recurrence rate of 20.5% (n=25/122). 9.0% (n=11/122) of patients died and infection (6.6%, n=8/122) was the most common adverse event. Omalizumab led to complete remission in 67.9% (n=36/53) and partial remission in 20.8% (n=11/53) of patients within 6.6 months, with a recurrence rate of 5.7% (n=3/53). 1.9% (n=1/53) of patients died and thrombocytopenia (1.9%, n=1/53) was observed as the most common adverse event. Dupilumab led to complete remission in 66.7% (n=24/36) and partial remission in 19.4% (n=7/36) of patients within 4.5 months of treatment without any reported adverse events, with a recurrence rate of 5.6% (n=2/36). Conclusions: Rituximab, omalizumab, and dupilumab have similar clinical benefits for BP patients. However, rituximab resulted in higher recurrence rates, adverse events, and mortality rates. Systematic Review Registration: https://www.crd.york.ac.uk/PROSPERO/, identifier CRD42022316454.",
+    "issued": "2022",
+    "type": "review",
+    "subject": [
+        "Medicine",
+        "Dupilumab",
+        "Rituximab",
+        "Omalizumab",
+        "Adverse effect",
+        "Bullous pemphigoid",
+        "Internal medicine",
+        "Dermatology",
+        "Gastroenterology",
+        "Immunology",
+        "Atopic dermatitis",
+        "Antibody",
+        "Immunoglobulin E",
+        "Lymphoma"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.928621/pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.3389_fimmu.2022.928621.pdf"
+}

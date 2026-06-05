@@ -1,0 +1,30 @@
+{
+    "doi": "",
+    "title": "Symmetry Of Irreducible Cluster Energy And The Theory Of Elastic Constant Crystals: Co as an Example",
+    "authors": [
+        "Yu. M. Gufan",
+        "O. V. Naskalova",
+        "O. V. Kukin",
+        "G. V. Fomin"
+    ],
+    "abstract": "AbstractThe paper proposes a new method of transferable calculation of elastic constants of the second, third and fourth orders. The method is based on the assumption that the potential energy of bulk crystals may be presented as the decomposition into irreducible energies of two, three, and four atomic clusters. To justify this decomposition, we proved that the irreducible energy of atomic clusters obeys additional symmetry O3NCl, which depends on the number of atoms constituting clusters (NCl), and not depends on cluster structure. Additional symmetry allows defining the bases invariants, which depend on interatomic distances, and irreducible energies of clusters are depended on bases invariants only. In turn, these dependences made it possible to calculate the elastic modulus of complexes that exist in different crystal modifications as functions of the same phenomenological parameters of the model of interatomic interactions. Then we presented an example of the calculation of elastic constants BCC, HCP and FCC of the metal phases of Co polymorphs. The results confirm that the proposed method is transferable and makes it possible to calculate the elastic moduli of the second, third and fourth orders with the accuracy not worse than was achieved using the quantum chemistry models.",
+    "issued": "2018",
+    "type": "article",
+    "subject": [
+        "Symmetry (geometry)",
+        "Cluster (spacecraft)",
+        "Constant (computer programming)",
+        "Energy (signal processing)",
+        "Theoretical physics",
+        "Physics",
+        "Computer science",
+        "Pure mathematics",
+        "Quantum mechanics",
+        "Mathematics",
+        "Geometry"
+    ],
+    "language": "en",
+    "uri": "https://www.atlantis-press.com/article/55909691.pdf",
+    "rights.uri": "cc-by-nc",
+    "_local.pdf_path": "pdf_openalex/10.2991_isees-18.2018.79.pdf"
+}

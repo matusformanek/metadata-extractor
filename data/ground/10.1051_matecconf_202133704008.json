@@ -1,0 +1,35 @@
+{
+    "doi": "10.1051/matecconf/202133704008",
+    "title": "Non-isothermal moisture migration in a GCL composite liner system",
+    "authors": [
+        "Mayu Tincopa",
+        "Gonzalo Carnero-Guzman"
+    ],
+    "abstract": "Geosynthetic Clay liners (GCLs) are used extensively in waste management facilities as part of hydraulic and gas barriers since the bentonite, active component of GCLs, possesses a low conductivity when well hydrated. GCL hydration occurs in the unsaturated regime following the water retention curve of the GCL and subsoil (wetting and drying path of the WRC of the GCL and subsoil, respectively). Moreover, the GCL hydration is controlled/governed by factors such as applied stress condition, subsoil characteristics, and weather condition (temperature). This paper numerically studied the influence of temperature in the GCL hydration. The models were conducted using Vadose/W and simulations were calibrated with experimental results and further practical scenarios were then predicted. Five temperature conditions that resemble average and extreme weather were used (5°C, 10°C, 20°C, 50°C, 70°C, respectively). Results indicate that temperature influence the GCL hydration rate and the final water content achievable, which affect the final performance of the GCL.",
+    "issued": "2021",
+    "type": "article",
+    "subject": [
+        "Geosynthetic clay liner",
+        "Subsoil",
+        "Hydraulic conductivity",
+        "Water content",
+        "Geotechnical engineering",
+        "Environmental science",
+        "Bentonite",
+        "Moisture",
+        "Materials science",
+        "Pore water pressure",
+        "Isothermal process",
+        "Geosynthetics",
+        "Wetting",
+        "Composite material",
+        "Soil science",
+        "Geology",
+        "Soil water",
+        "Thermodynamics"
+    ],
+    "language": "en",
+    "uri": "https://www.matec-conferences.org/articles/matecconf/pdf/2021/06/matecconf_PanAm-Unsat2021_04008.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.1051_matecconf_202133704008.pdf"
+}

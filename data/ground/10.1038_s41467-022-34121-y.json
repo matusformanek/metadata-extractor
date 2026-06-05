@@ -1,0 +1,40 @@
+{
+    "doi": "10.1038/s41467-022-34121-y",
+    "title": "Dual interfacial engineering of a Chevrel phase electrode material for stable hydrogen evolution at 2500 mA cm−2",
+    "authors": [
+        "Heming Liu",
+        "Ruikuan Xie",
+        "Yuting Luo",
+        "Zhicheng Cui",
+        "Qiangmin Yu",
+        "Zhiqiang Gao",
+        "Zhiyuan Zhang",
+        "Fengning Yang",
+        "Xin Kang",
+        "Shiyu Ge",
+        "Shaohai Li",
+        "Xuefeng Gao",
+        "Guoliang Chai",
+        "Le Liu",
+        "Bilu Liu"
+    ],
+    "abstract": "Constructing stable electrodes which function over long timescales at large current density is essential for the industrial realization and implementation of water electrolysis. However, rapid gas bubble detachment at large current density usually results in peeling-off of electrocatalysts and performance degradation, especially for long term operations. Here we construct a mechanically-stable, all-metal, and highly active CuMo<sub>6</sub>S<sub>8</sub>/Cu electrode by in-situ reaction between MoS<sub>2</sub> and Cu. The Chevrel phase electrode exhibits strong binding at the electrocatalyst-support interface with weak adhesion at electrocatalyst-bubble interface, in addition to fast hydrogen evolution and charge transfer kinetics. These features facilitate the achievement of large current density of 2500 mA cm<sup>-2</sup> at a small overpotential of 334 mV which operate stably at 2500 mA cm<sup>-2</sup> for over 100 h. In-situ total internal reflection imaging at micrometer level and mechanical tests disclose the relationships of two interfacial forces and performance of electrocatalysts. This dual interfacial engineering strategy can be extended to construct stable and high-performance electrodes for other gas-involving reactions.",
+    "issued": "2022",
+    "type": "article",
+    "subject": [
+        "Materials science",
+        "Chemical engineering",
+        "Chemical physics",
+        "Nanotechnology",
+        "Chemistry",
+        "Physical chemistry",
+        "Quantum mechanics",
+        "Physics",
+        "Organic chemistry",
+        "Engineering"
+    ],
+    "language": "en",
+    "uri": "https://www.nature.com/articles/s41467-022-34121-y.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1038_s41467-022-34121-y.pdf"
+}

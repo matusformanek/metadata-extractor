@@ -1,0 +1,24 @@
+{
+    "doi": "10.5121/sipij.2014.5406",
+    "title": "Feature Selection Approach in Animal Classification",
+    "authors": [
+        "Sharath Kumar Y H",
+        "C D Divya"
+    ],
+    "abstract": "In this paper, we propose a model for automatic classification of Animals using different classifiers Nearest Neighbour, Probabilistic Neural Network and Symbolic. Animal images are segmented using maximal region merging segmentation. The Gabor features are extracted from segmented animal images. Discriminative texture features are then selected using the different feature selection algorithm like Sequential Forward Selection, Sequential Floating Forward Selection, Sequential Backward Selection and Sequential Floating Backward Selection. To corroborate the efficacy of the proposed method, an experiment was conducted on our own data set of 25 classes of animals, containing 2500 samples. The data set has different animal species with similar appearance (small inter-class variations) across different classes and varying appearance (large intra-class variations) within a class. In addition, the images of flowers are of different poses, with cluttered background under different lighting and climatic conditions. Experiment results reveal that Symbolic classifier outperforms Nearest Neighbour and Probabilistic Neural Network classifiers.",
+    "issued": "2014",
+    "type": "article",
+    "subject": [
+        "Feature selection",
+        "Selection (genetic algorithm)",
+        "Artificial intelligence",
+        "Pattern recognition (psychology)",
+        "Feature (linguistics)",
+        "Computer science",
+        "Philosophy"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.5121/sipij.2014.5406",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.5121_sipij.2014.5406.pdf"
+}

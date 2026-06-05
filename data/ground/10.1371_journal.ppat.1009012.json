@@ -1,0 +1,34 @@
+{
+    "doi": "10.1371/journal.ppat.1009012",
+    "title": "Effector prediction and characterization in the oomycete pathogen Bremia lactucae reveal host-recognized WY domain proteins that lack the canonical RXLR motif",
+    "authors": [
+        "Kelsey Wood",
+        "Munir Nur",
+        "Juliana Gil",
+        "Kyle Fletcher",
+        "Kim Lakeman",
+        "Dasan Gann",
+        "Ayumi Gothberg",
+        "Tina Khuu",
+        "Jennifer Kopetzky",
+        "Sanye Naqvi",
+        "Archana Pandya",
+        "Chi Zhang",
+        "Brigitte Maisonneuve",
+        "Mathieu A. Pel",
+        "Richard W. Michelmore"
+    ],
+    "abstract": "Pathogens that infect plants and animals use a diverse arsenal of effector proteins to suppress the host immune system and promote infection. Identification of effectors in pathogen genomes is foundational to understanding mechanisms of pathogenesis, for monitoring field pathogen populations, and for breeding disease resistance. We identified candidate effectors from the lettuce downy mildew pathogen Bremia lactucae by searching the predicted proteome for the WY domain, a structural fold found in effectors that has been implicated in immune suppression as well as effector recognition by host resistance proteins. We predicted 55 WY domain containing proteins in the genome of B. lactucae and found substantial variation in both sequence and domain architecture. These candidate effectors exhibit several characteristics of pathogen effectors, including an N-terminal signal peptide, lineage specificity, and expression during infection. Unexpectedly, only a minority of B. lactucae WY effectors contain the canonical N-terminal RXLR motif, which is a conserved feature in the majority of cytoplasmic effectors reported in Phytophthora spp. Functional analysis of 21 effectors containing WY domains revealed 11 that elicited cell death on wild accessions and domesticated lettuce lines containing resistance genes, indicative of recognition of these effectors by the host immune system. Only two of the 11 recognized effectors contained the canonical RXLR motif, suggesting that there has been an evolutionary divergence in sequence motifs between genera; this has major consequences for robust effector prediction in oomycete pathogens.",
+    "issued": "2020",
+    "type": "article",
+    "subject": [
+        "Biology",
+        "Genetics",
+        "Computational biology",
+        "Cell biology"
+    ],
+    "language": "en",
+    "uri": "https://journals.plos.org/plospathogens/article/file?id=10.1371/journal.ppat.1009012&type=printable",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1371_journal.ppat.1009012.pdf"
+}

@@ -1,0 +1,25 @@
+{
+    "doi": "10.1371/journal.pgen.1011257",
+    "title": "Pervasive tissue-, genetic background-, and allele-specific gene expression effects in Drosophila melanogaster",
+    "authors": [
+        "Amanda Glaser‐Schmitt",
+        "Marion Lemoine",
+        "Martin Kaltenpoth",
+        "John Parsch"
+    ],
+    "abstract": "The pervasiveness of gene expression variation and its contribution to phenotypic variation and evolution is well known. This gene expression variation is context dependent, with differences in regulatory architecture often associated with intrinsic and environmental factors, and is modulated by regulatory elements that can act in cis (linked) or in trans (unlinked) relative to the genes they affect. So far, little is known about how this genetic variation affects the evolution of regulatory architecture among closely related tissues during population divergence. To address this question, we analyzed gene expression in the midgut, hindgut, and Malpighian tubule as well as microbiome composition in the two gut tissues in four Drosophila melanogaster strains and their F1 hybrids from two divergent populations: one from the derived, European range and one from the ancestral, African range. In both the transcriptome and microbiome data, we detected extensive tissue- and genetic background-specific effects, including effects of genetic background on overall tissue specificity. Tissue-specific effects were typically stronger than genetic background-specific effects, although the two gut tissues were not more similar to each other than to the Malpighian tubules. An examination of allele specific expression revealed that, while both cis and trans effects were more tissue-specific in genes expressed differentially between populations than genes with conserved expression, trans effects were more tissue-specific than cis effects. Despite there being highly variable regulatory architecture, this observation was robust across tissues and genetic backgrounds, suggesting that the expression of trans variation can be spatially fine-tuned as well as or better than cis variation during population divergence and yielding new insights into cis and trans regulatory evolution.",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Biology",
+        "Genetics",
+        "Sociology",
+        "Paleontology",
+        "Botany",
+        "Demography"
+    ],
+    "language": "en",
+    "uri": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1011257&type=printable",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1371_journal.pgen.1011257.pdf"
+}

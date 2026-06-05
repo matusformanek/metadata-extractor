@@ -1,0 +1,40 @@
+{
+    "doi": "",
+    "title": "Integration of scRNA-Seq and Bulk RNA-Seq Identifies Circadian Rhythm Disruption-Related Genes Associated with Prognosis and Drug Resistance in Colorectal Cancer Patients",
+    "authors": [
+        "Yong Tao",
+        "­Jun Li­",
+        "Jianhui Pan",
+        "Qing Wang",
+        "Rongqin Ke",
+        "Danping Yuan",
+        "Hongbiao Wu",
+        "Yuepeng Cao",
+        "Lei Zhao"
+    ],
+    "abstract": "Background: Colorectal cancer (CRC) is one of the most prevalent malignancies worldwide. With the increasing incidence of CRC, there is an urgent need for effective strategies for early diagnosis and treatment. Circadian rhythm, a natural biological clock, regulates various physiological processes, and its disruption has been implicated in the onset and progression of cancer. However, the specific roles of circadian rhythm-related genes (CRDGs) in CRC remain unclear. Methods: In this study, we analyzed the expression patterns of CRDGs in CRC using single-cell RNA sequencing (scRNA-seq) data and bulk RNA sequencing data from the GSE178318 dataset. We constructed a CRC prognostic model based on CRD scores. Additionally, we explored the potential mechanisms of CRDGs in tumor progression through weighted gene co-expression network analysis (WGCNA) and gene set enrichment analysis (GSEA), and assessed their impact on the response to immune checkpoint inhibitors. Results: The analysis revealed that CRDGs were significantly upregulated in liver metastasis samples compared to primary CRC samples and were closely associated with several metabolic and immune-related pathways. The prognostic model based on CRD scores indicated that higher CRD scores were associated with poorer outcomes in immunotherapy. These findings were further validated in multiple datasets, underscoring the potential of CRDGs as prognostic indicators in CRC. Conclusion: This study systematically reveals, for the first time, the expression characteristics of CRDGs in CRC and their relationship with tumor progression and response to immunotherapy. CRDGs may serve as effective prognostic biomarkers and therapeutic targets, offering new strategies for the personalized treatment of CRC.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Circadian rhythm",
+        "Gene",
+        "Colorectal cancer",
+        "RNA-Seq",
+        "Biology",
+        "Cancer",
+        "Drug resistance",
+        "Drug",
+        "RNA",
+        "Genetics",
+        "Computational biology",
+        "Bioinformatics",
+        "Transcriptome",
+        "Gene expression",
+        "Pharmacology",
+        "Neuroscience"
+    ],
+    "language": "en",
+    "uri": "https://www.dovepress.com/article/download/102002",
+    "rights.uri": "cc-by-nc",
+    "_local.pdf_path": "pdf_openalex/10.2147_itt.s499806.pdf"
+}

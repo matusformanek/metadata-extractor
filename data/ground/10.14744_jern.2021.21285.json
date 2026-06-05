@@ -1,0 +1,23 @@
+{
+    "doi": "10.14744/jern.2021.21285",
+    "title": "Mobile Application for Remote Patient Education and Follow-up for the Prevention of Diabetic Foot: M-DAKBAS",
+    "authors": [
+        "Meryem Kılıç",
+		"Ayişe Karadağ"
+    ],
+    "abstract": "Diabetic foot, a complication of diabetes mellitus, is a worldwide medical, social, and economic problem.Diabetic foot ulcers that are not included in the early treatment and care program can result in limb amputation and may be life-threatening.Early diagnosis is an important factor to prevent limb loss due to diabetic foot ulcer.The increase in diabetesrelated complications has provided an opportunity for the development of different technological approaches to the management of these problems.The support of these technologies by international organizations increases the interest in diabetes technologies all over the world.The increasing use of smartphones has made the use of mobile health applications widespread in the self-management of diseases.Mobile health applications offer the individual the opportunity to be active 24 h a day, without experiencing time and place problems in matters related to their own health.The mobile diabetic foot personal care system (m-DAKBAS) allows the individual with diabetes to get information about the diabetic foot without going to the health center, to acquire the foot care behavior with its reminder and warning system, to take care of himself in an interactive way and it helps to regulate blood glucose, which is one of the important factors in the development of diabetic foot.In this article, the introduction, development purpose and features of the m-DAKBAS application developed for individual with diabetes, their relatives and health professionals are included.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Medicine",
+        "Physical medicine and rehabilitation",
+        "Physical therapy",
+        "Endocrinology",
+        "Art",
+        "Literature"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.14744/jern.2021.21285",
+    "rights.uri": "cc-by-nc",
+    "_local.pdf_path": "pdf_openalex\\10.14744_jern.2021.21285.pdf"
+}

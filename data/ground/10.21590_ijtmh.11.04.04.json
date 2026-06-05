@@ -1,0 +1,24 @@
+{
+    "doi": "10.21590/ijtmh.11.04.04",
+    "title": "Enhancing Incident Response Efficiency Through Automated Dynamic Threat Case Generation",
+    "authors": [
+        "Día Fayyad"
+    ],
+    "abstract": "The exponential rise in cyber-attacks has created unprecedented challenges for Security Operations Centers (SOCs) thatmust respond to incidents with speed, accuracy, and adaptive intelligence. Traditional incident response (IR) workflowsrely heavily on static playbooks and manual decision-making, which struggle to keep pace with the rapidly changingattack landscape. This study proposes an automated dynamic threat case generation framework that enhances incidentresponse efficiency through context-aware automation and continuous learning. The framework integrates structuredthreat intelligence sources, including MITRE ATT&amp;CK, CVE, and CAPEC, with real-time SOC telemetry to automaticallygenerate, prioritize, and adapt response cases according to evolving threat behaviors.A hybrid quantitative and experimental methodology was adopted, simulating over 200 attack scenarios to evaluateimprovements in key SOC performance indicators. Metrics such as mean detection time, response accuracy, analystworkload, and case adaptation rate were benchmarked against baseline manual response processes. Results revealeda 61% reduction in detection time, 25% increase in response accuracy, and over 50% reduction in analyst workload,demonstrating significant efficiency gains achieved through automation. Statistical correlation analysis confirmed strongpositive relationships between automation depth and operational accuracy (r = 0.79, p &lt; 0.005), and a negative correlationbetween alert volume and case generation time (r = −0.84, p &lt; 0.002), validating the scalability of the proposed approach.The findings underscore that automated dynamic threat case generation represents a practical advancement in incidentresponse automation, enabling SOCs to respond more quickly and intelligently to sophisticated threats. By reducing humandependency in repetitive triage tasks while maintaining analyst oversight, the model contributes to building resilient,adaptive, and data-driven security ecosystems. Future research should explore integrating reinforcement learning forpredictive case generation and extending this framework across multi-organizational cyber defense networks.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Scalability",
+        "Key (lock)",
+        "Response time",
+        "Automation",
+        "Reduction (mathematics)",
+        "Adaptation (eye)",
+        "Pace",
+        "Triage"
+    ],
+    "language": "en",
+    "uri": "https://ijtmh.com/index.php/ijtmh/article/download/207/207",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.21590_ijtmh.11.04.04.pdf"
+}

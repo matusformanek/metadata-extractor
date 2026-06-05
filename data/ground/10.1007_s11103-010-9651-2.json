@@ -1,0 +1,25 @@
+{
+    "doi": "10.1007/s11103-010-9651-2",
+    "title": "Alternative splicing of the maize Ac transposase transcript in transgenic sugar beet (Beta vulgaris L.)",
+    "authors": [
+        "Ralph Lisson",
+        "Jan Hellert",
+        "Malte Ringleb",
+        "Fabian Machens",
+        "Josef Kraus",
+        "Reinhard Hehl"
+    ],
+    "abstract": "The maize Activator/Dissociation (Ac/Ds) transposable element system was introduced into sugar beet. The autonomous Ac and non-autonomous Ds element excise from the T-DNA vector and integrate at novel positions in the sugar beet genome. Ac and Ds excisions generate footprints in the donor T-DNA that support the hairpin model for transposon excision. Two complete integration events into genomic sugar beet DNA were obtained by IPCR. Integration of Ac leads to an eight bp duplication, while integration of Ds in a homologue of a sugar beet flowering locus gene did not induce a duplication. The molecular structure of the target site indicates Ds integration into a double strand break. Analyses of transposase transcription using RT-PCR revealed low amounts of alternatively spliced mRNAs. The fourth intron of the transposase was found to be partially misspliced. Four different splice products were identified. In addition, the second and third exon were found to harbour two and three novel introns, respectively. These utilize each the same splice donor but several alternative splice acceptor sites. Using the SplicePredictor online tool, one of the two introns within exon two is predicted to be efficiently spliced in maize. Most interestingly, splicing of this intron together with the four major introns of Ac would generate a transposase that lacks the DNA binding domain and two of its three nuclear localization signals, but still harbours the dimerization domain.",
+    "issued": "2010",
+    "type": "article",
+    "subject": [
+        "Biology",
+        "Genetics",
+        "Molecular biology",
+        "Horticulture"
+    ],
+    "language": "en",
+    "uri": "https://link.springer.com/content/pdf/10.1007/s11103-010-9651-2.pdf",
+    "rights.uri": "cc-by-nc",
+    "_local.pdf_path": "pdf_openalex\\10.1007_s11103-010-9651-2.pdf"
+}

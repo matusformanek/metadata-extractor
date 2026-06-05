@@ -1,0 +1,29 @@
+{
+    "doi": "10.1038/s41598-024-66989-9",
+    "title": "Enhancing agriculture through real-time grape leaf disease classification via an edge device with a lightweight CNN architecture and Grad-CAM",
+    "authors": [
+        "Jawadul Karim",
+        "Omaer Faruq Goni",
+        "Nahiduzzaman",
+        "Mominul Ahsan",
+        "Julfikar Haider",
+        "Marcin Kowalski"
+    ],
+    "abstract": "Crop diseases can significantly affect various aspects of crop cultivation, including crop yield, quality, production costs, and crop loss. The utilization of modern technologies such as image analysis via machine learning techniques enables early and precise detection of crop diseases, hence empowering farmers to effectively manage and avoid the occurrence of crop diseases. The proposed methodology involves the use of modified MobileNetV3Large model deployed on edge device for real-time monitoring of grape leaf disease while reducing computational memory demands and ensuring satisfactory classification performance. To enhance applicability of MobileNetV3Large, custom layers consisting of two dense layers were added, each followed by a dropout layer, helped mitigate overfitting and ensured that the model remains efficient. Comparisons among other models showed that the proposed model outperformed those with an average train and test accuracy of 99.66% and 99.42%, with a precision, recall, and F1 score of approximately 99.42%. The model was deployed on an edge device (Nvidia Jetson Nano) using a custom developed GUI app and predicted from both saved and real-time data with high confidence values. Grad-CAM visualization was used to identify and represent image areas that affect the convolutional neural network (CNN) classification decision-making process with high accuracy. This research contributes to the development of plant disease classification technologies for edge devices, which have the potential to enhance the ability of autonomous farming for farmers, agronomists, and researchers to monitor and mitigate plant diseases efficiently and effectively, with a positive impact on global food security.",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Agricultural engineering",
+        "Artificial intelligence",
+        "Machine learning",
+        "Engineering",
+        "Operating system",
+        "Biology",
+        "Ecology"
+    ],
+    "language": "en",
+    "uri": "https://www.nature.com/articles/s41598-024-66989-9.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1038_s41598-024-66989-9.pdf"
+}

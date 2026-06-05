@@ -1,0 +1,28 @@
+{
+    "doi": "10.1007/s00362-023-01420-5",
+    "title": "Nonparametric estimation for a functional-circular regression model",
+    "authors": [
+        "Andrea Meilán-Vila",
+        "Rosa M. Crujeiras",
+        "Mario Francisco‐Fernández"
+    ],
+    "abstract": "Abstract Changes on temperature patterns, on a local scale, are perceived by individuals as the most direct indicators of global warming and climate change. As a specific example, for an Atlantic climate location, spring and fall seasons should present a mild transition between winter and summer, and summer and winter, respectively. By observing daily temperature curves along time, being each curve attached to a certain calendar day, a regression model for these variables (temperature curve as covariate and calendar day as response) would be useful for modeling their relation for a certain period. In addition, temperature changes could be assessed by prediction and observation comparisons in the long run. Such a model is presented and studied in this work, considering a nonparametric Nadaraya–Watson-type estimator for functional covariate and circular response. The asymptotic bias and variance of this estimator, as well as its asymptotic distribution are derived. Its finite sample performance is evaluated in a simulation study and the proposal is applied to investigate a real-data set concerning temperature curves.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Statistics",
+        "Mathematics",
+        "Econometrics",
+        "Environmental science",
+        "Geography",
+        "Ecology",
+        "Cartography",
+        "Business",
+        "Accounting",
+        "Biology"
+    ],
+    "language": "en",
+    "uri": "https://link.springer.com/content/pdf/10.1007/s00362-023-01420-5.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1007_s00362-023-01420-5.pdf"
+}

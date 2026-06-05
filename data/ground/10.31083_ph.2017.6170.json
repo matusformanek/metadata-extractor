@@ -1,0 +1,34 @@
+{
+    "doi": "10.1691/ph.2017.6170",
+    "title": "Investigation of transferrin interaction with medicinally important noble metal ions using affinity capillary electrophoresis",
+    "authors": [
+        "H. A. Alhazmi",
+        "M- Al Bratty",
+        "S. A. Javed",
+        "K. G. Lalitha"
+    ],
+    "abstract": "Transferrins (TFs) consist of a large group of glycoproteins, whose function is to transport iron across the cell membrane. Apart from iron, serum transferrin can also bind several other metal ions and hence can offer a potential route for the delivery of these metal ions into the cellular fluids. In the present study the interaction behavior of nine noble metal ions, Ag+, Au+, Au3+, Os3+, Pd2+, Pt4+, Rh3+, Ru3+ and Ir3+ with transferrin was investigated by affinity capillary electrophoresis (ACE) using the dynamic mobility shift mode. A proper rinsing procedure was applied to regenerate the capillary tube. The influence of these metal ions on transferrin was studied through comparison of the mobility ratios of free protein and protein-metal ion complex. The interaction results were expressed by the normalized difference of the mobility ratios (ΔR/Rf) and its confidence intervals. Most of the tested metal ions showed significant interaction with transferrin with small confidence intervals, except Ag+, Au+ and Rh3+ that exhibited very weak interactions. Maximum interaction was observed between transferrin and Ir3+, followed by Pd2+ that also showed strong affinity towards the test protein. The screening results were compared with Bovine Serum Albumin (BSA)- and Human Serum Albumin (HSA)-noble metal ions interactions. An excellent precision (% RSD of mobility ratios were less than 1%, except for transferrin-Pd2+ interaction ≈ 4%) was recorded for repeated runs of transferrin-metal ions interactions. This study contributes to the understanding of the affinity of transferrin to the tested metal ions and will provide preliminary information for the investigation of other protein-ligands interactions.",
+    "issued": "2017",
+    "type": "article",
+    "subject": [
+        "Transferrin",
+        "Chemistry",
+        "Capillary electrophoresis",
+        "Metal ions in aqueous solution",
+        "Bovine serum albumin",
+        "Metal",
+        "Albumin",
+        "Chromatography",
+        "Electrophoresis",
+        "Noble metal",
+        "Chelation",
+        "Serum albumin",
+        "Inorganic chemistry",
+        "Biochemistry",
+        "Organic chemistry"
+    ],
+    "language": "en",
+    "uri": "https://storage.imrpress.com/IMR/pharmazie/application/10.1691/ph.2017.6170.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.31083_ph.2017.6170.pdf"
+}

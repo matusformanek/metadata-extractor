@@ -1,0 +1,22 @@
+{
+    "doi": "10.23977/appep.2024.050114",
+    "title": "Evaluation of Multi-level Employment Psychological Pressure among College Students Based on Dynamic Optimization Models",
+    "authors": [
+        "Jinjun Zhao",
+        "Shuo Chen"
+    ],
+    "abstract": "In universities, the primary task of vocational education is to cultivate students' ability to adapt to social work, so employment is very important for college students. They need to think about how to find a job and how to apply what they have learned to their work. Employment is a huge psychological burden for college students, especially in the current labor market where many people are unable to find their ideal jobs, which has a certain impact on their psychology, such as conflicts, anxiety, depression, etc. Psychological problems have a significant impact on their employment and even mental health. Therefore, establishing a correct career choice perspective, cultivating various psychological qualities, and maintaining a good psychological state for college students in their career, as well as making effective adjustments to themselves, plays a very important role in their future. Therefore, this article attempted to use the GA-BP (genetic algorithm-back propagation) algorithm to construct a dynamic optimization model for evaluating the multi-level employment psychological pressure of college students. Firstly, the influencing factors of employment psychological pressure of college students were obtained from a large number of literature, and then the various influencing factors of students were investigated and collected as sample data for the GA-BP algorithm. The experiment showed that the combination of GA algorithm and BP algorithm could achieve the highest accuracy in predicting the employment psychological pressure of college students. The average accuracy of the three training results was 0.9, which was higher than the optimized accuracy of momentum algorithm, LM algorithm, adaptive algorithm, and CG algorithm.",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Psychology",
+        "Applied psychology",
+        "Mathematics education",
+        "Social psychology",
+        "Computer science"
+    ],
+    "language": "en",
+    "uri": "http://www.clausiuspress.com/assets/default/article/2024/02/29/article_1709217893.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.23977_appep.2024.050114.pdf"
+}

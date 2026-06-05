@@ -1,0 +1,26 @@
+{
+    "doi": "10.3389/fpsyg.2021.655246",
+    "title": "Evaluating the Impact of a Targeted Approach Designed to Build Executive Function Skills: A Randomized Trial of Brain Games",
+    "authors": [
+        "Sophie P. Barnes",
+        "Rebecca Bailey",
+        "Stephanie M. Jones"
+    ],
+    "abstract": "This paper reports results from an impact study of Brain Games (BGs), a classroom-based intervention designed to build preschool and school-aged children's executive functions (EFs) and related self-regulation skills. The study employed a classroom-randomized, experimental design with 626 students in 36 pre-K through fourth grade classrooms in charter schools in a mid-sized urban district. In one set of models with child covariates, children in intervention classrooms showed marginal positive impacts on regulation-related behaviors, attention control and impulsivity, and negative effects on global EF and marginal increases in discipline problems. A second set of models with a smaller sample and both child and classroom covariates included indicate positive impacts of BGs on global EFs, prosocial behavior, and attention control and impulsivity. There were no significant impacts on the teacher-student relationship as reported by the teacher or on direct assessments of inhibitory control, short term and working memory, or another measure of global EF in either set of models. These promising findings offer a signal that implementation of targeted, easy to implement intervention approaches in classroom contexts can influence children's regulation-related and prosocial outcomes, but this signal should be investigated further with larger and more tightly controlled designs.",
+    "issued": "2021",
+    "type": "article",
+    "subject": [
+        "Psychology",
+        "Developmental psychology",
+        "Computer science",
+        "Psychiatry",
+        "Programming language",
+        "Neuroscience",
+        "Medicine",
+        "Surgery"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.655246/pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.3389_fpsyg.2021.655246.pdf"
+}

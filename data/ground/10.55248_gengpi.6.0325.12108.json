@@ -1,0 +1,25 @@
+{
+    "doi": "10.55248/gengpi.6.0325.12108",
+    "title": "SOCIAL-COP: AI-Powered Crowdsourced Intelligence for Traffic Safety",
+    "authors": [
+        "Samarjeet Singh",
+        "Anu Singh"
+    ],
+    "abstract": "The rapid expansion of urban infrastructure and vehicular density has led to significant challenges in traffic management and road safety, particularly in densely populated countries like India.Traditional traffic monitoring and enforcement mechanisms struggle to address issues such as congestion, faulty signals, illegal parking, potholes, and road accidents effectively.Additionally, a lack of real-time data and citizen participation hampers authorities' ability to implement proactive solutions.Introducing \"Social-Cop,\" an AI-powered, crowdsourced traffic management platform designed to enhance road safety and efficiency.Social-Cop enables citizens to report traffic-related issues in real time through a user-friendly mobile interface, leveraging machine learning and data analytics to generate actionable insights.By aggregating and analyzing this data, the platform assists urban planners and traffic authorities in identifying high-risk areas, optimizing infrastructure development, and improving response times to road hazards.Social-Cop fosters community-driven accountability by integrating public participation with intelligent traffic solutions.Utilizing predictive analytics and pattern recognition, the system helps anticipate congestion trends and accident-prone zones, enabling better decision-making.Additionally, Social-Cop promotes collaborative governance, bridging the gap between citizens and authorities to create safer, more efficient road networks.By transforming urban traffic management through AI-driven automation and real-time crowdsourced intelligence, Social-Cop aims to revolutionize road safety, reduce fatalities, and build smarter, more sustainable cities.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Psychology",
+        "Crowdsourcing",
+        "Social intelligence",
+        "Applied psychology",
+        "Computer science",
+        "Data science",
+        "Social psychology",
+        "World Wide Web"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.55248/gengpi.6.0325.12108",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.55248_gengpi.6.0325.12108.pdf"
+}

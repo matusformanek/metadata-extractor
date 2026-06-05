@@ -1,0 +1,27 @@
+{
+    "doi": "10.22214/ijraset.2020.30754",
+    "title": "Data Compression over Network using IOT",
+    "authors": [
+        "Puneeth S P",
+		"Gayathri M",
+		"Kavya S A",
+		"Poornima C S",
+		"Varshitha H"
+    ],
+    "abstract": "Energy is the most important resource in state-of-the-art Internet of Things solutions. There are a lot of concepts and techniques dedicated to save energy, mainly focused to reduce transmission, since the energy used for pre-processing (encoding) is incomparable smaller than energy used for broadcasting. If applications do not require real-time measurements, data compression is one solution to energy saving problem. In this project we develop new coding scheme for data compression that can be used for efficient data compression of temporally correlated data, such as temperature measurements coming from different smart devices. Along with reducing weightage of data we also provide security by encrypting it.",
+    "issued": "2020",
+    "type": "article",
+    "subject": [
+        "Internet of Things",
+        "Computer science",
+        "Compression (physics)",
+        "Data compression",
+        "Computer security",
+        "Artificial intelligence",
+        "Materials science"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.22214/ijraset.2020.30754",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.22214_ijraset.2020.30754.pdf"
+}

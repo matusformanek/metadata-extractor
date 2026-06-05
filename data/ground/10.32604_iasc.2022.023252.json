@@ -1,0 +1,35 @@
+{
+    "doi": "10.32604/iasc.2022.023252",
+    "title": "Forward Flight Performance Analysis of Supercritical Airfoil in Helicopter Main Rotor",
+    "authors": [
+        "Inamul Hasan",
+        "R. Mukesh",
+        "P. Radha Krishnan",
+        "R. Srinath",
+        "Roshan Prakash"
+    ],
+    "abstract": "In this research, the aerodynamic performance and flow characteristics of NASA SC (2)-0714 airfoil and HH02 airfoil in the helicopter main rotor are evidently analyzed. The supercritical airfoil is used in the aircraft for attaining better transonic and high-speed flow characteristics. Moreover, a specialized helicopter airfoil called HH02 is used in the Apache helicopter rotor for increasing the operational speed. As most of the high-speed helicopters are using four-bladed main rotor configuration, it is analyzed with prior attention. The lift and thrust act in different directions for the forward phase of the flight whereas the lift and thrust act in the same direction for the other phases of flight, which is analyzed in this work. The computational analysis is done by using ANSYS Fluent whereas the rotational analysis is done by using the Multiple Reference Frame (MRF) method. An analysis is carried out for different RPM of 400,600 and 800 with the combination of 0.3, 0.4 and 0.5 Mach numbers with the assistance of grid independence test. The result shows that the NASA SC (2)-0714 rotor increases the thrust of the rotor around 5% to 10% under various rotor and forward speeds. Thus, the results proves that the supercritical airfoil is highly capable of producing higher thrust and good aerodynamic characteristics.",
+    "issued": "2022",
+    "type": "article",
+    "subject": [
+        "Airfoil",
+        "Transonic",
+        "Aerodynamics",
+        "Thrust",
+        "Aerospace engineering",
+        "Computer science",
+        "Mach number",
+        "Rotor (electric)",
+        "Aerodynamic center",
+        "Helicopter rotor",
+        "Lift (data mining)",
+        "Angle of attack",
+        "Pitching moment",
+        "Mechanical engineering",
+        "Engineering"
+    ],
+    "language": "en",
+    "uri": "https://www.techscience.com/ueditor/files/iasc/TSP_IASC-33-1/TSP_IASC_23252/TSP_IASC_23252.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.32604_iasc.2022.023252.pdf"
+}

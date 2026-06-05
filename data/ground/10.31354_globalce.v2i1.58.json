@@ -1,0 +1,35 @@
+{
+    "doi": "",
+    "title": "INTEGRATION OF THE TRANS-OPERATIVE INFORMATION WITH THE PATIENT'S ELECTRONIC RECORD",
+    "authors": [
+        "A. M. Marciano",
+        "E. K. Souza"
+    ],
+    "abstract": "This article presents an integration project between the anesthetic station used in the step of trans-operative (life signals multiparameter monitor, anesthesia device and controlled target infusion pump) and the system of hospital information. The main goal of this project is to capture in an automatic way the vital signals from the medical equipment and the records trans-operatives and provide an anesthesia record to be storage in the patient’s electronic medical record (PEMR). The integration mode is through a gateway that execute the conversion of the machine - specific language into data/information of the HL7 standard. This interaction will allow to integrate data and information from multiparametric monitors, anesthesia devices, Controlled target Infusion pumps and the intra-operative anesthesiologist inputs.",
+    "issued": "2019",
+    "type": "article",
+    "subject": [
+        "Gateway (web page)",
+        "Computer science",
+        "Medical record",
+        "Electronic medical record",
+        "Medical information",
+        "Anesthetic",
+        "Mode (computer interface)",
+        "Medical device",
+        "Database",
+        "Anesthesia",
+        "Real-time computing",
+        "Medical emergency",
+        "Medicine",
+        "Operating system",
+        "World Wide Web",
+        "Information retrieval",
+        "Surgery",
+        "Biomedical engineering"
+    ],
+    "language": "en",
+    "uri": "https://globalce.org/index.php/GlobalCE/article/download/58/28",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.31354_globalce.v2i1.58.pdf"
+}

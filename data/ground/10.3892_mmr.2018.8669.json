@@ -1,0 +1,36 @@
+{
+    "doi": "10.3892/mmr.2018.8669",
+    "title": "Upregulated plasmacytoma variant translocation 1 promotes cell proliferation, invasion and metastasis in colorectal cancer",
+    "authors": [
+        "Chaoyu Wang",
+        "Xin Zhu",
+        "Chibin Pu",
+        "Xuan Song"
+    ],
+    "abstract": "Emerging evidence indicates that the long non-coding RNA (lncRNA) plasmacytoma variant translocation 1 (PVT1) is associated with tumourigenesis in various types of cancer. However, its specific effects on the proliferation, invasion and metastasis of colorectal cancer (CRC) are still poorly understood. The present study aimed to investigate PVT1 expression in CRC and explore its role in CRC pathogenesis. The reverse transcriptase‑quantitative polymerase chain reaction (RT‑qPCR) technique was used to assess PVT1 expression in CRC cell lines. Gene Expression Omnibus (GEO) database analysis and measurement of clinical samples was used to analyse the correlation between PVT1 expression, CRC metastasis and overall survival (OS). In addition, knockdown of PVT1 expression was performed using short interfering RNA (siRNA) and RT‑qPCR, western blotting, CCK‑8 assays, tumour cell clone‑formation and Matrigel invasion assays were used to observe its biological functions in HCT116 cells. The present study demonstrated that the expression of PVT1 in CRC cell lines was higher than that in normal colon mucosal cell lines. Using GEO database analysis and the measurement of clinical samples, it was revealed that CRC patients with high PVT1 expression demonstrated poor OS. Multivariate analysis indicated that high PVT1 expression is an independent risk factor for patients with CRC. In addition, PVT1 knockdown suppressed the proliferation, invasion and metastasis of CRC cells in vitro, which were associated with decreasing vimentin, cyclin D1 and cyclin‑dependent kinase 4 expression and enhanced E‑cadherin expression. The results of the present study suggest that PVT1 may serve a critical role in CRC progression and metastasis and may serve as a potential prognostic biomarker for CRC.",
+    "issued": "2018",
+    "type": "article",
+    "subject": [
+        "PVT1",
+        "Cancer research",
+        "Biology",
+        "Gene knockdown",
+        "Metastasis",
+        "Oncogene",
+        "Cell growth",
+        "Small interfering RNA",
+        "Cell cycle",
+        "Colorectal cancer",
+        "Cancer",
+        "Long non-coding RNA",
+        "Cell culture",
+        "Downregulation and upregulation",
+        "Transfection",
+        "Gene",
+        "Genetics"
+    ],
+    "language": "en",
+    "uri": "http://www.spandidos-publications.com/10.3892/mmr.2018.8669/download",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.3892_mmr.2018.8669.pdf"
+}

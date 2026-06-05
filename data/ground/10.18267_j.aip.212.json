@@ -1,0 +1,28 @@
+{
+    "doi": "10.18267/j.aip.212",
+    "title": "Visualisation of User Stories in UML Models: A Systematic Literature Review",
+    "authors": [
+        "Mohammad Nazrul Mornie",
+        "Nurfauza Jali",
+        "Syahrul Nizam Junaini",
+        "Edwin Mit",
+        "Cheah Wai Shiang",
+        "Suhaila Saee"
+    ],
+    "abstract": "The usage of Agile methodology in software development project is growing rapidly among industry professionals and academia. Unified Modelling Language (UML) conventionally accompanied Agile software development to model the software requirements. The user story is fundamental and should be identified to communicate the basic requirements between the development team and the stakeholders before the UML model such as the use case diagram, class diagrams, and many others can be designed. However, there are several challenges associated with this process such as poorly organised user stories, natural language complexity, and high time consumption to create them. A systematic literature review (SLR) is conducted to grasp more knowledge about the utilisation of Natural Language Processing (NLP) for UML model generation. A total of 198 papers were initially found in four online databases which are Scopus, IEEE Xplore, ScienceDirect, and ACM Digital Library from the year 2018 until 2022. After removing duplicates, applying inclusion and exclusion criteria, and conducting the full-text assessment, only 20 papers are included as the primary studies. The primary studies are reviewed to discover several important pieces of information which are the challenges of designing UML models, NLP tools and techniques used to generate UML models, UML models generated, and validation methods used for measuring the accuracy of generated models. Finally, this study discusses important elements related to the UML model generation with the utilisation of NLP tools and technique.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "World Wide Web",
+        "Software engineering",
+        "Data science",
+        "Human–computer interaction",
+        "Programming language",
+        "Data mining"
+    ],
+    "language": "en",
+    "uri": "https://aip.vse.cz/doi/10.18267/j.aip.212.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.18267_j.aip.212.pdf"
+}

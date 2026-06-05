@@ -1,0 +1,34 @@
+{
+    "doi": "",
+    "title": "Mitigation of Cognitive Biases in Innovative Software Engineering Projects: A Proposal",
+    "authors": [
+        "Alberto Guerral"
+    ],
+    "abstract": "Cognitive biases are critical in software engineering (SE) affecting replanning, failures and even cancellations. This work aims to identify and mitigate cognitive biases in the management of innovative projects in SE, in a large multinational company. Using the Design Science Research (DSR) method, a (1) Systematic Literature Review (SLR) will be carried out, (2) complementary research, (3) study of technological alternatives and (4) application of an artifact in the company’s project portfolio to identify the behavior of the five most impactful biases in SE, proposing a framework with practical recommendations to eliminate them, contributing to future research in the industry.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Artifact (error)",
+        "Multinational corporation",
+        "Portfolio",
+        "Project portfolio management",
+        "Computer science",
+        "Design science research",
+        "Work (physics)",
+        "Engineering management",
+        "Software",
+        "Project management",
+        "Knowledge management",
+        "Management science",
+        "Systems engineering",
+        "Risk analysis (engineering)",
+        "Engineering",
+        "Business",
+        "Artificial intelligence",
+        "Information system"
+    ],
+    "language": "en",
+    "uri": "https://sol.sbc.org.br/index.php/cibse/article/download/35314/35104",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.5753_cibse.2025.35314.pdf"
+}

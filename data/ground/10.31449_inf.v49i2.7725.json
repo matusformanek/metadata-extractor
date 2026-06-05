@@ -1,0 +1,22 @@
+{
+    "doi": "10.31449/inf.v49i2.7725",
+    "title": "Comparative Performance of Neural Networks and Ensemble Methods for Command Classification in ALEXA Virtual Assistant",
+    "authors": [
+        "Li Li"
+    ],
+    "abstract": "Our study investigates the classification of commands for the ALEXA virtual assistant using various machine-learning models. The dataset includes 16,521 samples, and data preprocessing steps, such as vectorization and remove all stop words and punctuation, were applied before training. Decision Trees, Random Forest, Hist Gradient Boosting, AdaBoost, and Neural Networks are employed to classify textual commands into respective classes. The dataset consists of commands and their classes, transformed into feature vectors using the TF-IDF method. Our neural network architecture comprises three dense layers and two dropout layers, totaling 272,850 trainable parameters, and uses RMSprop for optimization and categorical cross-entropy as the loss function. Performance is evaluated utilizing metrics like accuracy, precision, recall, and F1 score. Results have shown that neural networks perform better in comparison to classical algorithms and outperform AdaBoost explicitly in all metrics. The comparative results between neural networks and AdaBoost in evaluation metrics are, respectively, as follows:(0.851695 / 0.620157), (0.857729 / 0.771549),(0.851695 / 0.62057) and (0.85236 / 0.639389). Therefore, deep learning will indeed provide many promises toward solving challenging NLP tasks in a virtual assistant system like Alexa. The findings provide enormous insight into effective methodologies regarding the classification of commands and further establish the relevance of neural networks within extending virtual assistant technology. Further research may consider discussing more recent neural network structures and exploring their scalability and generalizability across several domains and languages.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Artificial neural network",
+        "Artificial intelligence",
+        "Machine learning",
+        "Ensemble learning",
+        "Pattern recognition (psychology)"
+    ],
+    "language": "en",
+    "uri": "https://www.informatica.si/index.php/informatica/article/download/7725/4352",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.31449_inf.v49i2.7725.pdf"
+}

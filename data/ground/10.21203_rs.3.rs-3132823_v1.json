@@ -1,0 +1,31 @@
+{
+    "doi": "10.21203/rs.3.rs-3132823/v1",
+    "title": "Designing Transparent Piezoelectric Metasurfaces for Adaptive Optics",
+    "authors": [
+        "Fei Li",
+        "Liao Qiao",
+        "Xiangyu Gao",
+        "Kaile Ren",
+        "Chaorui Qiu",
+        "Jinfeng Liu",
+        "Haonan Jin",
+        "Shuxiang Dong",
+        "Zhuo Xu"
+    ],
+    "abstract": "Abstract Simultaneously generating various vibration modes with ultrahigh strains in a piezoelectric device is highly desired for high-technology fields to achieve multi-functionalities. However, the traditional approach for designing multi-degrees-of-freedom systems is to bond together several multilayer piezoelectric stacks, which generally leads to a cumbersome and complicated structure. Here, we proposed to achieve various types of ultrahigh strains in a wide frequency range by using a transparent piezo matasurface (PM). As an example, a PM consisting of ten pieces of transparent Pb(In 1/2 Nb 1/2 )O 3 -Pb(Mg 1/3 Nb 2/3 )O 3 -PbTiO 3 (PIMNT) single crystal units was designed and characterized. The newly designed PM can produce ultrahigh strains (ε 3 = 0.38%), and thus generate the linear motions along the X-, Y- and Z-axis, the rotary motions around the X-, Y- and Z-axis as well as the coupled motions. A PM adaptive lens with both autofocus (AF) and optical image stabilization (OIS) functions was demonstrated in the present work. The PM adaptive lens can realize a wide range of focal length (35.82 cm to ∞) and the effective image stabilization with relatively large displacements (i.e., 5.05 μm along the Y-axis) and tilt angles (i.e., 44.02′ around the Y-axis). This research may inspire miniaturization and integration for multi-degrees-of-freedom systems.",
+    "issued": "2023",
+    "type": "preprint",
+    "subject": [
+        "Piezoelectricity",
+        "Adaptive optics",
+        "Optics",
+        "Deformable mirror",
+        "Computer science",
+        "Physics",
+        "Acoustics"
+    ],
+    "language": "en",
+    "uri": "https://www.researchsquare.com/article/rs-3132823/latest.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.21203_rs.3.rs-3132823_v1.pdf"
+}

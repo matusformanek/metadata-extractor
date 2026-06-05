@@ -1,0 +1,40 @@
+{
+    "doi": "",
+    "title": "Integrating Big Data Analytics into Business Process Modelling: Possible Contributions and Challenges",
+    "authors": [
+        "Zaeem AL-Madhrahi",
+        "Dalbir Singh",
+        "Elaheh Yadegaridehkordi"
+    ],
+    "abstract": "Business Process Modelling (BPM) is a set of organised, structured, and related activities that boost the development and evolution of an organisation's success by understanding, improving, and automating existing business processes. Recently, the integration of Big Data Analytics (BDA) into BPM has widely gained more attention as a unique opportunity for organisations to enhance their efficiency, effectiveness, added value, and competitive advantage. However, some organisations still rely on old data-driven strategies and are late in integrating BDA into their BPM. This study aims to explore the possible contributions and challenges of integrating BDA into BPM. This study discovered that better decision making, embracing the organisation's performance, upgrading business process capabilities, and supporting supply chain management are the main contributions of BDA to BPM in organisations. However, poor data quality, shortage of BDA professionals, and data security and protection are the main challenges that hinder organisations from implementing BDA. This study provides valuable insights for organisations that intend to implement big data technologies in their business processes.",
+    "issued": "2022",
+    "type": "article",
+    "subject": [
+        "Big data",
+        "Business process management",
+        "Computer science",
+        "Analytics",
+        "Business process",
+        "Business intelligence",
+        "Process (computing)",
+        "Process management",
+        "Business analytics",
+        "Economic shortage",
+        "Supply chain",
+        "Artifact-centric business process model",
+        "Knowledge management",
+        "Business process modeling",
+        "Data science",
+        "Business rule",
+        "Business model",
+        "Business",
+        "Business analysis",
+        "Work in process",
+        "Data mining",
+        "Marketing"
+    ],
+    "language": "en",
+    "uri": "http://thesai.org/Downloads/Volume13No6/Paper_57-Integrating_Big_Data_Analytics_into_Business_Process_Modelling.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.14569_ijacsa.2022.0130657.pdf"
+}

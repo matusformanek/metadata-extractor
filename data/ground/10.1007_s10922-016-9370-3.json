@@ -1,0 +1,31 @@
+{
+    "doi": "10.1007/s10922-016-9370-3",
+    "title": "Effective Risk Assessment in Resilient Communication Networks",
+    "authors": [
+        "Krzysztof Rusek",
+        "Piotr Guzik",
+        "Piotr Chołda"
+    ],
+    "abstract": "The paper discusses business impact analysis in the context of resilient communication networks. It is based on the total (aggregated) penalty that may be paid by an operator when the services (identified with transport demands) provided are interrupted due to network failures. The level of penalty is expressed as a commonly accepted business risk measure, Value-at-Risk ( $$VaR$$ ). First, the main concern over $$VaR$$ , namely the theoretical lack of subadditivity, is discussed. The study shows that, in practice, disadvantages do not appear in resilient network design, and $$VaR$$ can be used without the need to apply more complex and less informative measures. Second, a method for calculating the upper bound of the total penalty is presented. The assessment is performed for unprotected and protected services with a broad variety of compensation policies used to translate technical loss to monetarily expressed penalty. The proposed bounds are experimentally shown to be effective in comparison with alternative calculation methods, and also in the case when some of the assumptions taken during the modelling stage are not met.",
+    "issued": "2016",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Risk analysis (engineering)",
+        "Operations research",
+        "Data mining",
+        "Business",
+        "Discrete mathematics",
+        "Paleontology",
+        "Engineering",
+        "Biochemistry",
+        "Mathematics",
+        "Biology",
+        "Chemistry",
+        "Artificial intelligence"
+    ],
+    "language": "en",
+    "uri": "https://link.springer.com/content/pdf/10.1007%2Fs10922-016-9370-3.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1007_s10922-016-9370-3.pdf"
+}

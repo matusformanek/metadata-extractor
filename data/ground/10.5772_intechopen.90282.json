@@ -1,0 +1,26 @@
+{
+    "doi": "10.5772/intechopen.90282",
+    "title": "Periodic Solution of Nonlinear Conservative Systems",
+    "authors": [
+        "Akuro Big‐Alabo",
+        "Chinwuba Victor Ossia"
+    ],
+    "abstract": "Conservative systems represent a large number of naturally occurring and artificially designed scientific and engineering systems. A key consideration in the theory and application of nonlinear conservative systems is the solution of the governing nonlinear ordinary differential equation. This chapter surveys the recent approximate analytical schemes for the periodic solution of nonlinear conservative systems and presents a recently proposed approximate analytical algorithm called continuous piecewise linearization method (CPLM). The advantage of the CPLM over other analytical schemes is that it combines simplicity and accuracy for strong nonlinear and large-amplitude oscillations irrespective of the complexity of the nonlinear restoring force. Hence, CPLM solutions for typical nonlinear Hamiltonian systems are presented and discussed. Also, the CPLM solution for an example of a non-Hamiltonian conservative oscillator was presented. The chapter is aimed at showcasing the potential and benefits of the CPLM as a reliable and easily implementable scheme for the periodic solution of conservative systems.",
+    "issued": "2020",
+    "type": "book-chapter",
+    "subject": [
+        "Mathematics",
+        "Applied mathematics",
+        "Mathematical optimization",
+        "Mathematical analysis",
+        "Computer science",
+        "Classical mechanics",
+        "Physics",
+        "Artificial intelligence",
+        "Quantum mechanics"
+    ],
+    "language": "en",
+    "uri": "https://www.intechopen.com/citation-pdf-url/70295",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.5772_intechopen.90282.pdf"
+}

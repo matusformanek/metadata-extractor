@@ -1,0 +1,23 @@
+{
+    "doi": "10.12921/cmst.2017.0000022",
+    "title": "Non-isothermal Activation Kinetics",
+    "authors": [
+        "Andrés Arango-Restrepo",
+        "J. Miguel Rubi"
+    ],
+    "abstract": "We analyze the activation kinetics of a system immersed in a non-isothermal bath. Using mesoscopic nonequilibrium thermodynamics, we show that activation is not only driven by the affinity but also by the temperature gradient. Both thermodynamic forces play a role in the kinetics. The presence of a thermal gradient makes the detailed balance principle not fulfilled. We show that although the law of mass action holds locally, in terms of the local temperature, it is in general not valid globally, when the local values of the activation rate and the fugacity difference are replaced by their corresponding spatial averages. We analyze numerically the deviations of that global law from the actual activation kinetics as a function of the temperature gradient and the activation energy. Our analysis shows how to control the reaction rate by means of a temperature gradient.",
+    "issued": "2017",
+    "type": "article",
+    "subject": [
+        "Kinetics",
+        "Isothermal process",
+        "Thermodynamics",
+        "Materials science",
+        "Physics",
+        "Classical mechanics"
+    ],
+    "language": "en",
+    "uri": "http://cmst.eu/wp-content/uploads/files/10.12921_cmst.2017.0000022_RUBI.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.12921_cmst.2017.0000022.pdf"
+}

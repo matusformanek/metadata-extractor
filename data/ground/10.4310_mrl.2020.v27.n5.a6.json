@@ -1,0 +1,22 @@
+{
+    "doi": "",
+    "title": "On weak Zariski decompositions and termination of flips",
+    "authors": [
+        "Christopher Hacon",
+        "Joaquí­n Moraga"
+    ],
+    "abstract": "We prove that termination of lower dimensional flips for generalized klt pairs implies termination of flips for log canonical generalized pairs with a weak Zariski decomposition. Moreover, we prove that the existence of weak Zariski decompositions for pseudo-effective generalized klt pairs implies the existence of minimal models for such pairs.",
+    "issued": "2020",
+    "type": "preprint",
+    "subject": [
+        "Mathematics",
+        "Pure mathematics",
+        "Combinatorics",
+        "Chemistry",
+        "Organic chemistry"
+    ],
+    "language": "en",
+    "uri": "https://arxiv.org/pdf/1805.01600",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex\\10.4310_mrl.2020.v27.n5.a6.pdf"
+}

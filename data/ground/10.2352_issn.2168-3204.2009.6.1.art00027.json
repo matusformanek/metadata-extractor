@@ -1,0 +1,21 @@
+{
+    "doi": "",
+    "title": "Metamorfoze Preservation Imaging Guidelines “0ne Size fits All”",
+    "authors": [
+        "Hans van Dormolen"
+    ],
+    "abstract": "Metamorfoze, the Dutch national program for the preservation of the paper heritage, started in 1997. The program is financed by the Ministry of Education, Culture and Science and is jointly coordinated by the Koninklijke Bibliotheek &#x2013; the National library of the Netherlands &#x2013; and the Dutch National Archives. The aim of the program is to preserve paper originals that are threatened by autonomous decay.This autonomous decay is caused by acidification, ink corrosion or copper corrosion. It causes the originals to discolor, become brittle and finally to disintegrate. To protect the originals, digital derivative copies are made that can replace the originals. In 2007 the draft version of the guidelines was presented. Now, at IS&amp;T Archiving 2009, the first official version of the Metamorfoze guidelines will be presented. A new aspect in this latest version is that Metamorfoze provides three different guidelines for three types of originals. We also present a methodology for calibrating cameras and scanners, using software and technical targets which may simplify the workflow and also reduce time and costs. We started to use color space eciRGBv2 and JPEG2000.",
+    "issued": "2008",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Software engineering",
+        "Political science",
+        "Database",
+        "Law"
+    ],
+    "language": "en",
+    "uri": "https://library.imaging.org/admin/apis/public/api/ist/website/downloadArticle/archiving/6/1/art00027",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex\\10.2352_issn.2168-3204.2009.6.1.art00027.pdf"
+}

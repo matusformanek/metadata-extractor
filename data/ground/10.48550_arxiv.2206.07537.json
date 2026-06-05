@@ -1,0 +1,31 @@
+{
+    "doi": "",
+    "title": "The trickle down from environmental innovation to productive complexity",
+    "authors": [
+        "Francesco de Cunzo",
+        "Alberto Petri",
+        "Andrea Zaccaria",
+        "Angelica Sbardella"
+    ],
+    "abstract": "We study the empirical relationship between green technologies and industrial production at very fine-grained levels by employing Economic Complexity techniques. Firstly, we use patent data on green technology domains as a proxy for competitive green innovation and data on exported products as a proxy for competitive industrial production. Secondly, with the aim of observing how green technological development trickles down into industrial production, we build a bipartite directed network linking single green technologies at time $t_1$ to single products at time $t_2 \\ge t_1$ on the basis of their time-lagged co-occurrences in the technological and industrial specialization profiles of countries. Thirdly we filter the links in the network by employing a maximum entropy null-model. In particular, we find that the industrial sectors most connected to green technologies are related to the processing of raw materials, which we know to be crucial for the development of clean energy innovations. Furthermore, by looking at the evolution of the network over time, we observe that more complex green technological know-how requires more time to be transmitted to industrial production, and is also linked to more complex products.",
+    "issued": "2022",
+    "type": "preprint",
+    "subject": [
+        "Proxy (statistics)",
+        "Industrial production",
+        "Industrial organization",
+        "Business",
+        "Production (economics)",
+        "Bipartite graph",
+        "Technological change",
+        "Environmental economics",
+        "Computer science",
+        "Economics",
+        "Graph",
+        "Microeconomics"
+    ],
+    "language": "en",
+    "uri": "https://arxiv.org/pdf/2206.07537",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.48550_arxiv.2206.07537.pdf"
+}

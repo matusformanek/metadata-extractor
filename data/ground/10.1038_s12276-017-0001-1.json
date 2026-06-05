@@ -1,0 +1,27 @@
+{
+    "doi": "10.1038/s12276-017-0001-1",
+    "title": "Alterations in the p53-SOCS2 axis contribute to tumor growth in colon cancer",
+    "authors": [
+        "Jong-Hwan Kim",
+        "Mi-Jin Lee",
+        "Goung‐Ran Yu",
+        "Sang‐Wook Kim",
+        "Kyu-Yun Jang",
+        "Hee‐Chul Yu",
+        "Baik-Hwan Cho",
+        "Dae‐Ghon Kim"
+    ],
+    "abstract": "Altered expression of suppressor of cytokine signaling (SOCS) is found in various tumors. However, regulation of SOCS2 by upstream molecules has yet to be clearly elucidated, particularly in tumor cells. SCOCS2 expression was examined in tumor cells transfected with an inducible p53 expression system. The impact of SOCS2 on cell proliferation was measured with in vitro assays. Inhibition of tumorigenicity by SOCS2 knockdown was assessed via a mouse model. Expression profiles were compared and genes differentially expressed were identified using four types of p53-null cells (Saos, HLK3, PC3, and H1299) and the same cells stably expressing p53. Twelve kinds of target genes were simultaneously upregulated or downregulated by p53 in three or more sets of p53-null cells. SOCS2 expression was reciprocally inhibited by inducible p53 expression in p53-null cells, even colon cancer cells. SOCS2 promoter activity was inhibited by wild type but not mutant p53. SOCS2 knockdown inhibited tumor growth in vitro and in an animal xenograph model. SOCS2 overexpression was detected in a murine model of azoxymethane/dextran sulfate sodium-induced colitis-associated colon cancer compared to mock-treated controls. SOCS2 expression was heterogeneously upregulated in some human colon cancers. Thus, SOCS2 was upregulated by p53 dysfunction and seemed to be associated with the tumorigenic potential of colon cancer.",
+    "issued": "2018",
+    "type": "article",
+    "subject": [
+        "Cancer research",
+        "Biology",
+        "Molecular biology",
+        "Genetics"
+    ],
+    "language": "en",
+    "uri": "https://www.nature.com/articles/s12276-017-0001-1.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1038_s12276-017-0001-1.pdf"
+}

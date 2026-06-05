@@ -1,0 +1,30 @@
+{
+    "doi": "10.3389/fcell.2017.00034",
+    "title": "Tetraspanins Function as Regulators of Cellular Signaling",
+    "authors": [
+        "Christina M. Termini",
+        "Jennifer M. Gillette"
+    ],
+    "abstract": "Tetraspanins are molecular scaffolds that distribute proteins into highly organized microdomains consisting of adhesion, signaling, and adaptor proteins. Many reports have identified interactions between tetraspanins and signaling molecules, finding unique downstream cellular consequences. In this review, we will explore these interactions as well as the specific cellular responses to signal activation, focusing on tetraspanin regulation of adhesion-mediated (integrins/FAK), receptor-mediated (EGFR, TNF-α, c-Met, c-Kit), and intracellular signaling (PKC, PI4K, β-catenin). Additionally, we will summarize our current understanding for how tetraspanin post-translational modifications (palmitoylation, N-linked glycosylation, and ubiquitination) can regulate signal propagation. Many of the studies outlined in this review suggest that tetraspanins offer a potential therapeutic target to modulate aberrant signal transduction pathways that directly impact a host of cellular behaviors and disease states.",
+    "issued": "2017",
+    "type": "review",
+    "subject": [
+        "Tetraspanin",
+        "Cell biology",
+        "Signal transduction",
+        "Palmitoylation",
+        "Integrin",
+        "Biology",
+        "Signal transducing adaptor protein",
+        "Cell adhesion",
+        "Function (biology)",
+        "Lipid microdomain",
+        "Cell signaling",
+        "Receptor",
+        "Cell"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fcell.2017.00034/pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.3389_fcell.2017.00034.pdf"
+}

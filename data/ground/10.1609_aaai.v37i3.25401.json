@@ -1,0 +1,28 @@
+{
+    "doi": "",
+    "title": "ROIFormer: Semantic-Aware Region of Interest Transformer for Efficient Self-Supervised Monocular Depth Estimation",
+    "authors": [
+        "Daitao Xing",
+        "Jinglin Shen",
+        "Chiuman Ho",
+        "Anthony Tzes"
+    ],
+    "abstract": "The exploration of mutual-benefit cross-domains has shown great potential toward accurate self-supervised depth estimation. In this work, we revisit feature fusion between depth and semantic information and propose an efficient local adaptive attention method for geometric aware representation enhancement. Instead of building global connections or deforming attention across the feature space without restraint, we bound the spatial interaction within a learnable region of interest. In particular, we leverage geometric cues from semantic information to learn local adaptive bounding boxes to guide unsupervised feature aggregation. The local areas preclude most irrelevant reference points from attention space, yielding more selective feature learning and faster convergence. We naturally extend the paradigm into a multi-head and hierarchic way to enable the information distillation in different semantic levels and improve the feature discriminative ability for fine-grained depth estimation. Extensive experiments on the KITTI dataset show that our proposed method establishes a new state-of-the-art in self-supervised monocular depth estimation task, demonstrating the effectiveness of our approach over former Transformer variants.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Artificial intelligence",
+        "Discriminative model",
+        "Feature learning",
+        "Leverage (statistics)",
+        "Monocular",
+        "Pattern recognition (psychology)",
+        "Feature (linguistics)",
+        "Machine learning"
+    ],
+    "language": "en",
+    "uri": "https://ojs.aaai.org/index.php/AAAI/article/download/25401/25173",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.1609_aaai.v37i3.25401.pdf"
+}

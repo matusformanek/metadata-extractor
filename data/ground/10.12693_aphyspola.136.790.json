@@ -1,0 +1,40 @@
+{
+    "doi": "10.12693/aphyspola.136.790",
+    "title": "Microwave Limiters Implemented by Coupled Dielectric Resonators Based on a Topological Defect Mode and CT-Symmetry Breaking",
+    "authors": [
+        "M. Reisner",
+        "F. Mortessagne",
+        "E. Makri",
+        "T. Kottos",
+        "U. Kuhl"
+    ],
+    "abstract": "We present a microwave realization of a reflective topological limiter based on an explicit self-induced violation of a charge-conjugation (CT ) symmetry. The starting point is a bipartite structure created by coupled dielectric resonators with a topological defect placed at the center and two lossy resonators placed on the neighboring sites of the defect. This defect supports a resonant mode if the CT -symmetry is present, while it is suppressed once the symmetry is violated due to permittivity changes of the defect resonator associated with high irradiances of the incident radiation. This destruction leads to a suppression of transmittance and a subsequent increase of the reflectance while the absorption is also suppressed.",
+    "issued": "2019",
+    "type": "preprint",
+    "subject": [
+        "Resonator",
+        "Dielectric",
+        "Topology (electrical circuits)",
+        "Microwave",
+        "Symmetry (geometry)",
+        "Realization (probability)",
+        "Transmittance",
+        "Optics",
+        "Physics",
+        "Materials science",
+        "Optoelectronics",
+        "Symmetry breaking",
+        "Coupling (piping)",
+        "Permittivity",
+        "Lossy compression",
+        "Quantum mechanics",
+        "Engineering",
+        "Geometry",
+        "Computer science",
+        "Electrical engineering"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.12693/aphyspola.136.790",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.12693_aphyspola.136.790.pdf"
+}

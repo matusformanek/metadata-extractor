@@ -1,0 +1,30 @@
+{
+    "doi": "10.15439/2018f131",
+    "title": "Generation of Synthetic Business Process Traces using Constraint Programming",
+    "authors": [
+        "Piotr Wiśniewski",
+        "Krzysztof Kluza",
+        "Antoni Ligęza",
+        "Anna Suchenia"
+    ],
+    "abstract": "Juxtapositioning manually created business process models with diagrams generated using process discovery algorithms exposes high complexity of the latter. As a consequence, their formal verification requires significant computational resources due to a large state space. Nevertheless, an analysis of the generated model is needed to assure its correctness and the ability to represent source data. As a solution to this problem, we present an approach for constraint-based generation of a complete workflow log for a given BPMN model. In this paper, we propose a method to extract directed subgraphs representing token flows in the process together with a set of predefined constraints. Likewise, in the case of process simulation, these constraints ensure the correctness of the generated traces. Ultimately, the obtained results can be compared to the original workflow log used for process discovery in order to verify the obtained model.",
+    "issued": "2018",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Programming language",
+        "Constraint programming",
+        "Process (computing)",
+        "Business process",
+        "Constraint (computer-aided design)",
+        "Software engineering",
+        "Work in process",
+        "Mathematical optimization",
+        "Mathematics",
+        "Engineering"
+    ],
+    "language": "en",
+    "uri": "https://annals-csis.org/proceedings/2018/drp/pdf/131.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.15439_2018f131.pdf"
+}

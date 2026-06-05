@@ -1,0 +1,26 @@
+{
+    "doi": "",
+    "title": "Large Language Models Assisting Ontology Evaluation",
+    "authors": [
+        "Anna Sofia Lippolis",
+        "Mohammad Javad Saeedizade",
+        "Robin Keskisärkkä",
+        "Aldo Gangemi",
+        "Eva Blomqvist",
+        "Andrea Giovanni Nuzzolese"
+    ],
+    "abstract": "",
+    "issued": "2025",
+    "type": "book-chapter",
+    "subject": [
+        "Computer science",
+        "Information retrieval",
+        "Natural language processing",
+        "Software engineering",
+        "Artificial intelligence"
+    ],
+    "language": "en",
+    "uri": "https://arxiv.org/pdf/2507.14552",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex\\10.1007_978-3-032-09527-5_27.pdf"
+}

@@ -1,0 +1,28 @@
+{
+    "doi": "10.1038/s41598-018-27063-3",
+    "title": "NMR studies of excluded volume interactions in peptide dendrimers",
+    "authors": [
+        "Nadezhda N. Sheveleva",
+        "Denis A. Markelov",
+        "Mikhail A. Vovk",
+        "Maria E. Mikhailova",
+        "Irina I. Tarasenko",
+        "Igor M. Neelov",
+        "Erkki Lähderanta"
+    ],
+    "abstract": "Peptide dendrimers are good candidates for diverse biomedical applications due to their biocompatibility and low toxicity. The local orientational mobility of groups with different radial localization inside dendrimers is important characteristic for drug and gene delivery, synthesis of nanoparticles, and other specific purposes. In this paper we focus on the validation of two theoretical assumptions for dendrimers: (i) independence of NMR relaxations on excluded volume effects and (ii) similarity of mobilities of side and terminal segments of dendrimers. For this purpose we study <sup>1</sup>H NMR spin-lattice relaxation time, T<sub>1H</sub>, of two similar peptide dendrimers of the second generation, with and without side fragments in their inner segments. Temperature dependences of 1/T<sub>1H</sub> in the temperature range from 283 to 343 K were measured for inner and terminal groups of the dendrimers dissolved in deuterated water. We have shown that the 1/T<sub>1H</sub> temperature dependences of inner groups for both dendrimers (with and without side fragments) practically coincide despite different densities of atoms inside these dendrimers. This result confirms the first theoretical assumption. The second assumption is confirmed by the 1/T<sub>1H</sub> temperature dependences of terminal groups which are similar for both dendrimers.",
+    "issued": "2018",
+    "type": "article",
+    "subject": [
+        "Chemistry",
+        "Materials science",
+        "Chemical physics",
+        "Nanotechnology",
+        "Polymer chemistry",
+        "Biochemistry"
+    ],
+    "language": "en",
+    "uri": "https://www.nature.com/articles/s41598-018-27063-3.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1038_s41598-018-27063-3.pdf"
+}

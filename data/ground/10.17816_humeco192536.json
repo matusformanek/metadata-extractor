@@ -1,0 +1,23 @@
+{
+    "doi": "10.17816/humeco192536",
+    "title": "Влияние кратковременного воздействия спелеотерапии на соотношение ритмов электроэнцефалограммы здорового человека",
+    "authors": [
+        "Vera A. Semiletova",
+        "Eugene V. Dorohov",
+        "Yaroslava V. Bulgakova"
+    ],
+    "abstract": "BACKGROUND: Speleotherapy is a non-drug therapeutic approach that involves spending time in underground caves or mines with health promotion purpose. However, adaptation mechanisms of the human body and the effects of speleotherapy in healthy brain remain largely unknown. AIM: To study changes in the functional state of the brain of a healthy person in terms of EEG activity parameters under the speleotherapy exposure. MATERIALS AND METODS: The study involved a group of 25 student volunteers who were informed about the studys purpose, agreed to participate in the experiment and sighen the informed consent. In the experimental group, EEG registration was carried out before and after a 2-hour speleotherapeutic exposure using the Encephalan-EEGR-19/26 electroencephalograph-recorder. In the control group, EEG was taken before and after a 2-hour rest in a switched off speleological chamber. EEG rhythm ratio indices were calculated as ratios of the power of alpha/theta, alpha/beta1, and (theta + alpha)/beta1 rthythms. Data analysis was carried out using MS Excel and IBM SPSS Statistics v. 26.0 software. RESULTS: Significant changes in the EEG alpha/theta index in P4, T6 and O2 leads were observed in the experimental group, but not in the control group. The alpha/theta index appeared to be the most sensitive to speleotherapy. No other significant differences between the groups were found. CONCLUSION: There were no significant differences in the alpha/beta1 and (theta + alpha)/beta1 indices in the subjects undergoing the speleotherapy procedure, while there were significant changes in these indices in O2 derivation in the control group. The alpha/theta index is the most sensitive indicator for assessing the effect of speleotherapy on the healthy human brain.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Neuroscience",
+        "Medicine",
+        "Psychology",
+        "Physics",
+        "Quantum mechanics"
+    ],
+    "language": "ru",
+    "uri": "https://hum-ecol.ru/1728-0869/article/download/192536/133072",
+    "rights.uri": "cc-by-nc-nd",
+    "_local.pdf_path": "pdf_openalex\\10.17816_humeco192536.pdf"
+}

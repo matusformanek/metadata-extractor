@@ -1,0 +1,22 @@
+{
+    "doi": "10.14445/22315381/ijett-v74i3p105",
+    "title": "Severity Detection of Cyberbullying in Saudi-Dialect Tweets: A Machine-Learning Approach",
+    "authors": [
+        "Bader Azi Alanazi",
+        "Chin-Teng Lin"
+    ],
+    "abstract": "Social media platforms such as Twitter (known as X) have become channels for global communication, but have also led to an increase in cyberbullying, which carries serious psychological risks. Although much existing research has focused on detecting cyberbullying in English, there is an apparent lack of studies addressing this issue in Arabic, particularly for severity classification. This study aims to evaluate machine learning classifiers trained on balanced, pre-processed Saudi dialect data for four-level cyberbullying severity detection (non-cyberbullying, low, medium, and high) and to assess the impact of systematic class balancing on minority class performance. The study applied Support Vector Machine (SVM) and Naïve Bayes (NB) classifiers, using Bag-of-Words (BoW) and Term Frequency-Inverse Document Frequency (TF-IDF) for feature extraction. A dataset of 5,819 Saudi-dialect tweets was annotated into four severity categories and evaluated across 28 experimental scenarios combining different pre-processing tools (CAMeL, NLTK, Araby) and balancing techniques (random insertion, random oversampling, synonym replacement). The highest accuracy of 92.23% was achieved using BoW+SVM with NLTK pre-processing and stop word removal, representing a 27.43% absolute improvement over the imbalanced baseline of 64.80% accuracy. Random oversampling proved to be the most effective, accounting for 96-99% of the performance gains. Per-class F1-scores ranged from 0.88 (low severity) to 0.95 (high severity and non-cyberbullying), providing further evidence of the importance of balanced training data for achieving reliable performance across all severity levels. To the best of the authors’ knowledge, this is the first study to implement four-class cyberbullying severity detection for Saudi dialect tweets.",
+    "issued": "2026",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Machine learning",
+        "Artificial intelligence",
+        "Natural language processing",
+        "Data mining"
+    ],
+    "language": "en",
+    "uri": "https://ijettjournal.org/Volume-74/Issue-3/IJETT-V74I3P105.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex\\10.14445_22315381_ijett-v74i3p105.pdf"
+}

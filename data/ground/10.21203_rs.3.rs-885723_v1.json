@@ -1,0 +1,35 @@
+{
+    "doi": "10.21203/rs.3.rs-885723/v1",
+    "title": "Development and Validation of a Simple-to-Use Nomogram to Predict 3-Year Recurrence rate of Ovarian Cancer",
+    "authors": [
+        "Yaduan Lin",
+        "Shuo Zhu",
+        "Fanchen He",
+        "Jiachun Wei",
+        "Lu Han",
+        "Chenlingzi Huang",
+        "Shanrong Shu"
+    ],
+    "abstract": "Abstract Objective : To establish a reliable nomogram model to predict the recurrence rate of ovarian cancer after surgery. Methods: We retrospectively reviewed 216 patients diagnosed with ovarian cancer in our hospital, of which 164 cases were considered valid. Logistic regression model was used to analyze the possible predictors. After that, a nomogram model based on those significantly related predictors was established. We used the bootstrap to internally validate the predictive ability of the nomogram model and used the decision curve analysis (DCA) to compare the performance of the FIGO stage with this model. Results: The nomogram included seven significant recurrence predictors: age, histology type, FIGO stage, omentum involvement, lymphovascular space invasion (LVSI), liver metastasis, and serum CA125. The measurement values for accuracy were Brier score 0.131, correction slope 1.00, and c-index 0.870. which demonstrated this model had a good predictive ability. Compared with the FIGO stage, this hybrid model is more superior in predicting recurrence risk in ovarian cancer patients. Conclusions: We developed and validated a non-invasion and user-friendly nomogram model to predict the recurrence risk of patients with ovarian cancer after surgery.",
+    "issued": "2021",
+    "type": "preprint",
+    "subject": [
+        "Nomogram",
+        "Medicine",
+        "Stage (stratigraphy)",
+        "Logistic regression",
+        "Ovarian cancer",
+        "Lymphovascular invasion",
+        "Brier score",
+        "Oncology",
+        "Internal medicine",
+        "Cancer",
+        "Metastasis",
+        "Statistics",
+        "Mathematics"
+    ],
+    "language": "en",
+    "uri": "https://www.researchsquare.com/article/rs-885723/latest.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.21203_rs.3.rs-885723_v1.pdf"
+}

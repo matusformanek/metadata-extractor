@@ -1,0 +1,31 @@
+{
+    "doi": "10.1021/acs.jpcc.2c08217",
+    "title": "Role of Anions in Stabilizing the [Zn–Al] Layered Double Hydroxides: A Thermodynamic Study",
+    "authors": [
+        "K. Jayanthi",
+        "Grace Neilsen",
+        "Alexis Gibson",
+        "Alexandra Navrotsky",
+        "Brian F. Woodfield"
+    ],
+    "abstract": "Room-temperature acid solution calorimetry, high-temperature oxide melt solution calorimetry, and low-temperature heat capacity measurements were employed to calculate the thermodynamic stabilities of the [Zn–Al–X] layered double hydroxides (LDH) containing different anions (X = Cl–, CO32–, and SO42–). Cryogenic heat capacity measurements demonstrated a Schottky-type anomaly in the heat capacity of all three LDHs below 11 K. This anomaly is attributed to the tunneling of protons between adjacent oxygen atoms in the LDH interlayer as this creates an energy system similar to a two-level system modeled with a Schottky term. These heat capacity measurements were also used to determine vibrational entropies which, when combined with configurational entropies, provide standard entropies of these LDHs. Enthalpies of formation of LDHs from binary components were determined and combined with the entropies of formation to calculate Gibbs free energies. Based on these values, the order of stability is [Zn–Al–SO4] > [Zn–Al–CO3] > [Zn–Al–Cl]. This trend results from a combination of the interlayer spacing, amount of water in the interlayer, interactions among the interlayer species, and interactions between the metal hydroxide layer and the interlayer.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Heat capacity",
+        "Calorimetry",
+        "Hydroxide",
+        "Standard enthalpy of formation",
+        "Oxide",
+        "Layered double hydroxides",
+        "Gibbs free energy",
+        "Chemistry",
+        "Inorganic chemistry",
+        "Thermodynamics",
+        "Physical chemistry"
+    ],
+    "language": "en",
+    "uri": "https://www.osti.gov/servlets/purl/1959588",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.1021_acs.jpcc.2c08217.pdf"
+}

@@ -1,0 +1,34 @@
+{
+    "doi": "10.1051/swsc/2020078",
+    "title": "The first light of the Solar Activity MOF Monitor Telescope (SAMM)",
+    "authors": [
+        "Roberto Speziali",
+        "Andrea Di Paola",
+        "Mauro Centrone",
+        "Maurizio Oliviero",
+        "Domenico Bonaccini Calia",
+        "Luciano Dal Sasso",
+        "Marco Faccini",
+        "Vincenzo Mauriello",
+        "Luciano Terranegra"
+    ],
+    "abstract": "SAMM (Solar Activity MOF Monitor) is a ground based robotic instrument that has been developed to study and constantly monitor the magnetic activity of the Sun, focusing on Active Regions (ARs). These regions are characterized by complex magnetic structures that may result in explosive events usually associated with large amount of particle and matter ejections in the space environment. When interacting with the Earth magnetosphere they can represent a threat for our infrastructures both in space (satellites, navigation systems) and on the ground (power plants and electrical grids). Based on Sodium (Na) and Potassium (K) magneto optical filters (MOFs), SAMM provides a “tomographic” view of the magnetic structures delivering high cadence magnetograms and dopplergrams at different heights of the solar atmosphere thus providing a unique dataset with the aim to push forward the current space weather forecasting capabilities. Being able to forecast these events enough in advance (even few hours) is a fundamental task to put in place mitigation strategies to reduce the potential catastrophic impact on vital infrastructures on earth. In this scenario the SAMM observatory has been realized to be a “node” that can be replicated in a world-wide network with the aim to give a continuous coverage of the Sun situation. This project has been initially funded by the Italian Ministry of Economic Development (MiSE) in 2015 through a soft loan grant and its development and operation is carried on within a scientific collaboration between the INAF – Rome and Naples Astronomical Observatories and the Italian small enterprise (SME) Avalon Instruments. After three years of development, SAMM is in the commissioning phase. In this paper we are presenting a final instrument description along with the first light images.",
+    "issued": "2021",
+    "type": "article",
+    "subject": [
+        "Remote sensing",
+        "Meteorology",
+        "Physics",
+        "Systems engineering",
+        "Aerospace engineering",
+        "Environmental science",
+        "Astronomy",
+        "Geography",
+        "Engineering",
+        "Quantum mechanics"
+    ],
+    "language": "en",
+    "uri": "https://www.swsc-journal.org/articles/swsc/pdf/2021/01/swsc200068.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1051_swsc_2020078.pdf"
+}

@@ -1,0 +1,27 @@
+{
+    "doi": "10.1371/journal.pone.0157810",
+    "title": "Adaptive Epigenetic Differentiation between Upland and Lowland Rice Ecotypes Revealed by Methylation-Sensitive Amplified Polymorphism",
+    "authors": [
+        "Hui Xia",
+        "Weixia Huang",
+        "Jie Xiong",
+        "Tao Tao",
+        "Xiaoguo Zheng",
+        "Haibin Wei",
+        "Yunxia Yue",
+        "Liang Chen",
+        "Lijun Luo"
+    ],
+    "abstract": "The stress-induced epimutations could be inherited over generations and play important roles in plant adaption to stressful environments. Upland rice has been domesticated in water-limited environments for thousands of years and accumulated drought-induced epimutations of DNA methylation, making it epigenetically differentiated from lowland rice. To study the epigenetic differentiation between upland and lowland rice ecotypes on their drought-resistances, the epigenetic variation was investigated in 180 rice landraces under both normal and osmotic conditions via methylation-sensitive amplified polymorphism (MSAP) technique. Great alterations (52.9~54.3% of total individual-locus combinations) of DNA methylation are recorded when rice encountering the osmotic stress. Although the general level of epigenetic differentiation was very low, considerable level of ΦST (0.134~0.187) was detected on the highly divergent epiloci (HDE). The HDE detected in normal condition tended to stay at low levels in upland rice, particularly the ones de-methylated in responses to osmotic stress. Three out of four selected HDE genes differentially expressed between upland and lowland rice under normal or stressed conditions. Moreover, once a gene at HDE was up-/down-regulated in responses to the osmotic stress, its expression under the normal condition was higher/lower in upland rice. This result suggested expressions of genes at the HDE in upland rice might be more adaptive to the osmotic stress. The epigenetic divergence and its influence on the gene expression should contribute to the higher drought-resistance in upland rice as it is domesticated in the water-limited environment.",
+    "issued": "2016",
+    "type": "article",
+    "subject": [
+        "Biology",
+        "Genetics",
+        "Botany"
+    ],
+    "language": "en",
+    "uri": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0157810&type=printable",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1371_journal.pone.0157810.pdf"
+}

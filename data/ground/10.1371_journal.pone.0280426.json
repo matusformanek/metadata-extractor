@@ -1,0 +1,38 @@
+{
+    "doi": "10.1371/journal.pone.0280426",
+    "title": "Filtration performance, fit test and side effects of respiratory personal protective equipment following decontamination: Observations for user safety and comfort",
+    "authors": [
+        "Nathalie Turgeon",
+        "Melissa M. Page",
+        "Justin Robillard",
+        "V. Goulet",
+        "Ali Bahloul",
+        "Clothilde Brochot",
+        "Mohamed Nejib Saidi",
+        "Nathan Dumont-Leblond",
+        "Caroline Duchaine"
+    ],
+    "abstract": "OBJECTIVE: While facing personal protective equipment (PPE) shortages during the COVID-19 pandemic, several institutions looked to PPE decontamination and reuse options. This study documents the effect of two hydrogen peroxide treatments on filtration efficiency and fit tests as well as the side effects for volunteers after the decontamination of N95 filtering facepiece respirators (FFRs). We also propose an efficient and large-scale treatment protocol that allows for the traceability of this protective equipment in hospitals during PPE shortages. METHODS: The effects of low-temperature hydrogen peroxide sterilization and hydrogen peroxide vapor (HPV) on two FFR models (filtration, decontamination level, residual emanation) were evaluated. Ten volunteers reported comfort issues and side effects after wearing 1h FFRs worn and decontaminated up to five times. RESULTS: The decontamination process does not negatively affect FFR efficiency, but repeated use and handling tend to lead to damage, limiting the number of times FFRs can be reused. Moreover, the recommended 24-h post-treatment aeration does not sufficiently eliminate residual hydrogen peroxide. Prolonged aeration time increased user comfort when using decontaminated FFRs. CONCLUSIONS: HPV and low-temperature hydrogen peroxide sterilization seem to be appropriate treatments for FFR decontamination when the PPE is reused by the same user. PPE decontamination and reuse methods should be carefully considered as they are critical for the comfort and safety of healthcare workers.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Human decontamination",
+        "Personal protective equipment",
+        "Respirator",
+        "Hydrogen peroxide",
+        "Reuse",
+        "Sterilization (economics)",
+        "Medicine",
+        "Waste management",
+        "Environmental science",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Materials science",
+        "Chemistry",
+        "Business",
+        "Engineering"
+    ],
+    "language": "en",
+    "uri": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0280426&type=printable",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.1371_journal.pone.0280426.pdf"
+}

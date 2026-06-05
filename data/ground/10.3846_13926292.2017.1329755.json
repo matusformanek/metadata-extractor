@@ -1,0 +1,29 @@
+{
+    "doi": "10.3846/13926292.2017.1329755",
+    "title": "Correction: FRACTIONAL ORDER BARBALAT’S LEMMA AND ITS APPLICATIONS IN THE STABILITY OF FRACTIONAL ORDER NONLINEAR SYSTEMS",
+    "authors": [
+        "Fei Wang",
+        "Yongqing Yang"
+    ],
+    "abstract": "This paper investigates fractional order Barbalat’s lemma and its applications for the stability of fractional order nonlinear systems with Caputo fractional derivative at first. Then, based on the relationship between Caputo fractional derivative and Riemann-Liouville fractional derivative, fractional order Barbalat’s lemma with Riemann-Liouville derivative is derived. Furthermore, according to these results, a set of new formulations of Lyapunov-like lemmas for fractional order nonlinear systems are established. Finally, an example is presented to verify the theoretical results in this paper.",
+    "issued": "2017",
+    "type": "article",
+    "subject": [
+        "Mathematics",
+        "Applied mathematics",
+        "Mathematical analysis",
+        "Computer science",
+        "Physics",
+        "Financial economics",
+        "Biology",
+        "Economics",
+        "Ecology",
+        "Machine learning",
+        "Quantum mechanics",
+        "Finance"
+    ],
+    "language": "en",
+    "uri": "https://journals.vgtu.lt/index.php/MMA/article/download/909/690",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.3846_13926292.2017.1329755.pdf"
+}

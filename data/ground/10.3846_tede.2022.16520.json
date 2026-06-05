@@ -1,0 +1,27 @@
+{
+    "doi": "10.3846/tede.2022.16520",
+    "title": "ENABLING TECHNOLOGIES CHALLENGES OF GREEN INTERNET OF THINGS (IOT) TOWARDS SUSTAINABLE DEVELOPMENT IN THE ERA OF INDUSTRY 4.0",
+    "authors": [
+        "Lei Liu",
+        "Arunodaya Raj Mishra"
+    ],
+    "abstract": "The extensive adoption of the Internet of Things (IoT) has increased the carbon footprint on a large scale across the globe. To handle this challenge, scholars and policymakers are making efforts to propose novel energy-efficient solutions to provide a desirable environment for green-IoT (G-IoT). Additionally, further research is required to analyze the G-IoT-related challenges to elucidate the difficulties of its implementation for researchers. Moreover, the GIoT requirements have been considered in different network levels, namely software, hardware, architecture, communication. To present a comprehensive framework to identify the challenges of G-IoT, a survey using literature review and expert’s opinion is carried. Total 23 challenges are taken to evaluate and implement G-IoT technologies towards sustainable development achievements (SDA). Consequently, this article aims to rank and evaluate the challenges to implement the G-IoT towards the SDA. An integrated approach is proposed with stepwise weight assessment ratio analysis (SWARA) and additive ratio assessment (ARAS) under Pythagorean fuzzy sets. As a result, an machine-to-machine (M2M) standardization protocol with a weight value of 0.0508 has the first rank, followed by adaptation to natural energy sources with a weight value of 0.0479, information security and privacy protection with a weight value of 0.0469, and internet protocol version-6 (IPv6) for low-end devices with weight 0.0467. To validate the proposed method, sensitivity analysis and comparison using existing methods have been conducted.",
+    "issued": "2022",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Standardization",
+        "Internet of Things",
+        "Protocol (science)",
+        "Analytic hierarchy process",
+        "Cloud computing",
+        "Computer security",
+        "Operations research",
+        "Engineering",
+        "Operating system"
+    ],
+    "language": "en",
+    "uri": "https://journals.vilniustech.lt/index.php/TEDE/article/download/16520/11075",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.3846_tede.2022.16520.pdf"
+}

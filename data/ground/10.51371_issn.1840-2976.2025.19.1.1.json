@@ -1,0 +1,22 @@
+{
+    "doi": "10.51371/issn.1840-2976.2025.19.1.1",
+    "title": "MASimplified: A User-Friendly Web-Based Tool for Conducting Pairwise Meta-Analysis and Visualization Using R-Shiny and Metafor R Packages",
+    "authors": [
+        "Armin H. Paravlić"
+    ],
+    "abstract": "Background: A meta-analysis is a fundamental method for synthesizing evidence across studies comparing two or more interventions, playing a pivotal role in healthcare decision-making and evidence-based research. While essential, existing software tools often require programming expertise, they are not cost-free, limiting accessibility for many researchers and clinicians.Purpose: To present a MASimplified, a user-friendly web application designed for conducting a pairwise meta-analysis. The tool enables researchers with no programming background to conduct analyses via an intuitive point-and-click interface, generate publication-ready visualizations, and interpret results in real time. Leveraging R’s meta and metafor packages for statistical computations and the Shiny framework for interface development, the MASimplified was built as a freely accessible web app. The platform requires only a standard internet browser, eliminating installation barriers. Key features include conducting a pairwise meta-analysis, subgroup analysis, automated forest plots, funnel plots, risk-of-bias assessments and conducting a meta-regression analysis.Conclusions: MASimplified successfully streamlines the entire pairwise meta-analysis workflow, from data input to result interpretation. An illustrative example (detailed in the current manuscript) demonstrates its functionality, showcasing outputs such as pooled effect estimates, heterogeneity metrics, meta-regression analysis and visualizations. The app is publicly available at https://arminparavlic.shinyapps.io/MASimplified/. MASimplified empowers non-specialists to conduct rigorous pairwise meta-analyses, enhancing the transparency and clinical relevance of evidence synthesis. By bridging the gap between advanced statistical methods and user-friendly implementation, the tool strengthens capacity for informed decision-making in research and practice. We hope this initiative inspires further development of accessible tools using open-source technologies like Shiny, fostering broader engagement with specialized analytic methods.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Visualization",
+        "Pairwise comparison",
+        "Web application",
+        "Computer science",
+        "World Wide Web",
+        "Artificial intelligence"
+    ],
+    "language": "en",
+    "uri": "https://akinesiologica.com/ojs_3.3.0-7/index.php/akinesiologica/article/download/419/117",
+    "rights.uri": "other-oa",
+    "_local.pdf_path": "pdf_openalex/10.51371_issn.1840-2976.2025.19.1.1.pdf"
+}

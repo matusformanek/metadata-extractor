@@ -1,0 +1,26 @@
+{
+    "doi": "10.11591/csit.v2i3.p103-112",
+    "title": "Hancitor malware recognition using swarm intelligent technique",
+    "authors": [
+        "Laheeb Ibrahim",
+        "Maisirreem Atheeed Kamal",
+        "AbdulSattar A. Al-Alusi"
+    ],
+    "abstract": "Malware is a global risk rife designed to destroy computer systems without the owner's knowledge. It is still regarded as the most popular threat that attacks computer systems. Early recognition of unknown malware remains a problem. Swarm Intelligence (SI), usually customer societies, communicate locally with their domain and with each other. Clients use very simple rules of behavior and the interactions between them lead to smart appearance, noticeable, individual behavior and optimized solution of problem and SI has been successfully applied in many fields, especially for malware ion tasks. SI also saves a considerable amount of time and enhances the precision of the malware recognition system. This paper introduces a malware recognition system for Hancitor malware using the Gray Wolf Optimization algorithm (GWO) and Artificial Bee Colony algorithm (ABC), which can effectively recognize Hancitor in networks.",
+    "issued": "2020",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer security",
+        "Mathematics",
+        "Mathematical analysis",
+        "Philosophy",
+        "Epistemology"
+    ],
+    "language": "en",
+    "uri": "http://iaesprime.com/index.php/csit/article/download/146/50",
+    "rights.uri": "cc-by-sa",
+    "_local.pdf_path": "pdf_openalex\\10.11591_csit.v2i3.p103-112.pdf"
+}

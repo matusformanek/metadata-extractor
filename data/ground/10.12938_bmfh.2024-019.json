@@ -1,0 +1,23 @@
+{
+    "doi": "10.12938/bmfh.2024-019",
+    "title": "α-Lipoic acid increases phagocytosis of some lactic acid bacteria via modulation of CD36 expression",
+    "authors": [
+        "Naoto Nomura",
+        "Nobuo MIYADAI",
+        "Ichiro Kawase"
+    ],
+    "abstract": "Phagocytosis by immunocompetent cells is a key role in the biological defense mechanism and is the starting point of the reaction that leads from innate to acquired immunity. Several studies have demonstrated that some lactic acid bacteria strains activate the innate and acquired immune systems of the host. However, further investigation of the mechanism and improvement of usefulness is needed because the effect differs depending on the type and strain of lactic acid bacteria. In this study, we focused on the phagocytosis to lactic acid bacteria and investigated changes in phagocytic activity <i>in vitro</i> using several species of lactic acid bacteria and α-lipoic acid, which was expected to enhance phagocytosis. As a result, we found that α-lipoic acid treatment increased phagocytosis in several lactic acid bacteria. Strains of lactic acid bacteria with increased phagocytosis were found to have decreased CD36 expression when lactic acid bacteria alone were used, and CD36 expression was restored when α-lipoic acid was used in combination, indicating a correlation between increased phagocytosis and CD36 expression. Furthermore, the combination of <i>Lactococcus lactis</i> subsp. <i>hordniae</i> NBRC 100931 and α-lipoic acid increased phagocytosis over time and enhanced IgA production. These results suggest that the combination of α-lipoic acid and lactic acid bacteria increases the phagocytosis capacity of immunocompetent cells and may enhance the immunostimulatory effects of lactic acid bacteria.",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Chemistry",
+        "Microbiology",
+        "Biochemistry",
+        "Biology",
+        "Genetics"
+    ],
+    "language": "en",
+    "uri": "https://www.jstage.jst.go.jp/article/bmfh/44/1/44_2024-019/_pdf",
+    "rights.uri": "cc-by-nc-nd",
+    "_local.pdf_path": "pdf_openalex\\10.12938_bmfh.2024-019.pdf"
+}

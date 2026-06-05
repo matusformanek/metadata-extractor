@@ -1,0 +1,21 @@
+{
+    "doi": "",
+    "title": "A Survey of Text Generation Models",
+    "authors": [
+        "Mayuresh Muley",
+        "Pruthav Sanwatsarkar",
+        "Vrushali Kulkarni"
+    ],
+    "abstract": "Natural language processing (NLP)is a field of linguistics and computer science which focuses on the interaction of humans and computers. The main aim of natural language processing is to make sure that a computer can understand what a human says and possibly get key insights from the auditory data.",
+    "issued": "2022",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Data science",
+        "Information retrieval"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.5120/ijca2022922247",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex\\10.5120_ijca2022922247.pdf"
+}

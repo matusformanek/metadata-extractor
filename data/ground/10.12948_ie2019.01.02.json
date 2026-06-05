@@ -1,0 +1,35 @@
+{
+    "doi": "10.12948/ie2019.01.02",
+    "title": "FIXED-POINT ANALYSIS OF MOBILENETS ON KEYWORD SPOTTING",
+    "authors": [
+        "Andrei-Marius AVRAM",
+        "Mihai Coca",
+        "Ştefan-Ciprian Arseni"
+    ],
+    "abstract": "Automatic recognition of speech is a typical set of rules in the world of machine learning (ML). Due to the Internet of Things (IoT) markets forecasts, ML applications are moving from the Cloud to the nodes. Considering the need for near real-time response in IoT systems, one of the before mentioned ML applications is the Keyword Spotting (KWS) system, an intelligent assistant which can recognize different keywords pronounced by a user. These systems are now implemented on embedded devices which imply some limitations in terms of memory and computational power. Due to these limitations, quantifying the weights of a neural network, used by a KWS system, has become an important area of research. This paper analyses the possibility of diminishing the processing latency with respect to the amount of memory used by a lightweight neuronal network, through the quantization of its weights in fixed-point representation. The quantization is routed to the network at different levels, from 12 to 28 bits, gaining 20-bit accuracy stabilization. As a result, the memory footprint for 20bit quantization level is reduced by 37% than the standard floating-point representation of the weights, while the loss in accuracy is only 0.004%.",
+    "issued": "2019",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Keyword spotting",
+        "Quantization (signal processing)",
+        "Memory footprint",
+        "Artificial neural network",
+        "Latency (audio)",
+        "Internet of Things",
+        "Representation (politics)",
+        "Artificial intelligence",
+        "Computer engineering",
+        "Real-time computing",
+        "Machine learning",
+        "Speech recognition",
+        "Embedded system",
+        "Algorithm",
+        "Telecommunications",
+        "Operating system"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.12948/ie2019.01.02",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.12948_ie2019.01.02.pdf"
+}

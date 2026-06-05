@@ -1,0 +1,32 @@
+{
+    "doi": "10.53730/ijhs.v6ns5.9406",
+    "title": "Drone based contactless disinfectant spraying system",
+    "authors": [
+        "Priyanaka",
+        "R. Ramaraji",
+        "Sundaram Shanmuga K"
+    ],
+    "abstract": "The recent pneumonia spread brought about by a novel corona virus (COVID-19) in china is representing an incredible risk and proclaimed a worldwide emergency of public health. It has spread to the world and infected people with COVID-19 disease. In addition to the absence of explicit treatment as well as vaccine, COVID-19 are currently known to reveal a noteworthy environmental resistance. The transmission of virus was found to be spread through human –to –human that make it easily diffused. The transmission comes from the droplets of infected when sneezing or coughing. These droplets can survive on the inanimate surface even in air and transmitted the virus to human. The aim of our project is to design and develop an antiseptic disinfection spraying system has ability to disinfect large scale area with less time consuming and minimal human interactions. The range of drone is 100m and speed 8m/s then flight time is 15 min. It additionally proposes detail of the range of antiseptic –disinfectant and denaturation that have been used in this operation.",
+    "issued": "2022",
+    "type": "article",
+    "subject": [
+        "Disinfectant",
+        "Transmission (telecommunications)",
+        "Antiseptic",
+        "Coronavirus disease 2019 (COVID-19)",
+        "Human health",
+        "Drone",
+        "Environmental science",
+        "Computer science",
+        "Medicine",
+        "Biology",
+        "Environmental health",
+        "Disease",
+        "Telecommunications",
+        "Infectious disease (medical specialty)"
+    ],
+    "language": "en",
+    "uri": "https://sciencescholar.us/journal/index.php/ijhs/article/download/9406/5952",
+    "rights.uri": "cc-by-nc-nd",
+    "_local.pdf_path": "pdf_openalex/10.53730_ijhs.v6ns5.9406.pdf"
+}

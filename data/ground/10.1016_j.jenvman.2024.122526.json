@@ -1,0 +1,37 @@
+{
+    "doi": "",
+    "title": "Integrated water resource management in the Segura Hydrographic Basin: An artificial intelligence approach",
+    "authors": [
+        "Urtzi Otamendi",
+        "Mikel Maiza",
+        "Igor G. Olaizola",
+        "Basilio Sierra",
+        "Markel Florez",
+        "Marco Quartulli"
+    ],
+    "abstract": "",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Hydrography",
+        "Resource (disambiguation)",
+        "Computer science",
+        "Resource management (computing)",
+        "Water resources",
+        "Integer programming",
+        "Linear programming",
+        "Environmental resource management",
+        "Environmental science",
+        "Water resource management",
+        "Operations research",
+        "Engineering",
+        "Geography",
+        "Ecology",
+        "Distributed computing",
+        "Algorithm"
+    ],
+    "language": "en",
+    "uri": "https://arxiv.org/pdf/2411.13566",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.1016_j.jenvman.2024.122526.pdf"
+}

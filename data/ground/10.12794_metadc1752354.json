@@ -1,0 +1,21 @@
+{
+    "doi": "",
+    "title": "Combinatorial-Based Testing Strategies for Mobile Application Testing",
+    "authors": [
+        "Ryan P. Michaels"
+    ],
+    "abstract": "This work introduces three new coverage criteria based on combinatorial-based event and element sequences that occur in the mobile environment. The novel combinatorial-based criteria are used to reduce, prioritize, and generate test suites for mobile applications. The combinatorial-based criteria include unique coverage of events and elements with different respects to ordering. For instance, consider the coverage of a pair of events, e1 and e2. The least strict criterion, Combinatorial Coverage (CCov), counts the combination of these two events in a test case without respect to the order in which the events occur. That is, the combination (e1, e2) is the same as (e2, e1). The second criterion, Sequence-Based Combinatorial Coverage (SCov), considers the order of occurrence within a test case. Sequences (e1, ..., e2) and (e2,..., e1) are different sequences. The third and strictest criterion is Consecutive-Sequence Combinatorial Coverage (CSCov), which counts adjacent sequences of consecutive pairs. The sequence (e1, e2) is only counted if e1 immediately occurs before e2. The first contribution uses the novel combinatorial-based criteria for the purpose of test suite reduction. Empirical studies reveal that the criteria, when used with event sequences and sequences of size t=2, reduce the test suites by 22.8%-61.3% while the reduced test suites provide 98.8% to 100% fault finding effectiveness. Empirical studies in Android also reveal that the event sequence criteria of size t=2 reduce the test suites by 24.67%-66% while losing at most 0.39% code coverage. When the criteria are used with element sequences and sequences of size t=2, the test suites are reduced by 40\\% to 72.67%, losing less than 0.87% code coverage. The second contribution of this work applies the combinatorial-based criteria for test suite prioritization of mobile application test suites. The results of an empirical study show that the prioritization criteria that use element and event sequences cover the test suite's elements, events, and code faster than random orderings. On average the prioritized orderings cover all elements within 21.81% of the test suite, all events within 45.99% of the test suite, and all code within 51.21% of the test suite. Random orderings achieve full code coverage with 84.8% of the test suite on average. The third contribution uses the combinatorial-based criteria for test suite generation. This work modifies the random walk tool used from prior experiments to give weight (preference) to coverage of the combinatorial-based event and element criteria. The use of Element SCov and CSCov criteria result in test suites that increase code coverage for three of the four subject applications. Specifically, the code coverage increases by 0.29%-5.89% with SCov and 1.36%-6.79% with CSCov in comparison to the original random walk algorithm. The SCov criterion increases total sequence coverage by 5%-88% and the CSCov criterion increases sequence coverage by 13%-68%. One criteria, Element CCov, failed to increase code coverage for two of the four applications. The contributions of this dissertation show that the novel combinatorial-based criteria using sequences of events and elements offer improvements to different testing strategies for mobile applications, including test suite reduction, prioritization, and generation.",
+    "issued": "2020",
+    "type": "dissertation",
+    "subject": [
+        "Computer science",
+        "Software testing",
+        "Test strategy",
+        "Data science",
+        "Programming language"
+    ],
+    "language": "en",
+    "uri": "https://digital.library.unt.edu/ark:/67531/metadc1752354/m2/1/high_res_d/MICHAELS-DISSERTATION-2020.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.12794_metadc1752354.pdf"
+}

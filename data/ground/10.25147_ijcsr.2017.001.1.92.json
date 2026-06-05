@@ -1,0 +1,29 @@
+{
+    "doi": "10.25147/ijcsr.2017.001.1.92",
+    "title": "Development of Uninterruptible Power Supply (UPS) with Power Saving Features",
+    "authors": [
+        "Cecilia P. Abaricia"
+    ],
+    "abstract": "Purpose -The general objective of the study is to develop an \"Uninterruptible Power Supply with Power Saving Feature that can protect equipment in case of voltage sags and saves power.Method -In the development of the project fabrication of UPS with power-saving this device aims to achieve the maintenance in voltage during voltage deviation and has powersaving benefits to the users.To check for the efficiency of UPS with power-saving features connect the loads (2 sets of a computer with a monitor) measure power consumption of the load without and with power saving features.The immediate result of discrepancies is evident in its functionality.Results -The prototype UPS with power-saving features is functional when the discrepancies of results are immediately determined in the digital monitor when the load were connected.There is a significant reduction of power consumption with two computers using UPS with Power Saving Features.The average savings is about 85.86 1110 Watts and can be translated to about 309.10 kW in 30 working days.The power savings is attributed to the servo motors included in the design of UPS.Conclusions --Based on the results of the study, the following conclusions are: The efficiency of the UPS is 90% and is significantly attain 80 watts power savings.The develop UPS with Power Saving Features is evaluated to have a saving between 80 watts to 88 watts.This will translate to about 309.10 KW average savings in 30 days or 1 month.Recommendations -The UPS with Power Saving Features is recommended to save power and protect the equipment.Research Implications -This UPS is suggested to be used at home, offices, schools, enterprises and internet cafes for the utilization of power saving features.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Uninterruptible power supply",
+        "Power (physics)",
+        "Power saving",
+        "Voltage",
+        "Power consumption",
+        "Automotive engineering",
+        "Computer science",
+        "Electrical engineering",
+        "Reliability engineering",
+        "Switched-mode power supply applications",
+        "Switched-mode power supply",
+        "Engineering",
+        "Constant power circuit"
+    ],
+    "language": "en",
+    "uri": "https://stepacademic.net/ijcsr/article/download/302/127/",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.25147_ijcsr.2017.001.1.92.pdf"
+}

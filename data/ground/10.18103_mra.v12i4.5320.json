@@ -1,0 +1,34 @@
+{
+    "doi": "10.18103/mra.v12i4.5320",
+    "title": "Implementation of Sepsis Prevention Guidelines for Nurses into a Clinical Practice",
+    "authors": [
+        "D. Streitová",
+        "R. Zoubková",
+        "J. Vavrošová"
+    ],
+    "abstract": "Background: Sepsis is one of the most serious complications in intensive care patients, which is associated with high mortality and morbidity of critically ill patients. Measures based on the effective prevention are one of the main strategies of treating patients. Aseptic procedures, barrier nursing techniques, selection of equipment used for the treatment as well as the replacement frequency of protective barriers are preferred nursing interventions of sepsis with regard to the prevention. The objective of this retrospective study was to assess the importance of nursing interventions and aspects of the incidence of sepsis and infectious complications in ICU patients, including analysis of erroneous nursing procedures that could affect the formation of sepsis. Methods: A retrospective study was conducted by data collection from medical records and observation of patients hospitalized at the Clinic of Anesthesiology and Intensive-care during the period from January 2019 to December 2022. The overall sample consisted of 736 patients who were diagnosed with sepsis by a doctor according to confirmed infectious etiology. Data were processed by descriptive statistics, frequency tables and x2 (chi-square) test were used for evaluating and the Fisher's exact test was used for small frequency (n &lt;5). Statistical tests were assessed at the significance level of 5. There were identified 231 patients with sepsis, 106 patients with confirmed infectious etiology, 31 patients with confirmed non- infectious causes (SIRS) and 7 cases of other infectious cause was confirmed during hospitalization. Another category of patients was represented by cases, in which the positive sputum was found in injection site infection, in positive punctate in wound, in purulent secretion from the wound or bacterial findings in urine without general symptoms of infection. Nursing interventions were analyzed with regard to the prevention of sepsis patients in intensive care. Results: The largest number of sepsis was proved in 2019 (26.23%) and in 2020 (20.01%), while in 2021 (11.67%) and 202022 (14.02%) there was recognized a decrease in sepsis. According to the etiology there was significant share of VAP and catheter sepsis compared to uremic and early infection Out of the nursing procedures that have proven to be important for the prevention of VAP there were identified a closed suction method, the selection of the endotracheal tube, the use of semi recumbent position. Selection of the catheter, puncturesite selection, use of infusion filters or disinfection options were found as important examples in the prevention of catheter sepsis. Using a closed circuit system has proved to be the most effective in urinary tract infections. The results clearly show the effect of educational activities of working group on compliance with the rules of asepsis, compliance with barrier nursing activities and practices that are entirely in the hands of the nursing staff. Conclusions: All preventive measures are in accordance with the recommendations of CDC (The Centers for Disease Control and Prevention) and SHEA (The Society for Healthcare Epidemiology of America) that recommend the education and training of the staff. The objective is to increase awareness of the necessity of preventive measures which help to reduce the incidence of infection with subsequent sepsis in patients in intensive care. Regular education and practical training can not only improve the quality of care, but we can also implement new procedures into the practice with regard to the nursing staff awareness of the importance of sepsis prevention at intensive care units.",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Medicine",
+        "Sepsis",
+        "Incidence (geometry)",
+        "Retrospective cohort study",
+        "Etiology",
+        "Nursing Interventions Classification",
+        "Intensive care medicine",
+        "Intensive care",
+        "Psychological intervention",
+        "Exact test",
+        "Anesthesiology",
+        "Medical record",
+        "Emergency medicine",
+        "Intensive care unit",
+        "Internal medicine",
+        "Nursing"
+    ],
+    "language": "en",
+    "uri": "https://esmed.org/MRA/mra/article/download/5320/99193547942",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.18103_mra.v12i4.5320.pdf"
+}

@@ -1,0 +1,39 @@
+{
+    "doi": "10.3189/172756400781820868",
+    "title": "Ice-stream-ice-shelf transition: theoretical analysis of two-dimensional flow",
+    "authors": [
+        "Alexander V. Wilchinsky",
+        "Vladimir A. Chugunov"
+    ],
+    "abstract": "Abstract Two-dimensional steady isothermal flow of a marine ice stream is studied. Gases of different relations between shear stress and longitudinal deviatoric stress in the ice stream are considered. Analysis of the ice-stream-ice-shelf transition zone shows that even if the longitudinal stress deviator in the ice stream is much larger than the shear stress (as it is in the ice shelf), the ice-stream-ice-shelf transition zone if singular and the full system of Stokes equations must be solved in it. Scales of fields in the transition zone and the relation between the ice thickness and the horizontal mass flux at the grounding line are found.",
+    "issued": "2000",
+    "type": "article",
+    "subject": [
+        "Geology",
+        "Ice stream",
+        "Ice divide",
+        "Ice shelf",
+        "Pressure ridge",
+        "Transition zone",
+        "Fast ice",
+        "Sea ice growth processes",
+        "Geomorphology",
+        "Shear stress",
+        "Lead (geology)",
+        "Sea ice",
+        "Flow (mathematics)",
+        "Flux (metallurgy)",
+        "Geophysics",
+        "Mechanics",
+        "Antarctic sea ice",
+        "Arctic ice pack",
+        "Oceanography",
+        "Cryosphere",
+        "Materials science",
+        "Physics"
+    ],
+    "language": "en",
+    "uri": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/ED3D37DCA6BB8FECB3EBED2685F9107B/S0260305500260035a.pdf/div-class-title-ice-stream-ice-shelf-transition-theoretical-analysis-of-two-dimensional-flow-div.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.3189_172756400781820868.pdf"
+}

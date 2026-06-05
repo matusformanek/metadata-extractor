@@ -1,0 +1,23 @@
+{
+    "doi": "10.1504/IJSPM.2025.10075344",
+    "title": "Discrete-event simulation modelling of inventory turnover under supply chain financial collaboration",
+    "authors": [
+        "Zhifeng Qu"
+    ],
+    "abstract": "This study addresses the critical gap between operational and financial objectives in supply chain inventory management by proposing a novel framework that integrates discrete-event simulation with deep reinforcement learning.We formulate a dual-objective reward function incorporating both traditional costs (holding, shortage, ordering) and the financial metric of cash conversion cycle.Trained and tested on the real-world M5 forecasting accuracy dataset, our model, cognitive load dynamic assessment model-proximal policy optimisation, demonstrates superior performance.Results show it achieves a total cost of 285.4 8.7 (in thousands), significantly lower than state-of-the-art baselines (p < 0.01), while maintaining a 98.2% service level and reducing cash conversion cycle to 35.2 days.This result highlights the framework's effectiveness in achieving operational-financial synergy, offering a data-driven decision-support tool for enhancing both efficiency and financial health in dynamic supply chain environments.",
+    "issued": "2026",
+    "type": "article",
+    "subject": [
+        "Supply chain",
+        "Supply chain management",
+        "Supply chain risk management",
+        "Chain (unit)",
+        "Simulation modeling",
+        "Financial modeling",
+        "Asset turnover"
+    ],
+    "language": "en",
+    "uri": "https://doi.org/10.1504/ijspm.2026.152090",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.1504_ijspm.2026.152090.pdf"
+}

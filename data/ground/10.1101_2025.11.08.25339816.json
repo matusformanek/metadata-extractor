@@ -1,0 +1,26 @@
+{
+    "doi": "10.1101/2025.11.08.25339816",
+    "title": "Statistical Methods for Evaluating Contrived Sample Functional Characterization Studies for Next-generation Sequencing-based Qualitative Assays",
+    "authors": [
+        "Li Guan",
+        "Paul Wenz",
+        "Kristen Meier"
+    ],
+    "abstract": "Abstract Evaluation of new clinical assays involves numerous studies using patient samples to verify performance. Due to limited patient sample availability, supplementary surrogate samples may be needed. To evaluate functional comparability between surrogate and patient samples, a contrived sample functional characterization (CSFC) study has been recommended. Alongside this, a statistical analysis framework has been proposed by Godsey et al. for NGS-based assays to quantify differences in overall probit regressions and C X levels (estimated concentrations of the measurand at which an assay declares a sample positive X% of the time). However, detailed statistical methods for implementing this proposed framework remain unestablished. This work evaluates statistical methods for framework implementation. Using simulated data, we compared two approaches for evaluating differences between sample types using centered and non-centered probit models: test for interaction and bootstrap for differences in probit regressions. While both approaches showed similar performance in detecting overall differences, the centered model more frequently detected true differences than the non-centered model. Additionally, when evaluating differences in C X levels, in most scenarios using C95 alone was often insufficient in detecting true differences in overall regressions whereas testing all five C X s showed elevated type □ error rate. Therefore, while both approaches have strengths and limitations, we recommend using the interaction term approach with the centered model to evaluate the differences in overall probit regression as the primary approach and applying the bootstrap approach when C X levels are of interest, when pooling surrogate and patient samples is inappropriate, or when verification of model-based findings is desired.",
+    "issued": "2025",
+    "type": "preprint",
+    "subject": [
+        "Pooling",
+        "Comparability",
+        "Probit model",
+        "Probit",
+        "Sample (material)",
+        "Sample size determination",
+        "Statistical hypothesis testing",
+        "Statistical model"
+    ],
+    "language": "en",
+    "uri": "https://www.medrxiv.org/content/medrxiv/early/2025/11/10/2025.11.08.25339816.full.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.1101_2025.11.08.25339816.pdf"
+}

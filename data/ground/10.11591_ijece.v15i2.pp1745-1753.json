@@ -1,0 +1,24 @@
+{
+    "doi": "10.11591/ijece.v15i2.pp1745-1753",
+    "title": "High speed space division multiplexing based integrated fiber transmission system and its impact on atmospheric conditions",
+    "authors": [
+        "Kakarla Phaneendra Kumar",
+        "T. Sreenivasulu Reddy"
+    ],
+    "abstract": "With several advantages over traditional wireless and fiber optic cables, free space optical communication is becoming more and more popular because of its high speed and bandwidth applications. In particular, the high transmission capacity of free space optics (FSO) communication systems makes them preferred, which enables them to handle the growing amount of internet traffic. Because FSO has no regulatory limitations, operates over large distances with high levels of security, and transmits data faster than radio frequency communication technologies are widely utilized. However, given different atmospheric conditions, the availability and capacity of FSO optical bands represent a major concern. For next-generation information transmission networks to satisfy end users high-capacity demands, the transmission technology known as space-division multiplexing (SDM) has become essential. Hence in this work, High speed space division multiplexing based integrated fiber/FSO transmission system and its impact on atmospheric conditions is presented. The SDM transmission system developed in this study is based on an integrated multimode fiber (MMF)/ FSO link with linear polarized (LP) spatial modes. This approach takes into consideration extreme climate conditions like snow and turbulence while evaluating performance. Utilizing bit error rate (BER) and received optical power (ROP) are the performance of FSO is evaluated in different weather conditions.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Telecommunications",
+        "Materials science",
+        "Mathematics",
+        "Composite material",
+        "Operating system",
+        "Arithmetic"
+    ],
+    "language": "en",
+    "uri": "https://ijece.iaescore.com/index.php/IJECE/article/download/36067/18095",
+    "rights.uri": "cc-by-sa",
+    "_local.pdf_path": "pdf_openalex\\10.11591_ijece.v15i2.pp1745-1753.pdf"
+}

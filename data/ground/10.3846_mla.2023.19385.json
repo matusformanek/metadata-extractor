@@ -1,0 +1,24 @@
+{
+    "doi": "10.3846/mla.2023.19385",
+    "title": "NETWORK INTRUSION DETECTION USING HYBRID MACHINE LEARNING METHODS",
+    "authors": [
+        "Karina Čiurlienė",
+        "Denisas Stankevičius"
+    ],
+    "abstract": "Network intrusion detection is a relevant cybersecurity research field. The growing number of intrusions requires more sophisticated methods to protect computer networks. Various machine learning algorithms are used to detect network intrusions and anomalies, but their accuracy is limited. In this research, we address the problem of improving network-level intrusion detection by applying hybrid machine-learning algorithms. The paper proposes three new hybrid machine learning methods and investigates their accuracy using two publicly available datasets CSE-CIC-IDS2018 and NSW-NB-15. In order to increase the accuracy of the classification models, hyperparameter optimization was performed. The iteration method and the Chi-square χ2 test were used to identify significant features of the data set. Analyzing the research results, it was found that the highest network anomaly recognition accuracy of 99.34% was achieved by applying a hybrid algorithm consisting of a decision tree, naive Bayesian, and multilayer perceptron algorithms. Achieved result is 3.13% higher than the best accuracy achieved by individual machine learning algorithms. In order to comprehensively evaluate the studied machine learning algorithms and their suitability for detecting intrusions in a computer network, the algorithms were ranked using the SCR, DR, FR ranking methods.",
+    "issued": "2023",
+    "type": "article",
+    "subject": [
+        "Machine learning",
+        "Computer science",
+        "Artificial intelligence",
+        "Data mining",
+        "Algorithm",
+        "Mathematics",
+        "Pure mathematics"
+    ],
+    "language": "en",
+    "uri": "https://journals.vilniustech.lt/index.php/MLA/article/download/19385/11873",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.3846_mla.2023.19385.pdf"
+}

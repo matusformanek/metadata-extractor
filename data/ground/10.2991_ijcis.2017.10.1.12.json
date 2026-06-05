@@ -1,0 +1,27 @@
+{
+    "doi": "",
+    "title": "Continuous Prediction of the Gas Dew Point Temperature for the Prevention of the Foaming Phenomenon in Acid Gas Removal Units Using Artificial Intelligence Models",
+    "authors": [
+        "Masoud Rohani",
+        "Hooshang Jazayeri‐Rad",
+        "Reza Mosayebi Behbahani"
+    ],
+    "abstract": "Acid gas removal (AGR) units are widely used to remove CO 2 and H 2 S from sour gas streams in natural gas processing. When foaming occurs in an AGR system, the efficiency of the process extremely decreases. In this paper, a novel approach is suggested to regularly predict the gas dew point temperature (GDPT) in order to anticipate the foaming conditions. Prediction of GDPT is advantageous because the conventional methods of measuring GDPT such as: (i) using a chilled mirror device is time consuming; and (ii) the use of gas chromatograph for composition determination combined with the equation-of-state calculations involve column retention time and is expensive. New hybrid modeling algorithms based on the artificial neural network (ANN) combined with either the imperialist competitive algorithm (ICA) or particle swarm optimization (PSO) are employed to model the process. The models can then be used to prevent the foaming phenomenon. The proposed algorithms combine the local searching ability of ANN with the global searching abilities of ICA and PSO. ICA and PSO are used to optimize the initial weights of the neural networks. The resulting ICA-ANN and PSO-ANN combined algorithms are then applied to model the occurrence of foaming in the AGR plant based on a simulation data set acquired from the 6 th refinery of the south Pars gas complex in Iran. The performances of the ICA-ANN, PSO-ANN and conventional ANN models are then compared against each other. It was found that the accuracies of the ICA-ANN and PSO-ANN models are better than that of the conventional ANN model. In addition, the PSO-ANN model outperformed the ICA-ANN model.",
+    "issued": "2016",
+    "type": "article",
+    "subject": [
+        "Dew point",
+        "Dew",
+        "Process engineering",
+        "Environmental science",
+        "Computer science",
+        "Materials science",
+        "Thermodynamics",
+        "Physics",
+        "Engineering"
+    ],
+    "language": "en",
+    "uri": "https://download.atlantis-press.com/article/25865499.pdf",
+    "rights.uri": "cc-by-nc",
+    "_local.pdf_path": "pdf_openalex/10.2991_ijcis.2017.10.1.12.pdf"
+}

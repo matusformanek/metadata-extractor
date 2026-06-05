@@ -1,0 +1,34 @@
+{
+    "doi": "",
+    "title": "An Adaptive Levy Flight Chicken Swarm Optimization with Differential Evolution for Function Optimization Problem",
+    "authors": [
+        "Wen-Jun Liu",
+        "Azlan Mohd Zain",
+        "Mohamad Shukor Bin Talib",
+        "Shengjun Ma"
+    ],
+    "abstract": "This study proposes an improved swarm algorithm, Adaptive Levy Flight Chicken Swarm Optimization with Differential Evolution (ALCSODE), to overcome the low convergence accuracy and imbalance between exploration and exploitation in the original CSO algorithm. The method incorporates adaptive perturbation based on individual differences and a differential evolution mechanism into the rooster update process. An elitism preservation strategy is also applied to enhance population stability and information sharing. The algorithm is evaluated on 24 benchmark functions, including unimodal, high-dimensional multimodal, and CEC2022 functions. Performance metrics such as search trajectories and convergence curves are used to assess its effectiveness. Experimental results show that ALCSODE achieves a better exploration–exploitation trade-off and shows statistically superior performance over seven classical algorithms, confirming its potential as an effective tool for solving complex optimization problems.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Differential evolution",
+        "Lévy flight",
+        "Swarm behaviour",
+        "Mathematical optimization",
+        "Multi-swarm optimization",
+        "Metaheuristic",
+        "Function (biology)",
+        "Function optimization",
+        "Optimization problem",
+        "Artificial intelligence",
+        "Genetic algorithm",
+        "Algorithm",
+        "Mathematics",
+        "Machine learning"
+    ],
+    "language": "en",
+    "uri": "http://thesai.org/Downloads/Volume16No8/Paper_75-An_Adaptive_Levy_Flight_Chicken_Swarm_Optimization.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.14569_ijacsa.2025.0160875.pdf"
+}

@@ -1,0 +1,30 @@
+{
+    "doi": "10.3389/fpsyg.2019.02631",
+    "title": "The China Image Set (CIS): A New Set of 551 Colored Photos With Chinese Norms for 12 Psycholinguistic Variables",
+    "authors": [
+        "Long Ni",
+        "Ye Liu",
+        "Wenyuan Yu",
+        "Xiaolan Fu"
+    ],
+    "abstract": "Normative image sets are widely used in memory, perception, and language studies. Following the pioneering work of Snodgrass and Vanderwart (1980), a number of normalized image sets with various language norms have been created. However, original image sets that are carefully selected to accommodate Chinese culture and language are still in short supply. In the present study, we provided the China Image Set (CIS), a new set of photo stimuli with Chinese norms. The CIS consists of 551 high-quality colored photo stimuli that cover 21 categories and are normalized on 12 different variables, including name agreement, category agreement, familiarity, visual complexity, object manipulability, manipulation experience, color diagnosticity, shape diagnosticity, image variability, age of acquisition, image agreement, and within-category typicality. Of the 12 variables, shape diagnosticity and manipulation experience with the object depicted in a stimulus are the two newly introduced and normalized variables. Multiple regression analysis reveals that name agreement, age of acquisition, image agreement, shape diagnosticity, and image variability are the most robust determinants of picture naming latency. Our normative dataset of the high-quality photo stimuli offers an ecologically more valid tool to study object recognition and language processing within Chinese culture than has previously been available.",
+    "issued": "2019",
+    "type": "article",
+    "subject": [
+        "Psychology",
+        "Cognitive psychology",
+        "Artificial intelligence",
+        "Communication",
+        "Computer science",
+        "Composite material",
+        "Philosophy",
+        "Epistemology",
+        "Programming language",
+        "Materials science",
+        "Neuroscience"
+    ],
+    "language": "en",
+    "uri": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02631/pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.3389_fpsyg.2019.02631.pdf"
+}

@@ -1,0 +1,27 @@
+{
+    "doi": "10.1371/journal.pone.0117295",
+    "title": "MRI-Based Intelligence Quotient (IQ) Estimation with Sparse Learning",
+    "authors": [
+        "Liye Wang",
+        "Chong-Yaw Wee",
+        "Heung‐Il Suk",
+        "Xiaoying Tang",
+        "Dinggang Shen"
+    ],
+    "abstract": "In this paper, we propose a novel framework for IQ estimation using Magnetic Resonance Imaging (MRI) data. In particular, we devise a new feature selection method based on an extended dirty model for jointly considering both element-wise sparsity and group-wise sparsity. Meanwhile, due to the absence of large dataset with consistent scanning protocols for the IQ estimation, we integrate multiple datasets scanned from different sites with different scanning parameters and protocols. In this way, there is large variability in these different datasets. To address this issue, we design a two-step procedure for 1) first identifying the possible scanning site for each testing subject and 2) then estimating the testing subject's IQ by using a specific estimator designed for that scanning site. We perform two experiments to test the performance of our method by using the MRI data collected from 164 typically developing children between 6 and 15 years old. In the first experiment, we use a multi-kernel Support Vector Regression (SVR) for estimating IQ values, and obtain an average correlation coefficient of 0.718 and also an average root mean square error of 8.695 between the true IQs and the estimated ones. In the second experiment, we use a single-kernel SVR for IQ estimation, and achieve an average correlation coefficient of 0.684 and an average root mean square error of 9.166. All these results show the effectiveness of using imaging data for IQ prediction, which is rarely done in the field according to our knowledge.",
+    "issued": "2015",
+    "type": "article",
+    "subject": [
+        "Artificial intelligence",
+        "Computer science",
+        "Statistics",
+        "Machine learning",
+        "Mathematics",
+        "Combinatorics",
+        "Geometry"
+    ],
+    "language": "en",
+    "uri": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0117295&type=printable",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1371_journal.pone.0117295.pdf"
+}

@@ -1,0 +1,28 @@
+{
+    "doi": "10.1038/s41598-024-76867-z",
+    "title": "Highly accurate calculation of electric field for transcranial magnetic stimulation using hybridizable discontinuous galerkin method",
+    "authors": [
+        "Lianyong Wei",
+        "Jun Zou"
+    ],
+    "abstract": "The computation of electric field in transcranial magnetic stimulation (TMS) is essentially a problem of gradient calculation for thin layers. This paper introduces a hybrid-order hybridizable discontinuous Galerkin finite element method (HDG-FEM) and systematically demonstrates its superiority in TMS computations. The discrete format of HDG-FEM employing hybrid orders for TMS is derived and, from a fundamental numerical principle perspective, this study provides the elucidation of why HDG-FEM exhibits superior gradient computation capabilities compared to the widely used CG-FEM. Furthermore, the exceptional performance of HDG-FEM in thin layer calculation is demonstrated on both modified head models and realistic head models, focusing on three aspects: calculation errors, utilization of hybrid order, and computational cost. For the calculation of E-field in thin-layer regions with parameter mutation, the L<sub>∞</sub> norm error of the first-order HDG-FEM with the same tetrahedral mesh is comparable to the L<sub>∞</sub> norm error of the second-order CG-FEM. The L<sub>2</sub> norm error of the same-order HDG-FEM is smaller than that of the same-order CG-FEM. By utilizing the hybrid order, HDG-FEM achieves a rapid reduction in errors of thin layers without a significant increase in the computational cost. This study transforms the three-dimensional TMS problem into a special two-dimensional problem for computation, reducing computational complexity from p<sup>3</sup> in three dimensions to p<sup>2</sup> in two dimensions, while achieving significantly higher accuracy compared to the commonly used CG-FEM. The utilization of hybrid orders in thin layers of the head demonstrates significant flexibility, making HDG-FEM a new alternative choice for TMS computations.",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Computer science",
+        "Applied mathematics",
+        "Algorithm",
+        "Mathematical optimization",
+        "Mathematics",
+        "Physics",
+        "Law",
+        "Neuroscience",
+        "Thermodynamics",
+        "Biology",
+        "Political science"
+    ],
+    "language": "en",
+    "uri": "https://www.nature.com/articles/s41598-024-76867-z.pdf",
+    "rights.uri": "cc-by-nc-nd",
+    "_local.pdf_path": "pdf_openalex\\10.1038_s41598-024-76867-z.pdf"
+}

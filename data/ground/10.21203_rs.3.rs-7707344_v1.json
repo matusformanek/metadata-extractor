@@ -1,0 +1,27 @@
+{
+    "doi": "10.21203/rs.3.rs-7707344/v1",
+    "title": "Learning-based Path Planning Techniques for Autonomous Unmanned Aerial Vehicles",
+    "authors": [
+        "Ahmad Bani Younes",
+        "Khaled S. Hatamleh",
+        "Ahmad Al-Shorman",
+        "Hasan Khalil Al-Asa'd"
+    ],
+    "abstract": "",
+    "issued": "2026",
+    "type": "preprint",
+    "subject": [
+        "Motion planning",
+        "Obstacle avoidance",
+        "SAFER",
+        "Reinforcement learning",
+        "Obstacle",
+        "Stability (learning theory)",
+        "Path (computing)",
+        "Range (aeronautics)"
+    ],
+    "language": "en",
+    "uri": "https://www.researchsquare.com/article/rs-7707344/latest.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.21203_rs.3.rs-7707344_v1.pdf"
+}

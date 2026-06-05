@@ -1,0 +1,29 @@
+{
+    "doi": "10.18778/0208-6018.355.03",
+    "title": "Volatility Factors of Returns and Risk Analysis Using Quantile Risk Measures in the Gold and Silver Market",
+    "authors": [
+        "Dominik Krężołek"
+    ],
+    "abstract": "The aim of the paper is to identify unobservable factors that may significantly determine the level of gold and silver returns and to assess the risk of investment in these metals. To measure risk, the value at risk and other, less popular measures are used: the ES, MS, Rachev ratio and GlueVaR risk measure. Normal and Student’s t‑distributions are used as theoretical distributions. The results of the study show that we can identify latent factors based on observable variables that have a significant impact on the level of gold and silver returns. In addition, it was observed that the risk measures would vary depending on the period of research. It was shown that the estimates of the risk measures using Student’s t‑distribution have a lower estimation error than those based on the normal distribution.",
+    "issued": "2021",
+    "type": "article",
+    "subject": [
+        "Unobservable",
+        "Volatility (finance)",
+        "Econometrics",
+        "Value at risk",
+        "Quantile",
+        "Statistics",
+        "Market risk",
+        "Risk measure",
+        "Economics",
+        "Mathematics",
+        "Financial economics",
+        "Risk management",
+        "Finance"
+    ],
+    "language": "en",
+    "uri": "https://czasopisma.uni.lodz.pl/foe/article/download/3937/10682",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.18778_0208-6018.355.03.pdf"
+}

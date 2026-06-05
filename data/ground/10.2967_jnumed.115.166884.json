@@ -1,0 +1,28 @@
+{
+    "doi": "10.2967/jnumed.115.166884",
+    "title": "Additional Heparin Preadministration Improves Cardiac Glucose Metabolism Suppression over Low-Carbohydrate Diet Alone in <sup>18</sup>F-FDG PET Imaging",
+    "authors": [
+        "Asbjørn M. Scholtens",
+        "Hein J. Verberne",
+        "Ricardo P.J. Budde",
+        "Marnix G. E. H. Lam"
+    ],
+    "abstract": "Adequate suppression of cardiac glucose metabolism increases the interpretability and diagnostic reliability of <sup>18</sup>F-FDG PET studies performed to detect cardiac inflammation and infection. There are no standardized guidelines, though prolonged fasting (&gt;6 h), carbohydrate-restricted diets, fatty meals, and heparin loading all have been proposed. The aim of this study was to compare the 3 preparatory protocols used in our institution. <b>Methods:</b><sup>18</sup>F-FDG PET scans were selected and grouped according to 3 preparatory protocols (50 consecutive scans per group): 6-h fast (group 1), low-carbohydrate diet plus 12-h fast (group 2), and low-carbohydrate diet plus 12-h fast plus intravenous heparin preadministration (50 IU/kg) (group 3). Consecutive scans were retrospectively included from time frames during which the particular protocol was used. Group 1 included oncologic indications, and groups 2 and 3 infection or inflammation detection. Cardiac segments for which inflammation or infection foci had been confirmed on other imaging modalities were excluded from the analysis. <sup>18</sup>F-FDG uptake in normal myocardium was scored according to a scale ranging from 0 (uptake less than that in left ventricle blood pool) to 4 (diffuse uptake greater than that in liver). Adequate suppression was defined as uptake less than that in liver and without any focus (scores 0–2). <b>Results:</b> Adequate suppression differed significantly between groups: 28% in group 1, 54% in group 2, and 88% in group 3 (<i>P</i> &lt; 0.0001 for all comparisons). <b>Conclusion:</b> Single-dose heparin administration before <sup>18</sup>F-FDG PET in addition to a low-carbohydrate diet significantly outperforms a low-carbohydrate diet alone in adequately suppressing cardiac glucose metabolism.",
+    "issued": "2016",
+    "type": "article",
+    "subject": [
+        "Medicine",
+        "Carbohydrate metabolism",
+        "Nuclear medicine",
+        "Heparin",
+        "Carbohydrate",
+        "Ventricle",
+        "Positron emission tomography",
+        "Gastroenterology",
+        "Internal medicine"
+    ],
+    "language": "en",
+    "uri": "https://pure.amsterdamumc.nl/ws/files/180194251/Additional-heparin-preadministration-improves-cardiac-glucose-metabolism-suppression-over-low-carbohydrate-diet-alone-in.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex/10.2967_jnumed.115.166884.pdf"
+}

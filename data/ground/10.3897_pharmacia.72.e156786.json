@@ -1,0 +1,26 @@
+{
+    "doi": "10.3897/pharmacia.72.e156786",
+    "title": "Design and optimization of a synergistic herbal mucoadhesive film for the treatment of oral pathogens",
+    "authors": [
+        "Em–on Chaiprateep",
+        "Apakorn Songsumanus",
+        "Nakuntwalai Wisidsri",
+        "Monsicha Khuanekkaphan",
+        "Surachai Techaoei",
+        "Chalermsak Thavornwat"
+    ],
+    "abstract": "Oral infections caused by Streptococcus mutans and Streptococcus oralis remain a persistent challenge due to rising antimicrobial resistance and the limitations of synthetic agents. This study explores the antibacterial potential of medicinal herbal extracts and develops a mucoadhesive delivery system for localized oral therapy. A design of experiments (DoE) approach was employed to evaluate the anti-oral pathogen activity of 15 experimental herbal combinations derived from Garcinia mangostana L., Clinacanthus nutans (Burm. f.) Lindau, Centella asiatica (L.) Urban, and Aloe vera (L.) Burm. f. The optimal extract combination – a 1:1 ratio of G. mangostana pericarp and C. nutans leaf extracts – was further incorporated into a mucoadhesive film. A full factorial design was used to optimize the concentrations of three factors: X1, silicon dioxide (SiO₂); X2, chitosan; and X3, carboxymethylcellulose (CMC), to achieve favorable chemical properties and mucosal compatibility. Phytochemical profiling identified α-mangostin, caffeic acid, and ferulic acid as key bioactive compounds. The optimized mucoadhesive film demonstrated favorable chemical properties, sustained mucosal adhesion (≥6 h), and high cytocompatibility (&amp;gt;90% cell viability). Ex vivo buccal mucosa retention studies confirmed transmucosal delivery and retention of active phytochemicals. This study presents a strategy that integrates phytochemical synergy with pharmaceutical technology to address oral infections. The novel mucoadhesive film, incorporating G. mangostana – C. nutans extracts, offers a promising plant-based platform for localized oral antimicrobial therapy and demonstrates the translational potential of natural actives in advanced drug delivery systems.",
+    "issued": "2025",
+    "type": "article",
+    "subject": [
+        "Traditional medicine",
+        "Medicine",
+        "Microbiology",
+        "Chemistry",
+        "Biology"
+    ],
+    "language": "en",
+    "uri": "https://pharmacia.pensoft.net/article/156786/download/pdf/",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.3897_pharmacia.72.e156786.pdf"
+}

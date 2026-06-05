@@ -1,0 +1,39 @@
+{
+    "doi": "10.1371/journal.pone.0049646",
+    "title": "Neutrophil Elastase Alters the Murine Gut Microbiota Resulting in Enhanced Salmonella Colonization",
+    "authors": [
+        "Navkiran Gill",
+        "Rosana B. R. Ferreira",
+        "L. Caetano M. Antunes",
+        "Benjamin P. Willing",
+        "Inna Sekirov",
+        "Fatimah Al-Zahrani",
+        "Martin Hartmann",
+        "B. Brett Finlay"
+    ],
+    "abstract": "The intestinal microbiota has been found to play a central role in the colonization of Salmonella enterica serovar Typhimurium in the gastrointestinal tract. In this study, we present a novel process through which Salmonella benefit from inflammatory induced changes in the microbiota in order to facilitate disease. We show that Salmonella infection in mice causes recruitment of neutrophils to the gut lumen, resulting in significant changes in the composition of the intestinal microbiota. This occurs through the production of the enzyme elastase by neutrophils. Administration of recombinant neutrophil elastase to infected animals under conditions that do not elicit neutrophil recruitment caused shifts in microbiota composition that favored Salmonella colonization, while inhibition of neutrophil elastase reduced colonization. This study reveals a new relationship between the microbiota and the host during infection.",
+    "issued": "2012",
+    "type": "article",
+    "subject": [
+        "Salmonella enterica",
+        "Colonization",
+        "Salmonella",
+        "Microbiology",
+        "Biology",
+        "Elastase",
+        "Neutrophil elastase",
+        "Gastrointestinal tract",
+        "Gut flora",
+        "Salmonella infection",
+        "Colonisation resistance",
+        "Neutrophil extracellular traps",
+        "Immunology",
+        "Bacteria",
+        "Inflammation",
+        "Enzyme"
+    ],
+    "language": "en",
+    "uri": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0049646&type=printable",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.1371_journal.pone.0049646.pdf"
+}

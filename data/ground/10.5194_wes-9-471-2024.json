@@ -1,0 +1,32 @@
+{
+    "doi": "10.5194/wes-9-471-2024",
+    "title": "Multi-objective calibration of vertical-axis wind turbine controllers: balancing aero-servo-elastic performance and noise",
+    "authors": [
+        "Livia Brandetti",
+        "Sebastiaan Paul Mulders",
+        "Roberto Merino-Martínez",
+        "Simon Watson",
+        "Jan‐Willem van Wingerden"
+    ],
+    "abstract": "Abstract. Vertical-axis wind turbines (VAWTs) are considered promising solutions for urban wind energy generation due to their design, low maintenance costs, and reduced noise and visual impact compared to horizontal-axis wind turbines (HAWTs). However, deploying these turbines close to densely populated urban areas often triggers considerable local opposition to wind energy projects. Among the primary concerns raised by communities is the issue of noise emissions. Noise annoyance should be considered in the design and decision-making process to foster the social acceptance of VAWTs in urban environments. At the same time, maximising the operational efficiency of VAWTs in terms of power generation and actuation effort is equally important. This paper balances noise and aero-servo-elastic performance by formulating and solving a multi-objective optimisation problem from a controller calibration perspective. Psychoacoustic annoyance is taken as a novel indicator for the noise objective by providing a more reliable estimate of the human perception of wind turbine noise than conventional sound metrics. The computation of the psychoacoustic annoyance metric is made feasible by integrating it with an accurate and computationally efficient low-fidelity noise prediction model. For optimisation, an advanced partial-load control scheme – often used in industrial turbines – is considered, with the Kω2 controller as a baseline for comparison. Optimal solutions balancing the defined objectives are identified using a multi-criteria decision-making method (MCDM) and are subsequently assessed using a frequency-domain controller analysis framework and mid-fidelity time-domain aero-servo-elastic simulations. The MCDM results indicate the potential application of this controller in small-scale urban VAWTs to attain power gains of up to 39 % on one side and to trade off a reduction in actuation effort of up to 25 % at the cost of only a 2 % power decrease and a 6 % increase in psychoacoustic annoyance on the other side compared to the baseline. These findings confirm the flexible structure of the optimally calibrated wind speed estimator and tip-speed ratio (WSE–TSR) tracking controller, effectively balancing aero-servo-elastic performance with noise emissions and marking the first instance of integrating residential concerns into the decision-making process.",
+    "issued": "2024",
+    "type": "article",
+    "subject": [
+        "Wind power",
+        "Turbine",
+        "Annoyance",
+        "Computer science",
+        "Noise (video)",
+        "Noise control",
+        "Control theory (sociology)",
+        "Engineering",
+        "Noise reduction",
+        "Aerospace engineering",
+        "Control (management)",
+        "Artificial intelligence"
+    ],
+    "language": "en",
+    "uri": "https://wes.copernicus.org/articles/9/471/2024/wes-9-471-2024.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.5194_wes-9-471-2024.pdf"
+}

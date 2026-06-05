@@ -1,0 +1,22 @@
+{
+    "doi": "",
+    "title": "Modelos de aprendizado supervisionado usando métodos kernel, conjuntos fuzzy e medidas de probabilidade",
+    "authors": [
+        "Jorge Luis Guevara Díaz"
+    ],
+    "abstract": "Esta tese prope uma metodologia baseada em mtodos de kernel, teoria fuzzy e probabilidade para tratar conjuntos de dados cujas observaes so conjuntos de pontos. As medidas de probabilidade e os conjuntos fuzzy so usados para modelar essas obervaes. Posteriormente, graas a kernels definidos sobre medidas de probabilidade, ou em conjuntos fuzzy, feito o mapeamento implcito dessas medidas de probabilidade, ou desses conjuntos fuzzy, para espaos de Hilbert com kernel reproduzvel, onde a anlise pode ser feita com algum mtodo kernel. Usando essa metodologia, possvel fazer frente a uma ampla gamma de problemas de aprendizado para esses conjuntos de dados. Em particular, a tese apresenta o projeto de modelos de descrio de dados para observaes modeladas com medidas de probabilidade. Isso conseguido graas ao mergulho das medidas de probabilidade nos espaos de Hilbert, e a construo de esferas envolventes mnimas nesses espaos de Hilbert. A tese apresenta como esses modelos podem ser usados como classificadores de uma classe, aplicados na tarefa de deteco de anomalias grupais. No caso que as observaes sejam modeladas por conjuntos fuzzy, a tese prope mapear esses conjuntos fuzzy para os espaos de Hilbert com kernel reproduzvel. Isso pode ser feito graas projeo de novos kernels definidos sobre conjuntos fuzzy. A tese apresenta como esses novos kernels podem ser usados em diversos problemas como classificao, regresso e na definio de distncias entre conjuntos fuzzy. Em particular, a tese apresenta a aplicao desses kernels em problemas de classificao supervisionada em dados intervalares e teste kernel de duas amostras para dados contendo atributos imprecisos.",
+    "issued": "2015",
+    "type": "dissertation",
+    "subject": [
+        "Mathematics",
+        "Humanities",
+        "Combinatorics",
+        "Artificial intelligence",
+        "Philosophy",
+        "Computer science"
+    ],
+    "language": "es",
+    "uri": "http://www.teses.usp.br/teses/disponiveis/45/45134/tde-03122015-155546/publico/teseJorgeGuevara.pdf",
+    "rights.uri": null,
+    "_local.pdf_path": "pdf_openalex\\10.11606_t.45.2015.tde-03122015-155546.pdf"
+}

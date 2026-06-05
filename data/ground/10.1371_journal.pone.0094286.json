@@ -1,0 +1,26 @@
+{
+    "doi": "10.1371/journal.pone.0094286",
+    "title": "Combined Fishing and Climate Forcing in the Southern Benguela Upwelling Ecosystem: An End-to-End Modelling Approach Reveals Dampened Effects",
+    "authors": [
+        "Morgane Travers‐Trolet",
+        "Yunne‐Jai Shin",
+        "Lynne J. Shannon",
+        "Coleen L. Moloney",
+        "John G. Field"
+    ],
+    "abstract": "The effects of climate and fishing on marine ecosystems have usually been studied separately, but their interactions make ecosystem dynamics difficult to understand and predict. Of particular interest to management, the potential synergism or antagonism between fishing pressure and climate forcing is analysed in this paper, using an end-to-end ecosystem model of the southern Benguela ecosystem, built from coupling hydrodynamic, biogeochemical and multispecies fish models (ROMS-N2P2Z2D2-OSMOSE). Scenarios of different intensities of upwelling-favourable wind stress combined with scenarios of fishing top-predator fish were tested. Analyses of isolated drivers show that the bottom-up effect of the climate forcing propagates up the food chain whereas the top-down effect of fishing cascades down to zooplankton in unfavourable environmental conditions but dampens before it reaches phytoplankton. When considering both climate and fishing drivers together, it appears that top-down control dominates the link between top-predator fish and forage fish, whereas interactions between the lower trophic levels are dominated by bottom-up control. The forage fish functional group appears to be a central component of this ecosystem, being the meeting point of two opposite trophic controls. The set of combined scenarios shows that fishing pressure and upwelling-favourable wind stress have mostly dampened effects on fish populations, compared to predictions from the separate effects of the stressors. Dampened effects result in biomass accumulation at the top predator fish level but a depletion of biomass at the forage fish level. This should draw our attention to the evolution of this functional group, which appears as both structurally important in the trophic functioning of the ecosystem, and very sensitive to climate and fishing pressures. In particular, diagnoses considering fishing pressure only might be more optimistic than those that consider combined effects of fishing and environmental variability.",
+    "issued": "2014",
+    "type": "article",
+    "subject": [
+        "Environmental science",
+        "Ecology",
+        "Fishery",
+        "Oceanography",
+        "Biology",
+        "Geology"
+    ],
+    "language": "en",
+    "uri": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0094286&type=printable",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex\\10.1371_journal.pone.0094286.pdf"
+}

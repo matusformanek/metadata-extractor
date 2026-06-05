@@ -1,0 +1,27 @@
+{
+    "doi": "10.7150/ijbs.59943",
+    "title": "SARS-CoV-2 main protease suppresses type I interferon production by preventing nuclear translocation of phosphorylated IRF3",
+    "authors": [
+        "Sin‐Yee Fung",
+        "Kam‐Leung Siu",
+        "Huayue Lin",
+        "Man Lung Yeung",
+        "Dong‐Yan Jin"
+    ],
+    "abstract": "Suppression of type I interferon (IFN) response is one pathological outcome of the infection of highly pathogenic human coronaviruses. To effect this, severe acute respiratory syndrome coronavirus (SARS-CoV) and SARS-CoV-2 encode multiple IFN antagonists. In this study, we reported on the IFN antagonism of SARS-CoV-2 main protease NSP5. NSP5 proteins of both SARS-CoV and SARS-CoV-2 counteracted Sendai virus-induced IFN production. NSP5 variants G15S and K90R commonly seen in circulating strains of SARS-CoV-2 retained the IFN-antagonizing property. The suppressive effect of NSP5 on IFN-β gene transcription induced by RIG-I, MAVS, TBK1 and IKKϵ suggested that NSP5 likely acts at a step downstream of IRF3 phosphorylation in the cytoplasm. NSP5 did not influence steady-state expression or phosphorylation of IRF3, suggesting that IRF3, regardless of its phosphorylation state, might not be the substrate of NSP5 protease. However, nuclear translocation of phosphorylated IRF3 was severely compromised in NSP5-expressing cells. Taken together, our work revealed a new mechanism by which NSP5 proteins encoded by SARS-CoV and SARS-CoV-2 antagonize IFN production by retaining phosphorylated IRF3 in the cytoplasm. Our findings have implications in rational design and development of antiviral agents against SARS-CoV-2.",
+    "issued": "2021",
+    "type": "article",
+    "subject": [
+        "Virology",
+        "Biology",
+        "Molecular biology",
+        "Cell biology",
+        "Biochemistry",
+        "Medicine",
+        "Pathology"
+    ],
+    "language": "en",
+    "uri": "https://www.ijbs.com/v17p1547.pdf",
+    "rights.uri": "cc-by-nc",
+    "_local.pdf_path": "pdf_openalex\\10.7150_ijbs.59943.pdf"
+}

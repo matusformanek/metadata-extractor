@@ -1,0 +1,29 @@
+{
+    "doi": "",
+    "title": "Enhance Incomplete Utterance Restoration by Joint Learning Token Extraction and Text Generation",
+    "authors": [
+        "Shumpei Inoue",
+        "Tsungwei Liu",
+        "Son Nguyen",
+        "Minh-Tien Nguyen"
+    ],
+    "abstract": "Shumpei Inoue, Tsungwei Liu, Son Nguyen, Minh-Tien Nguyen. Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2022.",
+    "issued": "2022",
+    "type": "article",
+    "subject": [
+        "Utterance",
+        "Security token",
+        "Computer science",
+        "Joint (building)",
+        "Artificial intelligence",
+        "Natural language processing",
+        "Extraction (chemistry)",
+        "Speech recognition",
+        "Computer network",
+        "Engineering"
+    ],
+    "language": "en",
+    "uri": "https://aclanthology.org/2022.naacl-main.229.pdf",
+    "rights.uri": "cc-by",
+    "_local.pdf_path": "pdf_openalex/10.18653_v1_2022.naacl-main.229.pdf"
+}
