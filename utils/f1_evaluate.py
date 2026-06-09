@@ -30,8 +30,8 @@ except ImportError:
 # ==============================================================================
 
 # Paths to the directories containing ground truth data and system outputs
-DIR_GROUND = Path("data/ground")
-DIR_OUTPUT = Path("data/output")
+DIR_GROUND = Path("../data/ground")
+DIR_OUTPUT = Path("../data/output")
 
 # Mapping schema between ground truth keys and model output keys
 # Format: "ground_truth_field": "model_output_field"

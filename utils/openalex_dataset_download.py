@@ -24,7 +24,7 @@ import aiohttp
 OPENALEX_API_URL = "https://api.openalex.org/works"
 
 # User email required to gain access to the OpenAlex 'polite pool'
-USER_EMAIL = "matus.formanek@fri.uniza.sk"
+USER_EMAIL = "your@email-address"
 
 # Professional User-Agent identifier string for API identification
 USER_AGENT = f"OpenScienceResearchBot/4.2 (mailto:{USER_EMAIL})"
@@ -37,8 +37,8 @@ TARGET_PDF_COUNT = 200
 
 # Directory routing configuration
 BASE_DIR = Path(".")
-METADATA_DIR = BASE_DIR / "metadata_openalex"
-PDF_DIR = BASE_DIR / "pdf_openalex"
+METADATA_DIR = BASE_DIR / "../data/metadata_openalex"
+PDF_DIR = BASE_DIR / "../data/pdf_openalex"
 
 # Ensure output structures exist on the file system before initialization
 METADATA_DIR.mkdir(exist_ok=True)
