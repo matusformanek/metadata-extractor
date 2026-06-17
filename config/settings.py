@@ -21,7 +21,7 @@ from config.prompt_loader import load_system_prompt
 # ==============================================================================
 
 # Active local Large Language Model identifiers hosted via Ollama
-LLM_MODEL = "gemma4:e4b-it-qat"
+LLM_MODEL = "hf.co/unsloth/gemma-4-E4B-it-GGUF:Q4_K_M"
 
 # Text embedding model utilized for vector database operations
 EMBED_MODEL = "nomic-embed-text"
@@ -76,6 +76,12 @@ CHROMA_PATH = str(DATA_DIR / "vector_db")
 # Collection identity token storing vocabulary term variations
 CHROMA_COLLECTION = "metadata_lookup_vocabularies"
 
+# Semantic distance threshold for vector similarity matching (Cosine distance metric).
+# This value defines the strictness of the domain-filtered vocabulary lookups.
+# Empirical testing with the current collection content demonstrated that lowering
+# this threshold below 0.40 (e.g., to 0.30) caused ChromaDB to return zero hits
+# for valid entries due to text density drift in language and publisher fields.
+DISTANCE_THRESHOLD = 0.40
 
 # ==============================================================================
 # PIPELINE INPUT FILTER SPECIFICATIONS
@@ -115,7 +121,7 @@ PASS1_OPTIONS: Dict[str, Any] = {
 RAG_FIELD_CONFIG: Dict[str, Dict[str, Any]] = {
     "language": {
         "lookup_domain": "language",
-        "k": 2,
+        "k": 1,
     },
     "rights_uri": {
         "lookup_domain": "license",
@@ -123,7 +129,7 @@ RAG_FIELD_CONFIG: Dict[str, Dict[str, Any]] = {
     },
     "resource_type": {
         "lookup_domain": "resource_type",
-        "k": 2,
+        "k": 1,
     },
     "publisher": {
         "lookup_domain": "publisher",
