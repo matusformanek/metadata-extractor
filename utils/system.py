@@ -28,27 +28,19 @@ def release_vram(model_name: str) -> None:
     endpoint = f"{OLLAMA_API_URL}/api/generate"
 
     # Define the payload instructing the service to release the model layers
-    payload = {
-        "model": model_name,
-        "keep_alive": 0
-    }
+    payload = {"model": model_name, "keep_alive": 0}
 
     try:
         # Dispatch a synchronous HTTP POST request with a strict timeout safety
-        response = requests.post(
-            endpoint,
-            json=payload,
-            timeout=5
-        )
+        response = requests.post(endpoint, json=payload, timeout=5)
 
-        # Trigger an exception automatically if the server returns an error code
+        # Trigger an exception automatically if the server returns an error
+        # code
         response.raise_for_status()
 
     except Exception as exc:
-        # Log network failures or timeouts without interrupting application flow
+        # Log network failures or timeouts without interrupting application flow  # noqa: E501
         # Using lazy formatting for logging strings to optimize processing time
         logging.warning(
-            "VRAM release sequence failed for model %s: %s",
-            model_name,
-            exc
+            "VRAM release sequence failed for model %s: %s", model_name, exc
         )

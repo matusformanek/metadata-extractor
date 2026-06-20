@@ -4,7 +4,7 @@
 This module provides comprehensive normalization pipelines to clean, format,
 and sanitize metadata extracted by Large Language Models. It includes routines
 for validating publication dates, striping academic titles, consolidating
-language codes to ISO 639-1, and performing deterministic regex parsing on DOIs.
+language codes to ISO 639-1, and performing deterministic regex parsing on DOIs.  # noqa: E501
 """
 
 import copy
@@ -85,8 +85,7 @@ def normalize_issued(issued: Any) -> Optional[str]:
         return iso_match.group(1)
 
     eu_match = re.search(
-        r"(\d{1,2})[\.\ /](\d{1,2})[\.\ /](\d{4})",
-        issued_str
+        r"(\d{1,2})[\.\ /](\d{1,2})[\.\ /](\d{4})", issued_str
     )
     if eu_match:
         day, month, year = eu_match.groups()
@@ -102,7 +101,7 @@ def normalize_issued(issued: Any) -> Optional[str]:
 def normalize_author_name(name: str) -> Optional[str]:
     """Clean one author or contributor name candidate.
 
-    Strips identifiers, separates merged names, normalizes legacy umlaut encodings,
+    Strips identifiers, separates merged names, normalizes legacy umlaut encodings,  # noqa: E501
     removes emails, handles brackets/symbols, and purges academic titles.
 
     Args:
@@ -120,15 +119,11 @@ def normalize_author_name(name: str) -> Optional[str]:
         return None
 
     # Fix merged names where lowercase is immediately followed by uppercase
-    name = re.sub(r'(?<=[a-zÀ-ž])(?=[A-Z])', ' ', name)
-    name = re.sub(r'(?<=[a-zÀ-ž])(?=[A-Z]\.)', ' ', name)
+    name = re.sub(r"(?<=[a-zÀ-ž])(?=[A-Z])", " ", name)
+    name = re.sub(r"(?<=[a-zÀ-ž])(?=[A-Z]\.)", " ", name)
 
     # Reconstruct legacy character variations
-    name = (
-        name.replace("¨a", "ä")
-        .replace("¨o", "ö")
-        .replace("¨u", "ü")
-    )
+    name = name.replace("¨a", "ä").replace("¨o", "ö").replace("¨u", "ü")
 
     # Purge unexpected formatting remnants
     name = re.sub(r"\S+@\S+", "", name)
@@ -150,42 +145,128 @@ def normalize_language(lang: Any) -> Optional[str]:
         lang (Any): The language string identifier to normalize.
 
     Returns:
-        Optional[str]: Normalized two-letter code or the sanitized original input.
+        Optional[str]: Normalized two-letter code or the sanitized original input.  # noqa: E501
     """
     if not lang or not isinstance(lang, str):
         return lang if lang else None
 
     lang_clean = _strip_accents(lang.lower().strip())
     lang_map = {
-        "eng": "en", "english": "en", "en-us": "en", "en-gb": "en",
-        "slk": "sk", "slo": "sk", "slovak": "sk", "slovencina": "sk",
-        "slovensky": "sk", "cze": "cs", "ces": "cs", "czech": "cs",
-        "cestina": "cs", "cesky": "cs", "ger": "de", "deu": "de",
-        "german": "de", "deutsch": "de", "nemecky": "de", "fre": "fr",
-        "fra": "fr", "french": "fr", "francais": "fr", "francuzsky": "fr",
-        "pol": "pl", "polish": "pl", "polski": "pl", "polsky": "pl",
-        "hun": "hu", "hungarian": "hu", "magyar": "hu", "madarsky": "hu",
-        "spa": "es", "esp": "es", "spanish": "es", "espanol": "es",
-        "spanielsky": "es", "por": "pt", "portuguese": "pt", "portugues": "pt",
-        "portugalsky": "pt", "lat": "la", "latin": "la", "latinsky": "la",
-        "ita": "it", "italian": "it", "italiano": "it", "taliansky": "it",
-        "rus": "ru", "russian": "ru", "rusky": "ru", "ukr": "uk",
-        "ukrainian": "uk", "ukrajinsky": "uk", "nld": "nl", "dut": "nl",
-        "dutch": "nl", "nederlands": "nl", "holandsky": "nl", "swe": "sv",
-        "swedish": "sv", "svenska": "sv", "svedsky": "sv", "nor": "no",
-        "norwegian": "no", "norsk": "no", "norsky": "no", "dan": "da",
-        "danish": "da", "dansk": "da", "dansky": "da", "fin": "fi",
-        "finnish": "fi", "suomi": "fi", "finsky": "fi", "ell": "el",
-        "gre": "el", "greek": "el", "grecky": "el", "tur": "tr",
-        "turkish": "tr", "turecky": "tr", "ron": "ro", "rum": "ro",
-        "romanian": "ro", "rumunsky": "ro", "bul": "bg", "bulgarian": "bg",
-        "bulharsky": "bg", "srp": "sr", "serbian": "sr", "srpski": "sr",
-        "srbsky": "sr", "hrv": "hr", "croatian": "hr", "hrvatski": "hr",
-        "chorvatsky": "hr", "zho": "zh", "chi": "zh", "chinese": "zh",
-        "cinsky": "zh", "zh-cn": "zh", "zh-tw": "zh", "jpn": "ja",
-        "japanese": "ja", "japonsky": "ja", "kor": "ko", "korean": "ko",
-        "korejsky": "ko", "ara": "ar", "arabic": "ar", "arabsky": "ar",
-        "hin": "hi", "hindi": "hi", "hindsky": "hi",
+        "eng": "en",
+        "english": "en",
+        "en-us": "en",
+        "en-gb": "en",
+        "slk": "sk",
+        "slo": "sk",
+        "slovak": "sk",
+        "slovencina": "sk",
+        "slovensky": "sk",
+        "cze": "cs",
+        "ces": "cs",
+        "czech": "cs",
+        "cestina": "cs",
+        "cesky": "cs",
+        "ger": "de",
+        "deu": "de",
+        "german": "de",
+        "deutsch": "de",
+        "nemecky": "de",
+        "fre": "fr",
+        "fra": "fr",
+        "french": "fr",
+        "francais": "fr",
+        "francuzsky": "fr",
+        "pol": "pl",
+        "polish": "pl",
+        "polski": "pl",
+        "polsky": "pl",
+        "hun": "hu",
+        "hungarian": "hu",
+        "magyar": "hu",
+        "madarsky": "hu",
+        "spa": "es",
+        "esp": "es",
+        "spanish": "es",
+        "espanol": "es",
+        "spanielsky": "es",
+        "por": "pt",
+        "portuguese": "pt",
+        "portugues": "pt",
+        "portugalsky": "pt",
+        "lat": "la",
+        "latin": "la",
+        "latinsky": "la",
+        "ita": "it",
+        "italian": "it",
+        "italiano": "it",
+        "taliansky": "it",
+        "rus": "ru",
+        "russian": "ru",
+        "rusky": "ru",
+        "ukr": "uk",
+        "ukrainian": "uk",
+        "ukrajinsky": "uk",
+        "nld": "nl",
+        "dut": "nl",
+        "dutch": "nl",
+        "nederlands": "nl",
+        "holandsky": "nl",
+        "swe": "sv",
+        "swedish": "sv",
+        "svenska": "sv",
+        "svedsky": "sv",
+        "nor": "no",
+        "norwegian": "no",
+        "norsk": "no",
+        "norsky": "no",
+        "dan": "da",
+        "danish": "da",
+        "dansk": "da",
+        "dansky": "da",
+        "fin": "fi",
+        "finnish": "fi",
+        "suomi": "fi",
+        "finsky": "fi",
+        "ell": "el",
+        "gre": "el",
+        "greek": "el",
+        "grecky": "el",
+        "tur": "tr",
+        "turkish": "tr",
+        "turecky": "tr",
+        "ron": "ro",
+        "rum": "ro",
+        "romanian": "ro",
+        "rumunsky": "ro",
+        "bul": "bg",
+        "bulgarian": "bg",
+        "bulharsky": "bg",
+        "srp": "sr",
+        "serbian": "sr",
+        "srpski": "sr",
+        "srbsky": "sr",
+        "hrv": "hr",
+        "croatian": "hr",
+        "hrvatski": "hr",
+        "chorvatsky": "hr",
+        "zho": "zh",
+        "chi": "zh",
+        "chinese": "zh",
+        "cinsky": "zh",
+        "zh-cn": "zh",
+        "zh-tw": "zh",
+        "jpn": "ja",
+        "japanese": "ja",
+        "japonsky": "ja",
+        "kor": "ko",
+        "korean": "ko",
+        "korejsky": "ko",
+        "ara": "ar",
+        "arabic": "ar",
+        "arabsky": "ar",
+        "hin": "hi",
+        "hindi": "hi",
+        "hindsky": "hi",
     }
     return lang_map.get(lang_clean, lang_clean)
 
@@ -222,7 +303,7 @@ def clean_output(data: Dict[str, Any]) -> Dict[str, Any]:
     """Normalize the extracted metadata dictionary without mutating input.
 
     Args:
-        data (Dict[str, Any]): Original unverified metadata dictionary structure.
+        data (Dict[str, Any]): Original unverified metadata dictionary structure.  # noqa: E501
 
     Returns:
         Dict[str, Any]): Deep-copied and fully processed flat metadata layout.
@@ -338,7 +419,7 @@ def _clean_person_list(values: list) -> list:
 
 
 def _clean_doi_field(data: Dict[str, Any]) -> None:
-    """Normalize DOI values, extract valid DOI patterns, and reject bad URIs."""
+    """Normalize DOI values, extract valid DOI patterns, and reject bad URIs."""  # noqa: E501
     if not data.get("doi"):
         return
 
@@ -365,7 +446,8 @@ def _clean_doi_field(data: Dict[str, Any]) -> None:
         data["doi"] = cleaned_doi
         return
 
-    # 4. Handle conversion to persistent URIs if pattern is an alternative handle
+    # 4. Handle conversion to persistent URIs if pattern is an alternative
+    # handle
     cleaned_lower = cleaned.lower()
     if not data.get("persistent_uri") and (
         "handle" in cleaned_lower or "hdl." in cleaned_lower

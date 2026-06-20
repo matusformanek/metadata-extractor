@@ -16,9 +16,9 @@ import random
 
 import aiohttp
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # API AND BOT CONFIGURATION
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Target OpenAlex API endpoint for academic works
 OPENALEX_API_URL = "https://api.openalex.org/works"
@@ -37,8 +37,8 @@ TARGET_PDF_COUNT = 200
 
 # Directory routing configuration
 BASE_DIR = Path(".")
-METADATA_DIR = BASE_DIR / "../data/metadata_openalex"
-PDF_DIR = BASE_DIR / "../data/pdf_openalex"
+METADATA_DIR = BASE_DIR / "data/metadata_openalex"
+PDF_DIR = BASE_DIR / "data/pdf_openalex"
 
 # Ensure output structures exist on the file system before initialization
 METADATA_DIR.mkdir(exist_ok=True)
@@ -46,42 +46,114 @@ PDF_DIR.mkdir(exist_ok=True)
 
 # Comprehensive list of diverse scientific disciplines used for target sampling
 SCIENTIFIC_FIELDS = [
-    "computer science", "artificial intelligence", "cybernetics",
-    "information science", "library science", "data science",
-    "machine learning", "deep learning", "natural language processing",
-    "robotics", "automation", "internet of things",
-    "physics", "quantum physics", "astrophysics", "chemistry",
-    "biology", "molecular biology", "genetics", "neuroscience",
-    "medicine", "gastroenterology", "clinical medicine", "public health",
-    "sociology", "economics", "education", "psychology",
-    "history", "philosophy", "political science", "law",
-    "mathematics", "statistics", "engineering", "electrical engineering",
-    "civil engineering", "mechanical engineering", "biomedical engineering",
-    "environmental science", "ecology", "geology", "geography",
-    "agriculture", "forestry", "veterinary medicine",
-    "pharmacy", "nursing", "dentistry",
-    "anthropology", "archaeology", "linguistics",
-    "literature", "music", "art", "architecture",
-    "business", "management", "accounting", "finance",
-    "marketing", "healthcare", "epidemiology",
-    "bioinformatics", "computational biology", "biochemistry",
-    "materials science", "nanotechnology", "energy",
-    "climate science", "oceanography", "meteorology",
-    "cognitive science", "cognitive neuroscience", "behavioral science",
-    "communications", "journalism", "media studies",
-    "urban planning", "transportation", "logistics",
-    "food science", "nutrition", "toxicology",
-    "immunology", "oncology", "cardiology", "pediatrics",
-    "geriatrics", "psychiatry", "dermatology", "orthopedics",
-    "sports science", "recreation", "tourism",
-    "criminal justice", "criminology", "security studies",
-    "international relations", "development studies", "area studies"
+    "computer science",
+    "artificial intelligence",
+    "cybernetics",
+    "information science",
+    "library science",
+    "data science",
+    "machine learning",
+    "deep learning",
+    "natural language processing",
+    "robotics",
+    "automation",
+    "internet of things",
+    "physics",
+    "quantum physics",
+    "astrophysics",
+    "chemistry",
+    "biology",
+    "molecular biology",
+    "genetics",
+    "neuroscience",
+    "medicine",
+    "gastroenterology",
+    "clinical medicine",
+    "public health",
+    "sociology",
+    "economics",
+    "education",
+    "psychology",
+    "history",
+    "philosophy",
+    "political science",
+    "law",
+    "mathematics",
+    "statistics",
+    "engineering",
+    "electrical engineering",
+    "civil engineering",
+    "mechanical engineering",
+    "biomedical engineering",
+    "environmental science",
+    "ecology",
+    "geology",
+    "geography",
+    "agriculture",
+    "forestry",
+    "veterinary medicine",
+    "pharmacy",
+    "nursing",
+    "dentistry",
+    "anthropology",
+    "archaeology",
+    "linguistics",
+    "literature",
+    "music",
+    "art",
+    "architecture",
+    "business",
+    "management",
+    "accounting",
+    "finance",
+    "marketing",
+    "healthcare",
+    "epidemiology",
+    "bioinformatics",
+    "computational biology",
+    "biochemistry",
+    "materials science",
+    "nanotechnology",
+    "energy",
+    "climate science",
+    "oceanography",
+    "meteorology",
+    "cognitive science",
+    "cognitive neuroscience",
+    "behavioral science",
+    "communications",
+    "journalism",
+    "media studies",
+    "urban planning",
+    "transportation",
+    "logistics",
+    "food science",
+    "nutrition",
+    "toxicology",
+    "immunology",
+    "oncology",
+    "cardiology",
+    "pediatrics",
+    "geriatrics",
+    "psychiatry",
+    "dermatology",
+    "orthopedics",
+    "sports science",
+    "recreation",
+    "tourism",
+    "criminal justice",
+    "criminology",
+    "security studies",
+    "international relations",
+    "development studies",
+    "area studies",
 ]
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # HELPER DATA PROCESSING FUNCTIONS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 def reconstruct_abstract(inverted_index: dict) -> str:
     """Convert an OpenAlex abstract inverted index back into plain text.
@@ -148,19 +220,20 @@ def map_to_custom_schema(item: dict, pdf_url: str) -> dict:
         "subject": author_keywords,
         "language": item.get("language", "N/A"),
         "uri": pdf_url,
-        "rights.uri": item.get("primary_location", {}).get("license", "N/A")
+        "rights.uri": item.get("primary_location", {}).get("license", "N/A"),
     }
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # ASYNCHRONOUS NETWORK OPERATIONS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 async def download_pdf(
     session: aiohttp.ClientSession,
     pdf_url: str,
     output_path: Path,
-    semaphore: asyncio.Semaphore
+    semaphore: asyncio.Semaphore,
 ) -> tuple[bool, str]:
     """Asynchronously download a single PDF file with integrated safety rules.
 
@@ -179,13 +252,17 @@ async def download_pdf(
     async with semaphore:
         try:
             # Query the target server allowing automatic redirect tracking
-            async with session.get(pdf_url, timeout=30, allow_redirects=True) as response:
+            async with session.get(
+                pdf_url, timeout=30, allow_redirects=True
+            ) as response:
                 if response.status != 200:
                     return False, f"HTTP {response.status}"
 
                 # Ensure that the resolved Content-Type matches a binary PDF
                 content_type = response.headers.get("Content-Type", "").lower()
-                if "pdf" not in content_type and not pdf_url.lower().endswith(".pdf"):
+                if "pdf" not in content_type and not pdf_url.lower().endswith(
+                    ".pdf"
+                ):
                     return False, "Content type is not PDF"
 
                 # Read raw stream data into system memory buffer
@@ -206,15 +283,16 @@ async def download_pdf(
             return False, str(e)
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # MAIN EXECUTION ENGINE ORCHESTRATION
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 async def process_records(target_count: int) -> None:
     """Manage the primary metadata parsing and downloading workflow loop.
 
     Iterates through randomized topics using OpenAlex sampling filters, parses
-    returned arrays, submits async download tasks, and coordinates file storage.
+    returned arrays, submits async download tasks, and coordinates file storage.  # noqa: E501
 
     Args:
         target_count (int): Maximum unique documents to load into the dataset.
@@ -226,8 +304,12 @@ async def process_records(target_count: int) -> None:
     catalog = []
     cycle_count = 1
 
-    print(f"Goal: Secure exactly {target_count} OA publications from OpenAlex.")
-    print("Topic rotation is activated (sampling 3 items per field iteration).\n")
+    print(
+        f"Goal: Secure exactly {target_count} OA publications from OpenAlex."
+    )
+    print(
+        "Topic rotation is activated (sampling 3 items per field iteration).\n"
+    )
 
     async with aiohttp.ClientSession(headers=headers) as session:
         while successful_count < target_count:
@@ -238,14 +320,18 @@ async def process_records(target_count: int) -> None:
             # Configure endpoint criteria requesting specific metadata fields
             params = {
                 "search": selected_topic,
-                "filter": "has_oa_accepted_or_published_version:true,has_doi:true",
+                "filter": "has_oa_accepted_or_published_version:true,has_doi:true",  # noqa: E501
                 "sample": 3,
-                "mailto": USER_EMAIL
+                "mailto": USER_EMAIL,
             }
 
-            async with session.get(OPENALEX_API_URL, params=params) as response:
+            async with session.get(
+                OPENALEX_API_URL, params=params
+            ) as response:
                 if response.status != 200:
-                    print(f"API Error ({response.status}). Moving to next batch...")
+                    print(
+                        f"API Error ({response.status}). Moving to next batch..."
+                    )
                     cycle_count += 1
                     continue
                 data = await response.json()
@@ -256,7 +342,9 @@ async def process_records(target_count: int) -> None:
             # 1. Collate data structures and initialize tasks
             for item in items:
                 raw_doi = item.get("doi", "")
-                clean_doi = raw_doi.replace("https://doi.org/", "") if raw_doi else ""
+                clean_doi = (
+                    raw_doi.replace("https://doi.org/", "") if raw_doi else ""
+                )
 
                 if not clean_doi or successful_count >= target_count:
                     continue
@@ -297,18 +385,26 @@ async def process_records(target_count: int) -> None:
 
                     metadata_path = METADATA_DIR / f"{safe_name}.json"
                     with open(metadata_path, "w", encoding="utf-8") as f:
-                        json.dump(metadata_record, f, indent=4, ensure_ascii=False)
+                        json.dump(
+                            metadata_record, f, indent=4, ensure_ascii=False
+                        )
 
                     catalog.append(metadata_record)
-                    print(f"[{successful_count}/{target_count}] ✓ PDF Saved: {metadata_record['doi']}")
+                    print(
+                        f"[{successful_count}/{target_count}] ✓ PDF Saved: {metadata_record['doi']}"  # noqa: E501
+                    )
 
             cycle_count += 1
 
     # Consolidate complete execution dataset records into a master log
-    with open("katalog_ground_truth_openalex.json", "w", encoding="utf-8") as f:
+    with open(
+        "katalog_ground_truth_openalex.json", "w", encoding="utf-8"
+    ) as f:
         json.dump(catalog, f, indent=4, ensure_ascii=False)
 
-    print(f"\nCOMPLETE: Dataset built successfully with {successful_count} documents.")
+    print(
+        f"\nCOMPLETE: Dataset built successfully with {successful_count} documents."  # noqa: E501
+    )
 
 
 if __name__ == "__main__":

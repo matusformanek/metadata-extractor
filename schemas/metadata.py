@@ -11,16 +11,16 @@ from typing import Any, List, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
-
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # CORE METADATA VALIDATION SCHEMA
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 class TargetMetadata(BaseModel):
     """Validated bibliographic metadata prepared for digital repository import.
 
     This model serves as the final sanitized data layer mapping directly
-    to localized Dublin Core schema components. It forbids arbitrary extra fields
+    to localized Dublin Core schema components. It forbids arbitrary extra fields  # noqa: E501
     to ensure absolute structure conformity during deserialization.
     """
 
@@ -76,9 +76,10 @@ class TargetMetadata(BaseModel):
         return value
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # EVALUATION AND EVIDENCE AUDIT TRAIL SCHEMA
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 class EvidenceLog(BaseModel):
     """Mirror metadata fields containing source text evidence segments.
@@ -109,14 +110,15 @@ class EvidenceLog(BaseModel):
     rights_uri: Union[str, List[str], None] = None
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # TOP LEVEL PIPELINE INTERFACE SCHEMA
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 class AgentOutput(BaseModel):
     """Top-level unified schema expected from the extraction pipeline pass.
 
-    Encapsulates both the normalized bibliographic properties and the supporting
+    Encapsulates both the normalized bibliographic properties and the supporting  # noqa: E501
     text segments into a single cohesive response layout from the LLM agent.
     """
 

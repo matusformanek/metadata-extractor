@@ -11,7 +11,8 @@ from pathlib import Path
 
 import pymupdf4llm
 
-from config.settings import HEAD_LINES, MAX_TEXT_CHARS, TAIL_LINES
+# Constants imported from the central configuration module
+from config.settings import HEAD_CHARS, MAX_TEXT_CHARS, TAIL_CHARS
 
 
 class Scribe:
@@ -67,8 +68,8 @@ class Scribe:
         """Read a supported document and return a head-tail text sandwich.
 
         Supports raw text, PDF, EPUB, DOCX, and ODT files. Long inputs
-        are clipped into a condensed block focusing on the first and last
-        segments of the parsed lines.
+        are clipped into a condensed block focusing on the boundary sections
+        defined by the configuration constants.
 
         Args:
             file_path (str): Absolute or relative filesystem path to target.
@@ -115,21 +116,22 @@ class Scribe:
             else:
                 raise ValueError(f"Scribe: Unsupported file format {suffix}")
 
+            # Clean structural artifacts before performing context segmentation
             text = Scribe.clean_artifacts(text)
-            lines = text.split("\n")
 
-            # Long documents are compressed into the bibliographically richest
-            # areas: the beginning and the end of the document.
-            if len(lines) <= HEAD_LINES + TAIL_LINES:
-                head = "\n".join(lines)
-                tail = ""
+            # Apply character-based sandwich sampling using dynamic boundaries
+            if len(text) <= HEAD_CHARS + TAIL_CHARS:
+                combined = text
             else:
-                head = "\n".join(lines[:HEAD_LINES])
-                tail = "\n".join(lines[-TAIL_LINES:])
+                introduction = text[:HEAD_CHARS]
+                conclusion = text[-TAIL_CHARS:]
 
-            combined = f"--- START OF DOCUMENT ---\n{head}"
-            if tail:
-                combined += f"\n\n--- END OF DOCUMENT ---\n{tail}"
+                # Structural tags are preserved for consistency across
+                # configurations
+                combined = (
+                    f"This is the introduction of the document:\n{introduction}\n"  # noqa: E501
+                    f"This is the conclusion of the document:\n{conclusion}"
+                )
 
             if not combined.strip():
                 raise RuntimeError("Scribe: extracted text is empty.")

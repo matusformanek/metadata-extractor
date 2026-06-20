@@ -16,22 +16,24 @@ import json
 import os
 from pathlib import Path
 import re
-from typing import Any, Dict, Tuple
+from typing import Any, Tuple
 
 try:
     from thefuzz import fuzz
 except ImportError:
-    print("❌ The 'thefuzz' library is not installed. Run: pip install thefuzz[speedup]")
+    print(
+        "❌ The 'thefuzz' library is not installed. Run: pip install thefuzz[speedup]"  # noqa: E501
+    )
     exit(1)
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # CONFIGURATION AND GLOBAL CONSTANTS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Paths to the directories containing ground truth data and system outputs
-DIR_GROUND = Path("../data/ground")
-DIR_OUTPUT = Path("../data/output")
+DIR_GROUND = Path("data/ground")
+DIR_OUTPUT = Path("data/output")
 
 # Mapping schema between ground truth keys and model output keys
 # Format: "ground_truth_field": "model_output_field"
@@ -47,39 +49,85 @@ SCHEMA_MAPPING = {
 # Fields designated for token-based fuzzy string matching
 FUZZY_FIELDS = {"title", "authors", "publisher"}
 
-# Minimum similarity score required to consider a fuzzy match successful (0-100)
+# Minimum similarity score required to consider a fuzzy match successful
+# (0-100)
 FUZZY_THRESHOLD = 90
 
 # Normalization dictionary for target languages mapping to ISO 639-1 codes
 LANGUAGE_MAPPING = {
     # English
-    "en": "en", "english": "en", "angličtina": "en", "anglicky": "en",
+    "en": "en",
+    "english": "en",
+    "angličtina": "en",
+    "anglicky": "en",
     # Spanish
-    "es": "es", "spanish": "es", "español": "es", "espanol": "es", "španielčina": "es", "španělština": "es",
+    "es": "es",
+    "spanish": "es",
+    "español": "es",
+    "espanol": "es",
+    "španielčina": "es",
+    "španělština": "es",
     # Portuguese
-    "pt": "pt", "portuguese": "pt", "português": "pt", "portugues": "pt", "portugalčina": "pt", "portugalština": "pt",
+    "pt": "pt",
+    "portuguese": "pt",
+    "português": "pt",
+    "portugues": "pt",
+    "portugalčina": "pt",
+    "portugalština": "pt",
     # Russian
-    "ru": "ru", "russian": "ru", "русский": "ru", "ruština": "ru",
+    "ru": "ru",
+    "russian": "ru",
+    "русский": "ru",
+    "ruština": "ru",
     # Indonesian
-    "id": "id", "indonesian": "id", "bahasa indonesia": "id", "indonézština": "id", "indonéština": "id",
+    "id": "id",
+    "indonesian": "id",
+    "bahasa indonesia": "id",
+    "indonézština": "id",
+    "indonéština": "id",
     # Ukrainian
-    "uk": "uk", "ukrainian": "uk", "українська": "uk", "ukrajinčina": "uk", "ukrajinština": "uk",
+    "uk": "uk",
+    "ukrainian": "uk",
+    "українська": "uk",
+    "ukrajinčina": "uk",
+    "ukrajinština": "uk",
     # Polish
-    "pl": "pl", "polish": "pl", "polski": "pl", "poľština": "pl", "polština": "pl",
+    "pl": "pl",
+    "polish": "pl",
+    "polski": "pl",
+    "poľština": "pl",
+    "polština": "pl",
     # Czech
-    "cs": "cs", "cz": "cs", "czech": "cs", "čeština": "cs", "česky": "cs",
+    "cs": "cs",
+    "cz": "cs",
+    "czech": "cs",
+    "čeština": "cs",
+    "česky": "cs",
     # Turkish
-    "tr": "tr", "turkish": "tr", "türkçe": "tr", "turečtina": "tr",
+    "tr": "tr",
+    "turkish": "tr",
+    "türkçe": "tr",
+    "turečtina": "tr",
     # French
-    "fr": "fr", "french": "fr", "français": "fr", "francais": "fr", "francúzština": "fr", "francouzština": "fr",
+    "fr": "fr",
+    "french": "fr",
+    "français": "fr",
+    "francais": "fr",
+    "francúzština": "fr",
+    "francouzština": "fr",
     # German
-    "de": "de", "german": "de", "deutsch": "de", "nemčina": "de", "němčina": "de"
+    "de": "de",
+    "german": "de",
+    "deutsch": "de",
+    "nemčina": "de",
+    "němčina": "de",
 }
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # UTILITY AND NORMALIZATION FUNCTIONS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 def normalize_value(val: Any, field_name: str = "") -> Any:
     """Standardize and clean metadata values prior to evaluation.
@@ -107,21 +155,30 @@ def normalize_value(val: Any, field_name: str = "") -> Any:
         return sorted(cleaned_list) if cleaned_list else None
 
     cleaned = str(val).strip().lower()
-    cleaned = re.sub(r'[‐‑‒–—―]', '-', cleaned)
+    cleaned = re.sub(r"[‐‑‒–—―]", "-", cleaned)
 
     if field_name == "authors":
-        cleaned = re.sub(r'[,.]', '', cleaned)
+        cleaned = re.sub(r"[,.]", "", cleaned)
 
-    if cleaned in ["n/a", "none", "null", "na", "", "-", "unknown", "neuvedené"]:
+    if cleaned in [
+        "n/a",
+        "none",
+        "null",
+        "na",
+        "",
+        "-",
+        "unknown",
+        "neuvedené",
+    ]:
         return None
 
     if field_name == "issued":
-        year_match = re.search(r'\b(18|19|20|21)\d{2}\b', cleaned)
+        year_match = re.search(r"\b(18|19|20|21)\d{2}\b", cleaned)
         if year_match:
             cleaned = year_match.group(0)
 
     if field_name in ["type", "resource_type"]:
-        cleaned = re.sub(r'[-_]', ' ', cleaned)
+        cleaned = re.sub(r"[-_]", " ", cleaned)
 
         if "review article" in cleaned:
             cleaned = "review"
@@ -141,7 +198,11 @@ def calculate_f1(tp: int, fp: int, fn: int) -> Tuple[float, float, float]:
     """Calculate Precision, Recall, and the harmonic mean (F1-score)."""
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
-    f1 = (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
+    f1 = (
+        (2 * precision * recall) / (precision + recall)
+        if (precision + recall) > 0
+        else 0.0
+    )
     return precision, recall, f1
 
 
@@ -154,9 +215,10 @@ def format_time(seconds: float) -> str:
     return f"{mins} min {secs:.2f} s"
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # MAIN EVALUATION PIPELINE
-# ==============================================================================
+# ==============================================================================  # noqa: E501
+
 
 def run_evaluation() -> None:
     """Execute the comprehensive metadata evaluation workflow.
@@ -209,14 +271,20 @@ def run_evaluation() -> None:
     timestamp_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
     meta_lines.append("=== METADATA EXTRACTION PERFORMANCE REPORT ===")
-    meta_lines.append(f"Evaluation Date: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')}")
+    meta_lines.append(
+        f"Evaluation Date: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')}"
+    )
     meta_lines.append(f"Fuzzy Match Threshold: {FUZZY_THRESHOLD}%\n")
 
     meta_lines.append("=== PERFORMANCE AND TEMPORAL METRICS ===")
     meta_lines.append(f"Number of unique processed documents: {n_documents}")
     if n_documents > 1:
-        meta_lines.append(f"Average processing time per document: {format_time(avg_time)}")
-        meta_lines.append(f"Total batch processing time: {format_time(total_batch_time)}")
+        meta_lines.append(
+            f"Average processing time per document: {format_time(avg_time)}"
+        )
+        meta_lines.append(
+            f"Total batch processing time: {format_time(total_batch_time)}"
+        )
         meta_lines.append(f"Throughput: {3600 / avg_time:.2f} doc./hour.")
     else:
         meta_lines.append("Insufficient data to compute valid timing metrics.")
@@ -234,7 +302,7 @@ def run_evaluation() -> None:
         raw_path = DIR_OUTPUT / f"{stem}_raw.txt"
 
         try:
-            with open(ground_path, 'r', encoding='utf-8') as f:
+            with open(ground_path, "r", encoding="utf-8") as f:
                 ground_json = json.load(f)
         except json.JSONDecodeError:
             print(f"⚠️ Skipping {stem}: Ground Truth JSON is corrupted.")
@@ -246,7 +314,7 @@ def run_evaluation() -> None:
 
         if output_path.exists():
             try:
-                with open(output_path, 'r', encoding='utf-8') as f:
+                with open(output_path, "r", encoding="utf-8") as f:
                     output_json = json.load(f)
             except json.JSONDecodeError:
                 is_fatal_failure = True
@@ -262,7 +330,9 @@ def run_evaluation() -> None:
 
         if is_fatal_failure:
             failed_extractions_count += 1
-            conflict_lines.append(f"\n📄 File: {stem} 🚨 [FATAL FAILURE: {failure_reason}]")
+            conflict_lines.append(
+                f"\n📄 File: {stem} 🚨 [FATAL FAILURE: {failure_reason}]"
+            )
             file_has_error = True
 
         for ground_key, output_key in SCHEMA_MAPPING.items():
@@ -294,10 +364,16 @@ def run_evaluation() -> None:
 
                 if not is_fatal_failure:
                     conflict_lines.append(f"  [X] Field: {ground_key}")
-                    conflict_lines.append(f"      G: {ground_json.get(ground_key)} [Normalized: {val_g}]")
-                    conflict_lines.append(f"      O: {output_json.get(output_key)} [Normalized: {val_o}]")
+                    conflict_lines.append(
+                        f"      G: {ground_json.get(ground_key)} [Normalized: {val_g}]"  # noqa: E501
+                    )
+                    conflict_lines.append(
+                        f"      O: {output_json.get(output_key)} [Normalized: {val_o}]"  # noqa: E501
+                    )
                     if fuzzy_score > 0:
-                        conflict_lines.append(f"      Fuzzy Score: {fuzzy_score}%")
+                        conflict_lines.append(
+                            f"      Fuzzy Score: {fuzzy_score}%"
+                        )
 
                 if val_g and val_o:
                     stats[ground_key]["FP"] += 1
@@ -310,16 +386,29 @@ def run_evaluation() -> None:
     # --- AGGREGATION AND STATISTICAL REPORTING ---
     total_files = len(ground_files)
     successful_files = total_files - failed_extractions_count
-    success_rate = (successful_files / total_files * 100) if total_files > 0 else 0.0
-    failure_rate = (failed_extractions_count / total_files * 100) if total_files > 0 else 0.0
+    success_rate = (
+        (successful_files / total_files * 100) if total_files > 0 else 0.0
+    )
+    failure_rate = (
+        (failed_extractions_count / total_files * 100)
+        if total_files > 0
+        else 0.0
+    )
 
     # Build final stats text block to place it at the top
     stats_lines = []
     stats_lines.append("=== FINAL STATISTICS ===")
-    stats_lines.append(f"Successfully processed files: {successful_files} / {total_files} ({success_rate:.2f}%)")
-    stats_lines.append(f"Fatal failures (penalized as FN): {failed_extractions_count} / {total_files} ({failure_rate:.2f}%)\n")
+    stats_lines.append(
+        f"Successfully processed files: {successful_files} / {total_files} ({success_rate:.2f}%)"  # noqa: E501
+    )
+    stats_lines.append(
+        f"Fatal failures (penalized as FN): {failed_extractions_count} / {total_files} ({failure_rate:.2f}%)\n"  # noqa: E501
+    )
 
-    header = f"{'Field':<15} | {'TP':<4} | {'FP':<4} | {'FN':<4} | {'P':<8} | {'R':<8} | {'F1':<8}"
+    header = (
+        f"{'Field':<15} | {'TP':<4} | {'FP':<4} | {'FN':<4} | "
+        f"{'P':<8} | {'R':<8} | {'F1':<8}"
+    )
     stats_lines.append(header)
     separator = "-" * len(header)
     stats_lines.append(separator)
@@ -329,16 +418,26 @@ def run_evaluation() -> None:
         s = stats[g_key]
         p, r, f1 = calculate_f1(s["TP"], s["FP"], s["FN"])
         f1_list.append(f1)
-        stat_line = f"{g_key:<15} | {s['TP']:<4} | {s['FP']:<4} | {s['FN']:<4} | {p:<8.4f} | {r:<8.4f} | {f1:<8.4f}"
+        stat_line = (
+            f"{g_key:<15} | {s['TP']:<4} | {s['FP']:<4} | {s['FN']:<4} | "
+            f"{p:<8.4f} | {r:<8.4f} | {f1:<8.4f}"
+        )
         stats_lines.append(stat_line)
 
     stats_lines.append(separator)
-    macro_score_line = f"MACRO F1 SCORE: {sum(f1_list)/len(f1_list):.4f}"
+    macro_score_line = f"MACRO F1 SCORE: {sum(f1_list) / len(f1_list):.4f}"
     stats_lines.append(macro_score_line)
     stats_lines.append("\n" + "=" * 40 + "\n")
 
-    # Combine blocks: Metadata info -> Final Statistics Table -> Detailed Conflicts
-    final_report_content = "\n".join(meta_lines) + "\n" + "\n".join(stats_lines) + "\n" + "\n".join(conflict_lines)
+    # Combine blocks: Metadata info -> Final Statistics Table -> Detailed
+    # Conflicts
+    final_report_content = (
+        "\n".join(meta_lines)
+        + "\n"
+        + "\n".join(stats_lines)
+        + "\n"
+        + "\n".join(conflict_lines)
+    )
 
     # Print consolidated results immediately to console
     print("\n" + "\n".join(meta_lines))
@@ -346,12 +445,15 @@ def run_evaluation() -> None:
 
     # Flush full combined content to the persistent text file
     report_name = f"eval_results_{timestamp_str}.txt"
-    with open(report_name, 'w', encoding='utf-8') as f:
+    with open(report_name, "w", encoding="utf-8") as f:
         f.write(final_report_content)
 
     print(f"✅ Evaluation complete. Report file generated: {report_name}")
     if n_documents > 1:
-        print(f"⏱️ Average: {format_time(avg_time)} | Total Batch: {format_time(total_batch_time)}")
+        print(
+            f"⏱️ Average: {format_time(avg_time)} | "
+            f"Total Batch: {format_time(total_batch_time)}"
+        )
 
 
 if __name__ == "__main__":

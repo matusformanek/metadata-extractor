@@ -49,7 +49,7 @@ class OllamaWrapper:
                 typically set to "json". Defaults to "json".
 
         Returns:
-            str: Stripped raw textual payload delivered by the generation endpoint.
+            str: Stripped raw textual payload delivered by the generation endpoint.  # noqa: E501
         """
         kwargs: Dict[str, Any] = {
             "model": self.model,

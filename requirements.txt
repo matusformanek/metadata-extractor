@@ -1,0 +1,12 @@
+aiohttp==3.14.1
+chromadb==1.5.9
+python-docx
+langchain_chroma==1.1.0
+langchain_core==1.4.8
+langchain_ollama==1.1.0
+odfpy==1.4.1
+ollama==0.6.2
+pydantic==2.13.4
+pymupdf4llm==1.27.2.3
+requests==2.34.2
+thefuzz==0.22.1

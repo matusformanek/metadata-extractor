@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 """Metadata extraction pipeline using local Large Language Models via Ollama.
 
+Configuration: metadata-extractor-configuration B
+
+Note:
+    This script can be used completely independently as a standalone tool
+    without the need for any other scripts or components from the overall
+    architecture. It does not invoke or rely on any other architectural scripts.  # noqa: E501
+
 This module ingests academic and descriptive documents in various formats,
 slices them into a head-tail sandwich representation to fit context windows,
 and queries a local LLM to extract structured Dublin Core metadata fields
@@ -13,14 +20,13 @@ import sys
 import traceback
 import subprocess
 from pathlib import Path
-from typing import Optional
 
 import ollama
 import pymupdf4llm
 
 # Configuration constants for model execution and context boundaries.
 # Changing these impacts token usage, processing speed, and metadata accuracy.
-MODEL_NAME = "qwen3.5:4b"
+MODEL_NAME = "hf.co/unsloth/gemma-4-E4B-it-GGUF:Q4_K_M"
 INPUT_DIR = Path("data/input")
 OUTPUT_DIR = Path("data/output")
 
@@ -28,28 +34,29 @@ SUPPORTED_FORMATS = {".pdf", ".epub", ".docx", ".odt", ".txt"}
 
 OLLAMA_OPTIONS = {
     "temperature": 0.0,  # Zero temperature ensures deterministic extractions.
-    "num_ctx": 9000      # Context window sized safely for a 4B/8B parameter LLM.
+    # Context window sized safely for a 4B/8B parameter LLM.
+    "num_ctx": 9000,
 }
 
-SYSTEM_PROMPT = """Extract descriptive bibliographic metadata from the provided text and return exactly one JSON object in the exact schema below.
+SYSTEM_PROMPT = """Extract descriptive bibliographic metadata from the provided text and return exactly one JSON object in the exact schema below.  # noqa: E501
 {
   "title": "The primary name given to the document.",
-  "alternative_title": "Subtitle or parallel title in another language only if explicitly present.",
+  "alternative_title": "Subtitle or parallel title in another language only if explicitly present.",  # noqa: E501
   "authors": [
-    "Personal names of all primary creators only. Exclude institutions, departments, and affiliations."
+    "Personal names of all primary creators only. Exclude institutions, departments, and affiliations."  # noqa: E501
   ],
   "contributors": [
     "List of secondary contributors or institutions."
   ],
-  "issued": "Year of formal publication (YYYY). Prefer the print or final version year over online-first or epub-ahead dates. Use YYYY if full date is unavailable.",
+  "issued": "Year of formal publication (YYYY). Prefer the print or final version year over online-first or epub-ahead dates. Use YYYY if full date is unavailable.",  # noqa: E501
   "publisher": "The entity responsible for publication.",
   "publication_place": "The geographic location of publication.",
-  "resource_type": "Exact type from: article, book, book-chapter, conference-paper, dataset, thesis, editorial, letter, preprint, report, review, standard, other.",
-  "language": "ISO 639-1 code of the document's primary language (e.g. en, de, fr, pt, ja, pl).",
-  "doi": "Digital Object Identifier of primary document if available. Without prefix: https://doi.org/",
+  "resource_type": "Exact type from: article, book, book-chapter, conference-paper, dataset, thesis, editorial, letter, preprint, report, review, standard, other.",  # noqa: E501
+  "language": "ISO 639-1 code of the document's primary language (e.g. en, de, fr, pt, ja, pl).",  # noqa: E501
+  "doi": "Digital Object Identifier of primary document if available. Without prefix: https://doi.org/",  # noqa: E501
   "isbn": "International Standard Book Number.",
   "issn_print": "International Standard Serial Number for the print edition.",
-  "issn_electronic": "International Standard Serial Number for the electronic edition.",
+  "issn_electronic": "International Standard Serial Number for the electronic edition.",  # noqa: E501
   "persistent_uri": "The canonical uniform resource identifier.",
   "abstract": "A brief summary of the resource content.",
   "subjects": [
@@ -59,17 +66,19 @@ SYSTEM_PROMPT = """Extract descriptive bibliographic metadata from the provided 
 }
 """
 
-# Standardized logging configuration routing info and errors directly to stdout.
+# Standardized logging configuration routing info and errors directly to
+# stdout.
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler(sys.stdout)]
+    handlers=[logging.StreamHandler(sys.stdout)],
 )
 
 
 # ---------------------------------------------------------------------------
 # Markdown conversion helper (NEW)
 # ---------------------------------------------------------------------------
+
 
 def convert_to_markdown_pandoc(file_path: Path) -> str:
     """Convert DOCX or ODT file to Markdown using Pandoc."""
@@ -90,6 +99,7 @@ def convert_to_markdown_pandoc(file_path: Path) -> str:
 # ---------------------------------------------------------------------------
 # Direct Text Extraction Functions
 # ---------------------------------------------------------------------------
+
 
 def extract_text(file_path: Path, head: int = 7000, tail: int = 1000) -> str:
     """Extract raw text from a supported file and apply character bounds.
@@ -113,7 +123,8 @@ def extract_text(file_path: Path, head: int = 7000, tail: int = 1000) -> str:
     suffix = file_path.suffix.lower()
     text = ""
 
-    # Processing plain text files with safe byte replacement for encoding errors.
+    # Processing plain text files with safe byte replacement for encoding
+    # errors.
     if suffix == ".txt":
         text = file_path.read_text(encoding="utf-8", errors="replace")
 
@@ -136,16 +147,23 @@ def extract_text(file_path: Path, head: int = 7000, tail: int = 1000) -> str:
     if len(text) <= (head + tail):
         return text
 
-    return text[:head] + "\n\n[...]\n\n" + text[-tail:]
+    introduction = text[:head]
+    conclusion = text[-tail:]
+
+    # Structured string combination matching Configuration A behavior
+    return (
+        f"This is the introduction of the document:\n{introduction}\n"
+        f"This is the conclusion of the document:\n{conclusion}"
+    )
 
 
 # ---------------------------------------------------------------------------
 # Diagnostics Helpers
 # ---------------------------------------------------------------------------
 
+
 def save_raw_response(stem: str, raw_response: str) -> None:
     """Save the unparsed text response from the LLM to a raw file."""
-
     raw_file = OUTPUT_DIR / f"{stem}_raw.txt"
     with raw_file.open("w", encoding="utf-8") as f:
         f.write(raw_response)
@@ -154,24 +172,26 @@ def save_raw_response(stem: str, raw_response: str) -> None:
 
 def save_diagnostic_log(stem: str, error_msg: str) -> None:
     """Write traceback details and runtime exceptions to a log file."""
-
     log_file = OUTPUT_DIR / f"{stem}_error.txt"
     with log_file.open("w", encoding="utf-8") as f:
         f.write(f"=== ERROR DIAGNOSTIC INFO ===\n{error_msg}\n")
-    logging.info(f"[DIAGNOSTIC] Complete execution trace written to: {log_file}")
+    logging.info(
+        f"[DIAGNOSTIC] Complete execution trace written to: {log_file}"
+    )
 
 
 # ---------------------------------------------------------------------------
 # Execution Pipeline
 # ---------------------------------------------------------------------------
 
+
 def run_metadata_pipeline() -> None:
     """Execute the core batch-processing loop over the input directory."""
-
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     target_files = sorted(
-        f for f in INPUT_DIR.iterdir()
+        f
+        for f in INPUT_DIR.iterdir()
         if f.is_file() and f.suffix.lower() in SUPPORTED_FORMATS
     )
 
@@ -199,7 +219,7 @@ def run_metadata_pipeline() -> None:
                 keep_alive="5m",
             )
             raw_response = response.get("response", "").strip()
-            
+
             parsed_json = json.loads(raw_response)
 
             output_file = OUTPUT_DIR / f"{file_path.stem}_metadata.json"
@@ -209,15 +229,19 @@ def run_metadata_pipeline() -> None:
 
         except json.JSONDecodeError as json_err:
             tb = traceback.format_exc()
-            msg = f"JSON decoding failed.\nException: {json_err}\n\nTraceback:\n{tb}"
-            logging.error(f"Failed to parse LLM json structure for {file_path.name}")
+            msg = f"JSON decoding failed.\nException: {json_err}\n\nTraceback:\n{tb}"  # noqa: E501
+            logging.error(
+                f"Failed to parse LLM json structure for {file_path.name}"
+            )
             save_raw_response(file_path.stem, raw_response)
             save_diagnostic_log(file_path.stem, msg)
 
         except Exception as general_err:
             tb = traceback.format_exc()
-            msg = f"Unexpected execution crash.\nException: {general_err}\n\nTraceback:\n{tb}"
-            logging.error(f"Critical pipeline failure on file {file_path.name}: {general_err}")
+            msg = f"Unexpected execution crash.\nException: {general_err}\n\nTraceback:\n{tb}"  # noqa: E501
+            logging.error(
+                f"Critical pipeline failure on file {file_path.name}: {general_err}"
+            )
             if raw_response:
                 save_raw_response(file_path.stem, raw_response)
             save_diagnostic_log(file_path.stem, msg)

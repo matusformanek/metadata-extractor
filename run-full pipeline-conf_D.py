@@ -1,9 +1,24 @@
 # -*- coding: utf-8 -*-
 """Command-line interface entry point for the metadata extraction pipeline.
 
-This module orchestrates the file discovery phase within the data layer,
-initializes centralized logging subsystems, instantiates the vector database
-lookup components, and sequentially processes discovered document batches.
+Configuration: metadata-extractor-configuration D (Entry Point)
+
+Note:
+    This script serves as the main entry point for Configuration D.
+    It is not a standalone tool and strictly requires other scripts and
+    modules within the overall architecture to function properly. It depends
+    on external architectural components for configuration, pipeline execution,
+    vector store management, and logging setup.
+
+    Configuration D activates the full pipeline including the dual-phase
+    Pass 1 / Pass 2 inference with advanced prompting, Pydantic schema
+    validation, the agentic repair loop (Inspector), and importantly,
+    the RAG subsystem (Librarian/ChromaDB).
+
+Ablation role:
+    Represents the complete, fully-featured system. When compared with
+    Configuration C, it measures the baseline effectiveness of semantic
+    knowledge base (RAG) augmentation.
 """
 
 import glob
@@ -22,7 +37,7 @@ def run() -> None:
 
     Discovers target objects using pre-configured search globs, screens out
     previously generated output structures to avoid extraction feedback loops,
-    verifies vector store connectivity, and evaluates pipeline execution health.
+    verifies vector store connectivity, and evaluates pipeline execution health.  # noqa: E501
     """
     setup_logging(LOG_FILE)
 

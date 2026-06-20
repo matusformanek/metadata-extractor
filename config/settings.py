@@ -6,7 +6,7 @@ and retrieval-augmented generation (RAG) field boundaries utilized across
 the automated Dublin Core metadata extraction pipeline.
 """
 
-import logging
+
 from pathlib import Path
 from typing import Any, Dict
 
@@ -16,9 +16,9 @@ from config.prompt_loader import load_system_prompt
 # logging.basicConfig(level=logging.DEBUG)
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # LLM RUNTIME ENVIRONMENT SETTINGS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Active local Large Language Model identifiers hosted via Ollama
 LLM_MODEL = "hf.co/unsloth/gemma-4-E4B-it-GGUF:Q4_K_M"
@@ -30,9 +30,9 @@ EMBED_MODEL = "nomic-embed-text"
 OLLAMA_API_URL = "http://localhost:11434"
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # FILE SYSTEM ROUTING AND PATHS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Absolute paths pointing to the core data and prompt directories
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -49,26 +49,26 @@ RAW_SUFFIX = "_raw.txt"
 LOG_FILE = str(DATA_DIR / "pipeline.log")
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # CONTEXT WINDOW AND RETRY CONSTRAINTS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Maximum characters allowed from document stream to fit model context bounds
 MAX_TEXT_CHARS = 9000
 
-# Number of initial lines extracted from document header sections
-HEAD_LINES = 250
+# Number of initial characters extracted from document header sections
+HEAD_CHARS = 7000
 
-# Number of trailing lines extracted from document reference sections
-TAIL_LINES = 100
+# Number of trailing characters extracted from document reference sections
+TAIL_CHARS = 1000
 
 # Maximum execution attempts for a single pipeline block upon failure
 MAX_ATTEMPTS = 2
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # CHROMADB VECTOR STORAGE CONFIGURATION
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Directory mapping for the local vector index deployment
 CHROMA_PATH = str(DATA_DIR / "vector_db")
@@ -76,24 +76,24 @@ CHROMA_PATH = str(DATA_DIR / "vector_db")
 # Collection identity token storing vocabulary term variations
 CHROMA_COLLECTION = "metadata_lookup_vocabularies"
 
-# Semantic distance threshold for vector similarity matching (Cosine distance metric).
+# Semantic distance threshold for vector similarity matching (Cosine distance metric).  # noqa: E501
 # This value defines the strictness of the domain-filtered vocabulary lookups.
-# Empirical testing with the current collection content demonstrated that lowering
+# Empirical testing with the current collection content demonstrated that lowering  # noqa: E501
 # this threshold below 0.40 (e.g., to 0.30) caused ChromaDB to return zero hits
 # for valid entries due to text density drift in language and publisher fields.
 DISTANCE_THRESHOLD = 0.40
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # PIPELINE INPUT FILTER SPECIFICATIONS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Explicit collection of file extensions supported by document parsing layers
 SUPPORTED_EXTENSIONS = {".pdf", ".epub", ".docx", ".odt", ".txt"}
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # GENERATION INFERENCE SETTINGS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Pass 2 options: Parameters fine-tuned for final metadata field extraction
 OLLAMA_OPTIONS: Dict[str, Any] = {
@@ -101,7 +101,7 @@ OLLAMA_OPTIONS: Dict[str, Any] = {
     "top_p": 1.0,
     "repeat_penalty": 1.05,
     "num_predict": 2560,
-    "num_ctx": 9000
+    "num_ctx": 9000,
 }
 
 # Pass 1 options: Lightweight generation configuration for initial RAG terms
@@ -113,9 +113,9 @@ PASS1_OPTIONS: Dict[str, Any] = {
 }
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # RAG RETRIEVAL FIELD LAYOUTS
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Vector lookup limits mapped to restricted Dublin Core controlled fields
 RAG_FIELD_CONFIG: Dict[str, Dict[str, Any]] = {
@@ -138,9 +138,9 @@ RAG_FIELD_CONFIG: Dict[str, Dict[str, Any]] = {
 }
 
 
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 # PROMPT TEMPLATE INITIALIZATION
-# ==============================================================================
+# ==============================================================================  # noqa: E501
 
 # Pre-loaded prompt instruction blocks populated at startup runtime
 SYSTEM_PROMPT = load_system_prompt(SYSTEM_PROMPT_PATH)

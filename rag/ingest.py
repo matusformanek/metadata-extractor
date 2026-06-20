@@ -14,8 +14,7 @@ from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
 from config.settings import CHROMA_COLLECTION, CHROMA_PATH, EMBED_MODEL
 
-
-DEFAULT_DATA_DIR = Path("../data/jsonl_docs")
+DEFAULT_DATA_DIR = Path("data/jsonl_docs")
 DEFAULT_BATCH_SIZE = 128
 MIN_CONTENT_LENGTH = 10
 MAX_TEXT_FIELD_CHARS = 4000
@@ -135,7 +134,7 @@ def flatten_record(value: Any, prefix: str = "") -> Dict[str, Any]:
 
     Args:
         value (Any): The nested object or scalar leaf node to trace.
-        prefix (str): Accumulated dotted path tracking parent keys. Defaults to "".
+        prefix (str): Accumulated dotted path tracking parent keys. Defaults to "".  # noqa: E501
 
     Returns:
         Dict[str, Any]: Single layer map containing primitive components.
@@ -151,7 +150,7 @@ def flatten_record(value: Any, prefix: str = "") -> Dict[str, Any]:
 
 
 def safe_metadata_value(value: Any) -> Optional[Any]:
-    """Filter out non-primitive types prohibited by Chroma metadata constraints.
+    """Filter out non-primitive types prohibited by Chroma metadata constraints.  # noqa: E501
 
     Args:
         value (Any): Arbitrary object layer evaluation target.
@@ -168,7 +167,7 @@ def compute_content_hash(record: Dict[str, Any]) -> str:
     """Generate a stable SHA-256 fingerprint from serialized object layers.
 
     Args:
-        record (Dict[str, Any]): Dictionary schema representing a single record.
+        record (Dict[str, Any]): Dictionary schema representing a single record.  # noqa: E501
 
     Returns:
         str: Hexadecimal string digest used for idempotent data checks.
@@ -198,7 +197,7 @@ def build_record_id(
     source_file: str,
     line_number: int,
 ) -> str:
-    """Establish a deterministic identity string using explicit or derived keys.
+    """Establish a deterministic identity string using explicit or derived keys.  # noqa: E501
 
     Args:
         record (Dict[str, Any]): Target record definition block.
@@ -250,7 +249,10 @@ def build_page_content(record: Dict[str, Any], lookup_domain: str) -> str:
     ordered_fields: List[str] = []
     for preferred in PREFERRED_TEXT_FIELDS:
         for field in flat:
-            if field.split(".")[-1] == preferred and field not in ordered_fields:
+            if (
+                field.split(".")[-1] == preferred
+                and field not in ordered_fields
+            ):
                 ordered_fields.append(field)
 
     for field in sorted(flat):
@@ -321,17 +323,17 @@ def build_metadata(
 def iter_jsonl_records(
     data_dir: Path,
 ) -> Iterable[Tuple[str, int, Dict[str, Any]]]:
-    """Yield parsed JSON dictionary components discovered inside data target areas.
+    """Yield parsed JSON dictionary components discovered inside data target areas.  # noqa: E501
 
     Args:
         data_dir (Path): System directory location where files reside.
 
     Yields:
-        Iterator[Tuple[str, int, Dict[str, Any]]]: Combination containing filename,
+        Iterator[Tuple[str, int, Dict[str, Any]]]: Combination containing filename,  # noqa: E501
             current line number index, and the parsed content frame.
 
     Raises:
-        FileNotFoundError: If the specified path location target does not exist.
+        FileNotFoundError: If the specified path location target does not exist.  # noqa: E501
     """
     if not data_dir.exists():
         raise FileNotFoundError(f"Directory does not exist: {data_dir}")
@@ -374,7 +376,7 @@ def load_documents(
             skip records without a defined lookup domain.
 
     Returns:
-        Tuple[List[Dict[str, Any]], List[str], Dict[str, int]]: Combined metrics and
+        Tuple[List[Dict[str, Any]], List[str], Dict[str, int]]: Combined metrics and  # noqa: E501
             document components prepared for vector database integration.
     """
     documents: List[Dict[str, Any]] = []
@@ -434,7 +436,7 @@ def reset_collection(db_dir: Path, collection_name: str) -> None:
 
     Args:
         db_dir (Path): Location point managing target database file structures.
-        collection_name (str): Identifier name tag targeting data drop segments.
+        collection_name (str): Identifier name tag targeting data drop segments.  # noqa: E501
     """
     try:
         import chromadb
@@ -457,14 +459,14 @@ def batched(items: List[Any], size: int) -> Iterable[List[Any]]:
         Iterable[List[Any]]: Segment block slicing sequence references.
     """
     for index in range(0, len(items), size):
-        yield items[index : index + size]
+        yield items[index: index + size]
 
 
 def ingest() -> None:
     """Execute the core workflow loop for vocabulary processing.
 
     Initializes argument configuration parameters, parses raw dictionary files,
-    configures HNSW cosine similarity parameters, and populates Chroma DB index maps.
+    configures HNSW cosine similarity parameters, and populates Chroma DB index maps.  # noqa: E501
     """
     args = parse_args()
     data_dir = Path(args.data_dir)
@@ -483,7 +485,9 @@ def ingest() -> None:
     elif args.mode == "append" and db_dir.exists():
         print("[INFO] Append mode: existing collection will be reused.")
     elif args.mode == "upsert":
-        print("[INFO] Upsert mode: existing IDs will be deleted before insert.")
+        print(
+            "[INFO] Upsert mode: existing IDs will be deleted before insert."
+        )
 
     documents, ids, stats = load_documents(data_dir, args.allow_missing_domain)
     print(f"[INFO] Load stats: {stats}")
@@ -504,7 +508,8 @@ def ingest() -> None:
         persist_directory=str(db_dir),
         embedding_function=embeddings,
         collection_metadata={
-            "hnsw:space": "cosine",  # Explicit distance metric configuration for ChromaDB HNSW index.
+            # Explicit distance metric configuration for ChromaDB HNSW index.
+            "hnsw:space": "cosine",
             "embedding_model": EMBED_MODEL,
             "embedding_dim": embed_dim,
             "purpose": "metadata lookup vocabularies",

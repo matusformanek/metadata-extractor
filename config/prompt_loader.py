@@ -28,12 +28,17 @@ def load_system_prompt(path: Path) -> str:
             diagnostics if the target file cannot be accessed or parsed.
     """
     try:
-        # Open the file context safely using explicit encoding to avoid OS collisions
+        # Open the file context safely using explicit encoding to avoid OS
+        # collisions
         raw_text = path.read_text(encoding="utf-8")
 
-        # Strip any excessive whitespace characters or trailing blank line blocks
+        # Strip any excessive whitespace characters or trailing blank line
+        # blocks
         return raw_text.strip()
 
     except Exception as exc:
-        # Wrap the core operating system error into a clean runtime exception layer
-        raise RuntimeError(f"Failed to load system prompt from {path}: {exc}") from exc
+        # Wrap the core operating system error into a clean runtime exception
+        # layer
+        raise RuntimeError(
+            f"Failed to load system prompt from {path}: {exc}"
+        ) from exc

@@ -2,7 +2,7 @@
 """Fast first-pass extraction of RAG lookup candidates.
 
 This module implements the primary, lightweight inference layer designed to
-slice raw document streams and isolate metadata structural fragments. The output
+slice raw document streams and isolate metadata structural fragments. The output  # noqa: E501
 candidates are subsequently validated against controlled vocabularies via RAG.
 """
 
@@ -23,7 +23,7 @@ def extract_candidates(text: str, model: str) -> Dict[str, Any]:
 
     Args:
         text (str): The cleaned text payload delivered by the document parser.
-        model (str): Name of the local quantized LLM used for initial inference.
+        model (str): Name of the local quantized LLM used for initial inference.  # noqa: E501
 
     Returns:
         Dict[str, Any]: Deserialized dictionary containing raw, unverified
@@ -46,10 +46,10 @@ def extract_candidates(text: str, model: str) -> Dict[str, Any]:
             system=None,
             keep_alive="5m",
         )
-        
+
         if not raw:
             return {}
-            
+
         return json.loads(raw)
 
     except json.JSONDecodeError as exc:
@@ -59,6 +59,6 @@ def extract_candidates(text: str, model: str) -> Dict[str, Any]:
         return {}
     except Exception as exc:
         logging.warning(
-            f"extract_candidates encountered an unexpected pipeline failure: {exc}"
+            f"extract_candidates encountered an unexpected pipeline failure: {exc}"  # noqa: E501
         )
         return {}
