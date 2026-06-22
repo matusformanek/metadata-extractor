@@ -6,7 +6,7 @@ Configuration: metadata-extractor-configuration B
 Note:
     This script can be used completely independently as a standalone tool
     without the need for any other scripts or components from the overall
-    architecture. It does not invoke or rely on any other architectural scripts.  # noqa: E501
+    architecture. It does not invoke or rely on any other architectural scripts.  
 
 This module ingests academic and descriptive documents in various formats,
 slices them into a head-tail sandwich representation to fit context windows,
@@ -38,25 +38,25 @@ OLLAMA_OPTIONS = {
     "num_ctx": 9000,
 }
 
-SYSTEM_PROMPT = """Extract descriptive bibliographic metadata from the provided text and return exactly one JSON object in the exact schema below.  # noqa: E501
+SYSTEM_PROMPT = """Extract descriptive bibliographic metadata from the provided text and return exactly one JSON object in the exact schema below.  
 {
   "title": "The primary name given to the document.",
-  "alternative_title": "Subtitle or parallel title in another language only if explicitly present.",  # noqa: E501
+  "alternative_title": "Subtitle or parallel title in another language only if explicitly present.",  
   "authors": [
-    "Personal names of all primary creators only. Exclude institutions, departments, and affiliations."  # noqa: E501
+    "Personal names of all primary creators only. Exclude institutions, departments, and affiliations."  
   ],
   "contributors": [
     "List of secondary contributors or institutions."
   ],
-  "issued": "Year of formal publication (YYYY). Prefer the print or final version year over online-first or epub-ahead dates. Use YYYY if full date is unavailable.",  # noqa: E501
+  "issued": "Year of formal publication (YYYY). Prefer the print or final version year over online-first or epub-ahead dates. Use YYYY if full date is unavailable.",  
   "publisher": "The entity responsible for publication.",
   "publication_place": "The geographic location of publication.",
-  "resource_type": "Exact type from: article, book, book-chapter, conference-paper, dataset, thesis, editorial, letter, preprint, report, review, standard, other.",  # noqa: E501
-  "language": "ISO 639-1 code of the document's primary language (e.g. en, de, fr, pt, ja, pl).",  # noqa: E501
-  "doi": "Digital Object Identifier of primary document if available. Without prefix: https://doi.org/",  # noqa: E501
+  "resource_type": "Exact type from: article, book, book-chapter, conference-paper, dataset, thesis, editorial, letter, preprint, report, review, standard, other.",  
+  "language": "ISO 639-1 code of the document's primary language (e.g. en, de, fr, pt, ja, pl).",  
+  "doi": "Digital Object Identifier of primary document if available. Without prefix: https://doi.org/",  
   "isbn": "International Standard Book Number.",
   "issn_print": "International Standard Serial Number for the print edition.",
-  "issn_electronic": "International Standard Serial Number for the electronic edition.",  # noqa: E501
+  "issn_electronic": "International Standard Serial Number for the electronic edition.",  
   "persistent_uri": "The canonical uniform resource identifier.",
   "abstract": "A brief summary of the resource content.",
   "subjects": [
@@ -229,7 +229,7 @@ def run_metadata_pipeline() -> None:
 
         except json.JSONDecodeError as json_err:
             tb = traceback.format_exc()
-            msg = f"JSON decoding failed.\nException: {json_err}\n\nTraceback:\n{tb}"  # noqa: E501
+            msg = f"JSON decoding failed.\nException: {json_err}\n\nTraceback:\n{tb}"  
             logging.error(
                 f"Failed to parse LLM json structure for {file_path.name}"
             )
@@ -238,7 +238,7 @@ def run_metadata_pipeline() -> None:
 
         except Exception as general_err:
             tb = traceback.format_exc()
-            msg = f"Unexpected execution crash.\nException: {general_err}\n\nTraceback:\n{tb}"  # noqa: E501
+            msg = f"Unexpected execution crash.\nException: {general_err}\n\nTraceback:\n{tb}"  
             logging.error(
                 f"Critical pipeline failure on file {file_path.name}: {general_err}"
             )

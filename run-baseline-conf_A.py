@@ -5,11 +5,11 @@ Configuration: metadata-extractor-configuration A
 Note:
     This script can be used completely independently as a standalone tool
     without the need for any other scripts or components from the overall
-    architecture. It does not invoke or rely on any other architectural scripts.  # noqa: E501
+    architecture. It does not invoke or rely on any other architectural scripts.  
 
 This script extracts text from PDF files using pymupdf4llm, applies a sandwich
 sampling technique to focus on the introduction and conclusion parts, and uses
-a local LLM via Ollama to generate structured Dublin Core metadata in JSON format.  # noqa: E501
+a local LLM via Ollama to generate structured Dublin Core metadata in JSON format.  
 """
 
 import json
@@ -72,7 +72,7 @@ def run_baseline_pipeline() -> None:
 
                 # Combine sections with direct introduction and conclusion tags
                 extracted_text = (
-                    f"This is the introduction of the document:\n{introduction}\n"  # noqa: E501
+                    f"This is the introduction of the document:\n{introduction}\n"  
                     f"This is the conclusion of the document:\n{conclusion}"
                 )
             else:

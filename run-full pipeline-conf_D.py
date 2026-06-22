@@ -37,7 +37,7 @@ def run() -> None:
 
     Discovers target objects using pre-configured search globs, screens out
     previously generated output structures to avoid extraction feedback loops,
-    verifies vector store connectivity, and evaluates pipeline execution health.  # noqa: E501
+    verifies vector store connectivity, and evaluates pipeline execution health.  
     """
     setup_logging(LOG_FILE)
 

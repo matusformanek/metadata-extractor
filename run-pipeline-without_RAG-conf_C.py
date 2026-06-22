@@ -69,7 +69,7 @@ def run() -> None:
     # RAG subsystem is explicitly disabled for Configuration C.
     # Librarian is not instantiated; process_file receives None instead.
     print(
-        "[INFO] RAG subsystem disabled (Configuration C — no Librarian/ChromaDB)."  # noqa: E501
+        "[INFO] RAG subsystem disabled (Configuration C — no Librarian/ChromaDB)."  
     )
     logging.info("Configuration C: RAG subsystem disabled.")
 
