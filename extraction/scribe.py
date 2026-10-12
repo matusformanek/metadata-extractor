@@ -44,13 +44,35 @@ class Scribe:
 
         # Remove ORCID identifiers before the LLM sees the context. They are
         # not target metadata here and often fragment author lines.
+        # Every pattern below matches only the ORCID token itself (link,
+        # URL, label with identifier, or bare identifier) and never consumes
+        # the surrounding text, so author names on the same line are kept.
+        # The previous pattern r"\(?.*?orcid.*?\)?" deleted everything from
+        # the start of the line up to the word "orcid", including author names.
+        orcid_id = r"\d{4}-\d{4}-\d{4}-\d{3}[\dX]"
+        orcid_url = r"https?://(?:www\.)?orcid\.org/" + orcid_id
+
+        # 1) Markdown links pointing to ORCID: [text](https://orcid.org/...)
         text = re.sub(
-            r"\(?.*?orcid.*?\)?",
+            r"\[[^\]\n]*\]\(\s*https?://(?:www\.)?orcid\.org/[^)\s]*\s*\)",
             "",
             text,
             flags=re.IGNORECASE,
         )
-        text = re.sub(r"\b\d{4}-\d{4}-\d{4}-\d{3}[\dX]\b", "", text)
+        # 2) Labelled identifiers: "ORCID: ...", "ORCID iD: https://orcid.org/..."  # noqa: E501
+        text = re.sub(
+            r"\bORCID(?:\s*iD)?\s*[:\uff1a]?\s*(?:" + orcid_url + r"|" + orcid_id + r")",  # noqa: E501
+            "",
+            text,
+            flags=re.IGNORECASE,
+        )
+        # 3) Bare ORCID URLs and bare identifiers.
+        text = re.sub(orcid_url, "", text, flags=re.IGNORECASE)
+        text = re.sub(r"\b" + orcid_id + r"\b", "", text)
+        # 4) Leftovers: empty Markdown links/brackets and stray "ORCID" link
+        #    labels in square brackets, e.g. "[ORCID]" or "[iD]".
+        text = re.sub(r"\[\s*(?:ORCID(?:\s*iD)?|iD)?\s*\]", "", text, flags=re.IGNORECASE)  # noqa: E501
+        text = re.sub(r"\(\s*\)", "", text)
         text = re.sub(r"\[(\d{4})\]", r"\1", text)
 
         # Drop isolated affiliation icons while preserving surrounding words.
